@@ -7,6 +7,10 @@ From [Protecting against unintentional regressions to cleartext traffic in your 
 - `android:usesCleartextTraffic=”false”` in manifest for M+ (6.0+). [Docs](https://developer.android.com/guide/topics/manifest/application-element.html#usesCleartextTraffic)
 - `StrictMode.VmPolicy.Builder.detectCleartextNetwork()` in development
 
-##Debugging
+##Dev/DEBUG settings
 
 Starting in N can add custom trust anchors via xml which are used only for debug builds. Removes the vuln of accidentially leaving debug code in production. [IO link](https://youtu.be/XZzLjllizYs?t=1405)
+
+##Chain info tools
+
+- https://langui.sh/2009/03/14/checking-a-remote-certificate-chain-with-openssl/
