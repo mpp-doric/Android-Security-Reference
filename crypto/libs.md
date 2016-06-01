@@ -8,6 +8,9 @@
   - Facebook. Fast cryptographic operations for Android 
 - [Spongy Castle](https://rtyley.github.io/spongycastle/)
   - Spongy Castle is the stock Bouncy Castle libraries with a couple of small changes to make it work on Android: 
+- [scottyab/AESCrypt-Android](https://github.com/scottyab/AESCrypt-Android)
+  - Simple API to perform AES encryption on Android. 
+  
 
 ##Applied Crypto - Persistence
 
@@ -15,3 +18,5 @@
   - Expirable Disk Lru Cache is a secure(with encryption) wrapper for [DiskLruCache](https://github.com/JakeWharton/DiskLruCache)
 - [scottyab/secure-preferences](https://github.com/scottyab/secure-preferences) 
   - Android Shared preference wrapper than encrypts the values of Shared Preferences. 
+- [orhanobut/hawk](https://github.com/orhanobut/hawk)
+  - Secure Simple Key-Value Storage for Android 
