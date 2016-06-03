@@ -7,3 +7,5 @@ This is spoken about in the Bruce Schneier book [Data and Goliath](https://www.s
 [Why privacy is important, and having "nothing to hide" is irrelevant](https://robindoherty.com/2016/01/06/nothing-to-hide.html) is a great read about why we should care about this stuff, even if we are doing nothing "wrong". 
 
 [The Machines That Betrayed Their Masters by Glenn Wilkinson](https://www.youtube.com/watch?v=GvrB6S_O0BE) is an enlightening talk from Black Hat London 2015.
+
+[Defcon 18 - Changing threats to privacy Moxie Marlinspike](https://www.youtube.com/watch?v=dBtmzY5gcO8)
