@@ -10,3 +10,7 @@ This doc is for tacking vulns found with the Android platform
 
 - 04-04-16 [Surreptitious Sharing on Android](https://www.ibr.cs.tu-bs.de/news/ibr/surreptitious-sharing-2016-04-04.xml)
   - Accessing app private data via intents
+
+#Drag & Drop
+
+- [Be Careful of Drag-and-Drop on Android N](https://commonsware.com/blog/2016/06/01/be-careful-drag-drop-android-n.html)
