@@ -9,4 +9,4 @@ This is spoken about in the Bruce Schneier book [Data and Goliath](https://www.s
 - [The Machines That Betrayed Their Masters by Glenn Wilkinson](https://www.youtube.com/watch?v=GvrB6S_O0BE) 
   - An enlightening talk from Black Hat London 2015.
 - [Defcon 18 - Changing threats to privacy Moxie Marlinspike](https://www.youtube.com/watch?v=dBtmzY5gcO8)
-- [Being privacy-aware in 2016](https://vox.space/blog/89/being-privacy-aware-in-2016)
+- [Being privacy-aware in 2016](https://news.ycombinator.com/item?id=11845689)
