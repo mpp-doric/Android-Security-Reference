@@ -13,4 +13,4 @@ This doc is for tacking vulns found with the Android platform
 
 #Drag & Drop
 
-- [Be Careful of Drag-and-Drop on Android N](https://commonsware.com/blog/2016/06/01/be-careful-drag-drop-android-n.html)
+- [Be Careful of Drag-and-Drop on Android N](https://commonsware.com/blog/2016/06/01/be-careful-drag-drop-android-n.html) _1st June 2016_
