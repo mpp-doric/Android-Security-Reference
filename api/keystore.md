@@ -36,6 +36,8 @@ This is especially handy for any kind of challenge / response auth or other proc
     - [`SecretKey`](http://developer.android.com/reference/javax/crypto/SecretKey.html) 
       - `KeyStore.getEntry(alias)` should return a `KeyStore.SecretKeyEntry` if `alias` represents an AES key
       - `KeyStore.getKey(alias)` should return a `SecretKey` if `alias` represents an AES key
+    - [`SecretKeySpec`](https://developer.android.com/reference/javax/crypto/spec/SecretKeySpec.html)
+      - A key specification for a SecretKey and also a secret key implementation that is provider-independent. It can be used for raw secret keys that can be specified as byte[].
     - [`KeyGenerator`](https://developer.android.com/reference/javax/crypto/KeyGenerator.html)
       - This class provides the public API for generating symmetric cryptographic keys. 
   - Asymmetric
