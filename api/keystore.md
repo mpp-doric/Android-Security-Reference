@@ -168,6 +168,12 @@ and
 
 The software blob can however be read on rooted devices. See [nelenkov/keystore-decryptor](https://github.com/nelenkov/keystore-decryptor).
 
+##KeyMaster 
+
+The hardware `KeyStore` is accessed through an [OEM specfific HAL](https://source.android.com/security/keystore/). There is a `softkeymaster` also.
+
+See [android.googlesource.com](https://android.googlesource.com/platform/system/keymaster/+/master) for `keymaster` code. This [clone](https://github.com/geekboxzone/mmallow_system_keymaster/) maybe easier to navigate.
+
 ##CAs
 
 CAs are also stored in the `KeyStore`. When added a custom CA device should prompt user to enter device credentials.
