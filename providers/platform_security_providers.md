@@ -77,9 +77,10 @@ Guide to terms like JCE & JSSE can be found [here](http://www.oracle.com/technet
 - Many people import this so can use latest BC, pretty much a jarjarlinks rename so no namespace clashes with BC. 
 - If going to use best not to make default but still set staically so can use with direct sepcifier throughout app
 
-####None?
+####Crypto
 
-- ~~N has removed all JCE security providers! See the [N changes doc](https://github.com/doridori/Android-Security-Reference/blob/master/changes/N.md)~~ As mentioned in the link this information was removed after the annoucement!
+- Small (buggy) provider mostly offering SHA1 based operations (plus DSA on older platform versions). Reduced to SHA1PRNG and then removed completely in N.
+- [Security "Crypto" provider deprecated in Android N](http://android-developers.blogspot.co.uk/2016/06/security-crypto-provider-deprecated-in.html?utm_source=androiddevdigest)
 
 ##Updating platform Provider from your app
 
