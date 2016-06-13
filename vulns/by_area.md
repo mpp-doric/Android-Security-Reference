@@ -8,7 +8,7 @@ This doc is for tacking vulns found with the Android platform
 
 #Intents
 
-- 04-04-16 [Surreptitious Sharing on Android](https://www.ibr.cs.tu-bs.de/news/ibr/surreptitious-sharing-2016-04-04.xml)
+- [Surreptitious Sharing on Android](https://www.ibr.cs.tu-bs.de/news/ibr/surreptitious-sharing-2016-04-04.xml) _4th April 2016_
   - Accessing app private data via intents
 
 #Drag & Drop
@@ -17,5 +17,5 @@ This doc is for tacking vulns found with the Android platform
 
 #Zygote
 
-- 03-03-16 [Attack on Zygote: a new twist in the evolution of mobile threats](https://securelist.com/analysis/publications/74032/attack-on-zygote-a-new-twist-in-the-evolution-of-mobile-threats/)
+- [Attack on Zygote: a new twist in the evolution of mobile threats](https://securelist.com/analysis/publications/74032/attack-on-zygote-a-new-twist-in-the-evolution-of-mobile-threats/) _3rd March 2016_
   - One of the best articles I have seen deconstructing malware 
