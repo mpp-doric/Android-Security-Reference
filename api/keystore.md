@@ -97,6 +97,21 @@ This is especially handy for any kind of challenge / response auth or other proc
 
 ##Authenticating Key Use
 
+Key authentication options are below, which the api and functionality offered differ pre and post M-23-6.
+
+- No Auth
+  - PreM
+    - If [`.setEncryptionRequired()`](http://developer.android.com/reference/android/security/KeyPairGeneratorSpec.Builder.html#setEncryptionRequired()) is not set then any created keys will use the keyguard input as input to the key blob KEK.
+  - PostM
+    - If [`.setUserAuthenticationRequired`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired(boolean)) is `false` (default) then the keys are delt in the same way as PreM.
+- Keyguard Authed
+  - PreM
+  - PostM
+- Finger Authed
+  - PreM
+  - PostM
+
+_OLD_
 - Used in 3 User related modes
 	- Not encrypted (default)
 	  - If using the `KeyStore` without any additional settings just unlocking the device should unlock the `KeyStore` 
