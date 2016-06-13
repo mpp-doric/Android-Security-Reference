@@ -137,7 +137,7 @@ I have not encountered this myself but there are anecdontal reports of keystores
 
 ##Hardware vs Software & CTS
 
-----
+See [/hardware/keystore.md](/hardware/keystore.md)
 
 ##KeyMaster 
 
