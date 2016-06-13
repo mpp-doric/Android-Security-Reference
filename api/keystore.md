@@ -95,38 +95,32 @@ This is especially handy for any kind of challenge / response auth or other proc
     - KeyStore now returns a chain for a key alias which can be used to verify that the device has passed CTS testing
   - Hardware KeyStore manditory [IO link](https://youtu.be/XZzLjllizYs?t=571) 
 
-##Authenticating Key Use
+##User Authenticating Key Use
 
 Key authentication options are below, which the api and functionality offered differ pre and post M-23-6.
 
 - No Auth
   - PreM
-    - If [`.setEncryptionRequired()`](http://developer.android.com/reference/android/security/KeyPairGeneratorSpec.Builder.html#setEncryptionRequired()) is not set then any created keys will use the keyguard input as input to the key blob KEK.
+    - If [`.setEncryptionRequired()`](http://developer.android.com/reference/android/security/KeyPairGeneratorSpec.Builder.html#setEncryptionRequired()) is not set then any created keys will use NOT the keyguard input as input to the key blob KEK.
   - PostM
     - If [`.setUserAuthenticationRequired`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired(boolean)) is `false` (default) then the keys are delt in the same way as PreM.
 - Keyguard Authed
   - PreM
+    - If [`.setEncryptionRequired()`](http://developer.android.com/reference/android/security/KeyPairGeneratorSpec.Builder.html#setEncryptionRequired()) is set then any created keys will use the keyguard input as input to the key blob KEK. 
   - PostM
+    - If [`.setUserAuthenticationRequired`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired(boolean)) is `true` and [setUserAuthenticationValidityDurationSeconds](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationValidityDurationSeconds(int)) > 0 then auth will be required via the keyguard (either via normal unlock or app requested keyguard unlock). 
 - Finger Authed
   - PreM
+    - N/A 
   - PostM
+    - If [`.setUserAuthenticationRequired`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired(boolean)) is `true` and [setUserAuthenticationValidityDurationSeconds](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationValidityDurationSeconds(int)) == -1 then finger auth will be required per use
 
-_OLD_
-- Used in 3 User related modes
-	- Not encrypted (default)
-	  - If using the `KeyStore` without any additional settings just unlocking the device should unlock the `KeyStore` 
-	- [`.setEncryptionRequired()`](http://developer.android.com/reference/android/security/KeyPairGeneratorSpec.Builder.html#setEncryptionRequired())  
-	  - Requires a lock screen is set 
-	- `KeyGenParameterSpec.Builder.setUserAuthenticationRequired(true)` 
-	   - User has to autheticate each use of the key (see below for more)	   
-	   - Optional `.setUserAuthenticationValidityDurationSeconds(AUTHENTICATION_DURATION_SECONDS)`
-	     - Previous key validations are valid for this amount of time 
+##OS Auth
+
 - OS access auth
   - Key access is tied to the apps UID
   - If rooted any user/app can in theory assume any UID
   - Access marshalled by keystore deamon on older apis and binder server on new ones 
-- Crypto uses auth
-  - authorized key algorithm, operations or purposes (encrypt, decrypt, sign, verify), padding schemes, block modes, digests with which the key can be used;   
  
 ###More on `.setUserAuthenticationRequired(true)` 
 
