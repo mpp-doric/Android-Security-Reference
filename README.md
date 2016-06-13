@@ -7,7 +7,10 @@ This is a reference guide for all things Android Security. I'm slowly moving my 
 
 Feel free to contribute!
 
-####Tools
+##Style
+
+- Android version names are in the format `<CodeNameLetter>-<Version>-<API>` i.e. `M-6-23`
+
+##Tools
 
 - Nav helper [OctoTree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
-- TOC gen [DocToc](https://github.com/thlorenz/doctoc-web)
