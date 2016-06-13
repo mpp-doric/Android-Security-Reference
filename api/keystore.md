@@ -99,6 +99,8 @@ This is especially handy for any kind of challenge / response auth or other proc
 
 Key authentication options are below, which the api and functionality offered differ pre and post M-23-6.
 
+Keep in mind the different modes of usage will have have an impact of the stabilty/lifecycle of the key ([Android Security: The Forgetful Keystore](http://doridori.github.io/android-security-the-forgetful-keystore/)).
+
 - No Auth
   - PreM
     - If [`.setEncryptionRequired()`](http://developer.android.com/reference/android/security/KeyPairGeneratorSpec.Builder.html#setEncryptionRequired()) is not set then any created keys will use NOT the keyguard input as input to the key blob KEK.
@@ -165,6 +167,7 @@ CAs are also stored in the `KeyStore`. When added a custom CA device should prom
 - [developer.android.com] [Android Keystore System](http://developer.android.com/training/articles/keystore.html)
   - Shows list of Ciphers (& more) supported by the `KeyStore` 
 - Bugs / Vulns
+  - [Android Security: The Forgetful Keystore](http://doridori.github.io/android-security-the-forgetful-keystore/) 
   - [Android keystore key leakage between security domains](http://jbp.io/2014/04/07/android-keystore-leak/)
     - Use `setEncryptionRequired()` to mitigate 
 
