@@ -14,3 +14,8 @@ This doc is for tacking vulns found with the Android platform
 #Drag & Drop
 
 - [Be Careful of Drag-and-Drop on Android N](https://commonsware.com/blog/2016/06/01/be-careful-drag-drop-android-n.html) _1st June 2016_
+
+#Zygote
+
+- 03-03-16 [Attack on Zygote: a new twist in the evolution of mobile threats](https://securelist.com/analysis/publications/74032/attack-on-zygote-a-new-twist-in-the-evolution-of-mobile-threats/)
+  - One of the best articles I have seen deconstructing malware 
