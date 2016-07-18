@@ -8,6 +8,8 @@ Some devices have hardware backed keystore storage, which was introduced in 4.3 
 
 _A [TEE](https://en.wikipedia.org/wiki/Trusted_execution_environment) (or [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module)) can change a `KeyStore` attack from **offline** (which ould be against a software KeyStores data) to **online** (running on the device issuing commands to the hardware). This further prevents extraction of the private key and potentially throttling of access attempts (and therefore potential exploitation). See Androids [Trusty TEE](https://source.android.com/security/trusty/index.html)_
 
+See the [hardware/TEE.md](/hardware/TEE.md) for more inc. vulns.
+
 As of M-6-23 hardware backed keystore is not a requirement, but is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571).
 
 > Note that while the above TEE-related requirements are stated as STRONGLY RECOMMENDED, the
