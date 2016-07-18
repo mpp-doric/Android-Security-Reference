@@ -11,7 +11,7 @@ There are various approaches to cert pinning on android. What they all have in c
 
 Can pin via xml as shown 
 
-- [developer.android.com][Network Security Configuration] (http://developer.android.com/preview/features/security-config.html#CertificatePinning).
+- [developer.android.com] [Network Security Configuration] (http://developer.android.com/preview/features/security-config.html#CertificatePinning).
 - [android-developers.blogspot] [Changes to Trusted Certificate Authorities in Android Nougat](http://android-developers.blogspot.co.uk/2016/07/changes-to-trusted-certificate.html) for more. 
 
 #Links
