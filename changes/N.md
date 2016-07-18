@@ -24,6 +24,9 @@ supplied key
   - can be specified for debug use only
   - trust root for domain(s) (so no need to purchase a cert)
 
+See [Changes to Trusted Certificate Authorities in Android Nougat](http://android-developers.blogspot.co.uk/2016/07/changes-to-trusted-certificate.html) for more. 
+  
+
 ## APK signature scheme v2
 
 > The PackageManager class now supports verifying apps using the APK signature scheme v2. The APK signature scheme v2 is a whole-file signature scheme that significantly improves verification speed and strengthens integrity guarantees by detecting any unauthorized changes to APK files.
