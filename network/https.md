@@ -21,6 +21,6 @@ From [Protecting against unintentional regressions to cleartext traffic in your 
 
 - M+ `android:usesCleartextTraffic=”false”` in manifest for M+ (6.0+). [Docs](https://developer.android.com/guide/topics/manifest/application-element.html#usesCleartextTraffic)
 - `StrictMode.VmPolicy.Builder.detectCleartextNetwork()` in development
-- N+[developer.android.com] [Network Security Configuration] (http://developer.android.com/preview/features/security-config.html).
+- N+ `<network-security-config>` [developer.android.com] [Network Security Configuration] (http://developer.android.com/preview/features/security-config.html).
 
 
