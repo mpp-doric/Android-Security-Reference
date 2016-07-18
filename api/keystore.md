@@ -170,5 +170,7 @@ CAs are also stored in the `KeyStore`. When added a custom CA device should prom
   - [Android Security: The Forgetful Keystore](http://doridori.github.io/android-security-the-forgetful-keystore/) 
   - [Android keystore key leakage between security domains](http://jbp.io/2014/04/07/android-keystore-leak/)
     - Use `setEncryptionRequired()` to mitigate 
+  - 30/6/2016 [Extracting Qualcomm's KeyMaster Keys – Breaking Android Full Disk Encryption](https://news.ycombinator.com/item?id=12007923) 
+    - Talks about FDE but as KEK is lifted likely to impact `KeyStore` keys also 
 
 
