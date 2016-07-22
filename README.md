@@ -5,6 +5,8 @@ This is a reference guide for all things Android Security. I'm slowly moving my 
 1. It may help others
 2. Others may help me (by correcting / adding to the ref)
 
+Still very much WIP and lots to come!
+
 Feel free to contribute!
 
 ##Style
