@@ -1,5 +1,9 @@
 This doc is for tacking vulns found with the Android platform
 
+#TrustZone
+
+- [Extracting Qualcomm's KeyMaster Keys - Breaking Android Full Disk Encryption](https://bits-please.blogspot.co.uk/2016/06/extracting-qualcomms-keymaster-keys.html?m=1) _30th June 16_
+
 #MediaServer
 
 - StageFright
