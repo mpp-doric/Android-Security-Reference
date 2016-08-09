@@ -3,6 +3,8 @@ This doc is for tacking vulns found with the Android platform
 #Chipsets
 
 - [QuadRooter: New Android Vulnerabilities in Over 900 Million Devices](http://blog.checkpoint.com/2016/08/07/quadrooter/) _7th August 16_
+  - [Full details](https://www.checkpoint.com/downloads/resources/quadRooter-vulnerability-research-report.pdf)
+  - 3 of 4 of these are IOCTL based, and patched in August security patches
 
 #TrustZone
 
