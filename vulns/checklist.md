@@ -110,13 +110,13 @@ Could be on users device i.e. inspecting memory or attackers device to understan
 	- Vuln: Debuggable 
 		- Device. `.props` file check (`ro.debuggable`) 
 		- App. Check `debuggable` not set
-	- Arxan (mem hook detection + static guards)
+	- Mem hook detection (ext tooling)
 	- open shell detection
 
 #Vuln: Code Reuse
 
 - Vuln: App Repackaging (Malware)
-	- Arxan (checksum) 
+	- Checksumming 
 
 #Vuln: Code execution
 
