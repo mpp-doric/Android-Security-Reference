@@ -2,10 +2,10 @@ This doc is for tacking vulns found with the Android platform
 
 - Accessability Layer
   - [How Android Accessibility Services Can Be Used To Hack Your Phone](http://www.makeuseof.com/tag/android-accessibility-services-can-used-hack-phone/) _17th May 2016_
-    - Up to M-6-23 only as takes advantage of gaps in system overlays
+     - Up to M-6-23 only as takes advantage of gaps in system overlays
   - [On Malware Leveraging the Android
 Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf) _~2013_
-    - Uses Accessibility Framework to detect launcher icon presses and will show fake application instead. 
+     - Uses Accessibility Framework to detect launcher icon presses and will show fake application instead. 
 - Chipsets
   - [QuadRooter: New Android Vulnerabilities in Over 900 Million Devices](http://blog.checkpoint.com/2016/08/07/quadrooter/) _7th August 16_
     - [Full details](https://www.checkpoint.com/downloads/resources/quadRooter-vulnerability-research-report.pdf)
