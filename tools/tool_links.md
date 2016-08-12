@@ -5,6 +5,8 @@
   - drozer is a comprehensive security audit and attack framework for Android.
 - [Kali Linux](https://www.kali.org/)
   - Kali Linux is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains several hundred tools aimed at various information security tasks, such as  Penetration Testing, Forensics and Reverse Engineering. 
+- NowSecure
+  - [Lab Suite](https://www.nowsecure.com/lab/) _Commercial_
 
 #Network traffic
 
