@@ -2,9 +2,11 @@
 
 - [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
 - [QARK](https://github.com/linkedin/qark)
-  - Nice static analysis tool 
+  - Nice apk static analysis tool for Android
+  - No way to supress certain warnings / errors so probably would not want to run as part of CI build
 - [Drozer](https://labs.mwrinfosecurity.com/tools/drozer/)
-  - drozer is a comprehensive security audit and attack framework for Android.
+  - drozer is a comprehensive security audit and attack framework for Android
+  - Needs to execute on a device the apk is installed on
 - NowSecure
   - [Lab Suite](https://www.nowsecure.com/lab/) _Commercial_
 - [MonkOp](http://www.monkop.com/index.html)
