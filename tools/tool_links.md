@@ -5,16 +5,22 @@
   - Nice static analysis tool 
 - [Drozer](https://labs.mwrinfosecurity.com/tools/drozer/)
   - drozer is a comprehensive security audit and attack framework for Android.
-- [Kali Linux](https://www.kali.org/)
-  - Kali Linux is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains several hundred tools aimed at various information security tasks, such as  Penetration Testing, Forensics and Reverse Engineering. 
 - NowSecure
   - [Lab Suite](https://www.nowsecure.com/lab/) _Commercial_
+- [MonkOp](http://www.monkop.com/index.html)
+  - Upload apk to remote 
 
 #Device Vuln Testing
 
 - [X-Ray](https://labs.duo.com/xray/)
   - Attempts exploits on device 
 - [NowSecure Android VTS](https://github.com/AndroidVTS/android-vts)
+- 
+#OS Bundles
+
+- [Kali Linux](https://www.kali.org/)
+  - Kali Linux is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains several hundred tools aimed at various information security tasks, such as  Penetration Testing, Forensics and Reverse Engineering. 
+- [Santoku](https://santoku-linux.com/)
 
 #Network traffic
 
