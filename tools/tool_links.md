@@ -17,7 +17,7 @@
 - [X-Ray](https://labs.duo.com/xray/)
   - Attempts exploits on device 
 - [NowSecure Android VTS](https://github.com/AndroidVTS/android-vts)
-- 
+
 #OS Bundles
 
 - [Kali Linux](https://www.kali.org/)
