@@ -1,6 +1,8 @@
 #Pen Testing Frameworks / Collections
 
 - [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
+- [QARK](https://github.com/linkedin/qark)
+  - Nice static analysis tool 
 - [Drozer](https://labs.mwrinfosecurity.com/tools/drozer/)
   - drozer is a comprehensive security audit and attack framework for Android.
 - [Kali Linux](https://www.kali.org/)
