@@ -10,6 +10,12 @@
 - NowSecure
   - [Lab Suite](https://www.nowsecure.com/lab/) _Commercial_
 
+#Device Vuln Testing
+
+- [X-Ray](https://labs.duo.com/xray/)
+  - Attempts exploits on device 
+- [NowSecure Android VTS](https://github.com/AndroidVTS/android-vts)
+
 #Network traffic
 
 - [Nogotofail](https://github.com/google/nogotofail) 
