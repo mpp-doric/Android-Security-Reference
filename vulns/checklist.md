@@ -111,6 +111,9 @@ Could be on users device i.e. inspecting memory or attackers device to understan
 	- Vuln: Debuggable 
 		- Device. `.props` file check (`ro.debuggable`) 
 		- App. Check `debuggable` not set
+  - Vuln: Mem dumps
+    - Mitigate _debuggable_ as above
+    - Ensure device does not dump .hprof on [`kill -10`](http://stackoverflow.com/questions/5640182/why-cant-i-get-an-hprof-dump-from-certain-devices)
 	- Mem hook detection (ext tooling)
 	- open shell detection
 
