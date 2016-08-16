@@ -48,6 +48,7 @@ Follows format of:
 - Vuln: Screen Capture
     - set FLAG_SECURE otherwise screen can be read / captures with stock apis
     - check for open file handle frame buffers. Some OEMs leave these open
+    - `screencap` is for `system` users only so can ignore  
 - Vuln: Screen Caches 
 	- Disable default OS view state saving via `android:saveEnabled` | `activity android:noHistory=true`
 - Vuln: Tap Jacking
