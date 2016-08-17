@@ -12,7 +12,7 @@ These will be outlined below
   - Its PID
   - Its GIDs
   
-An interesting example of inspecting a processes permissions can be seen here [Android Security: A Journey Into ADB shell permissions](http://doridori.github.io/Android-Security-welcome-to-shell/)
+An interesting example of inspecting a processes permissions can be seen here [Android Security: Welcome To Shell (Permissions)](http://doridori.github.io/Android-Security-welcome-to-shell/)
 
 #2. Application Permissions
 
