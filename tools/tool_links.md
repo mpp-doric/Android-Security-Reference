@@ -7,6 +7,8 @@
   - Combines an interactive, programmable, multi-processor disassembler coupled to a local and remote debugger and augmented by a complete plugin programming environment 
 - [JEB](https://www.pnfsoftware.com/)
   - Commercial Decompiler (& Debugger)
+- [Classy Shark](https://github.com/google/android-classyshark)
+  - Quick view for apk package / class breakdown  
 
 ## Walkthroughs
 
