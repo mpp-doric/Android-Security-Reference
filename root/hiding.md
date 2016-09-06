@@ -1,0 +1,1 @@
+- [suhide](http://www.androidpolice.com/2016/08/29/chainfire-releases-suhide-experimental-officially-unsupported-way-hide-root-status-app-app-basis/)
