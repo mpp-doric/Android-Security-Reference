@@ -38,6 +38,15 @@
 
 - [Introduction to Fridump](http://pentestcorner.com/introduction-to-fridump/)
 
+# Linux Utils
+
+## Process Analysis
+
+- `strace`
+  - Strace is a standard Linux utility that is used to monitor interaction between processes and the kernel
+- `ftrace` 
+  - On a rooted device, ftrace can be used to trace kernel system calls in a more transparent way than is possible with strace 
+
 ## File System Analysis
 
 _Below are taken from [FileSystem Monitor Tool For iOS and Android](https://www.nowsecure.com/blog/2016/02/18/filesystem-monitor-tool-for-ios-and-android/?mkt_tok=3RkMMJWWfF9wsRokv6%2FIZKXonjHpfsX56uovWaCylMI%2F0ER3fOvrPUfGjI4DTsBnI%2BSLDwEYGJlv6SgFSLDEMbhlzbgFXBI%3D)_
