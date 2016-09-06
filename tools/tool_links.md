@@ -1,4 +1,11 @@
+
+
 # Analysis
+
+## System Call Analysis
+
+- [FЯIDA](http://www.frida.re/)
+  - Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android. 
 
 ## VMs
 
