@@ -22,6 +22,8 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
 - Mem Dumps
   - [Undocumented Patched Vulnerability in Nexus 5X Allowed for Memory Dumping Via USB](https://securityintelligence.com/undocumented-patched-vulnerability-in-nexus-5x-allowed-for-memory-dumping-via-usb/) _1st Sept 2016_  
   - [Forensics tool nabs data from Signal, Telegram, WhatsApp ](http://www.theregister.co.uk/2016/08/15/retroscope/?mt=1471266388161) _15h Aug 2016_
+- TCP
+  - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TrustZone
   - [Extracting Qualcomm's KeyMaster Keys - Breaking Android Full Disk Encryption](https://bits-please.blogspot.co.uk/2016/06/extracting-qualcomms-keymaster-keys.html?m=1) _30th June 16_
 - Zygote
