@@ -1,5 +1,11 @@
 # Analysis
 
+## Decompilers
+
+- [IDA Pro](https://www.hex-rays.com/products/ida/)
+  - ARM, MIPS, ELF, Java Bytecode
+  - Combines an interactive, programmable, multi-processor disassembler coupled to a local and remote debugger and augmented by a complete plugin programming environment 
+
 ## Walkthroughs
 
 - [Hacking mobile login tokens tricky but doable, says reverse-engineer](http://www.theregister.co.uk/2016/09/02/mobile_2fa_shortcomings/)
