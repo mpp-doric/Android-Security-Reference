@@ -3,7 +3,7 @@
 ## Decompilers
 
 - [IDA Pro](https://www.hex-rays.com/products/ida/)
-  - ARM, MIPS, ELF, Java Bytecode
+  - ARM, MIPS, ELF, Java Bytecode (-> SMALI)
   - Combines an interactive, programmable, multi-processor disassembler coupled to a local and remote debugger and augmented by a complete plugin programming environment 
 
 ## Walkthroughs
