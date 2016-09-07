@@ -16,6 +16,7 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
   - [Surreptitious Sharing on Android](https://www.ibr.cs.tu-bs.de/news/ibr/surreptitious-sharing-2016-04-04.xml) _4th April 2016_
     - Accessing app private data via intents
 - MediaServer
+  - [EXIF Parsing](http://www.forbes.com/sites/thomasbrewster/2016/09/06/google-android-one-photo-hack/#3db069111555) _7th Sept 16_ 
   - StageFright
     - [Hardening the media stack](http://android-developers.blogspot.co.uk/2016/05/hardening-media-stack.html) _5th May 16_
     - [StageFrightened](http://googleprojectzero.blogspot.co.uk/2015/09/stagefrightened.html) _16th Sept 15_
