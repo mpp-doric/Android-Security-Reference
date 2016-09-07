@@ -16,4 +16,5 @@ An interesting example of inspecting a processes permissions can be seen here [A
 
 #2. Application Permissions
 
-_WIP_
+- [List of OS permissions with levels](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml) 
+
