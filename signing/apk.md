@@ -1,0 +1,1 @@
+- [v2](https://source.android.com/security/apksigning/v2.html)
