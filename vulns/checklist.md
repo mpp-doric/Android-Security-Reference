@@ -47,7 +47,7 @@ Follows format of:
 
 - Vuln: Screen Capture
     - set FLAG_SECURE otherwise screen can be read / captures with stock apis
-    - check for open file handle frame buffers. Some OEMs leave these open
+    - check for open file handle frame buffers. [Some OEMs leave these open](http://stackoverflow.com/questions/11271436/how-to-capture-a-screenshot-of-other-android-applications-from-an-app-without-ro/11273364#11273364)
     - `screencap` is for `system` users only so can ignore  
 - Vuln: Screen Caches 
 	- Disable default OS view state saving via `android:saveEnabled` | `activity android:noHistory=true`
