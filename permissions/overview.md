@@ -25,7 +25,7 @@ An interesting example of inspecting a processes permissions can be seen here [A
     - If in the core OS [AndroidManifest.xml](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml) then permission holder would need to be signed by the same key as the OS (ROM?) 
     - If an Application defines this permission then the holder would need to be signed by the same key as the application
 - System
-  - An app that resides in `system/` or `system/priv/` (4.4+)  
+  - An app that resides in `system/app` or `system/priv/` (4.4+)  
 - Normal
 - Dangerous
 - Privileged
