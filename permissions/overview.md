@@ -26,7 +26,7 @@ See [\<permission\>](https://developer.android.com/guide/topics/manifest/permiss
 
 [R.attr list](https://developer.android.com/reference/android/R.attr.html#protectionLevel)
 
-3rd party app definable:
+###3rd party app definable:
 
 - Normal
   - The system automatically grants this type of permission to a requesting application at installation
@@ -41,7 +41,7 @@ See [\<permission\>](https://developer.android.com/guide/topics/manifest/permiss
   - A permission that the system grants only to applications that are in the Android system image or that are signed with the same certificate as the application that declared the permission.  
   - `System` has same requirements as below 
   
-Other:
+###Other:
 
 - System
   - An app that resides in `system/app` (<4.4) or `system/priv-app/` (4.4+) [link](http://stackoverflow.com/a/20104400/236743) 
