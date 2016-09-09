@@ -52,5 +52,4 @@ See [\<permission\>](https://developer.android.com/guide/topics/manifest/permiss
   - Superceeds `system`
 - Preinstalled 
   - An app that resides in `system/app` (4.4+)? [link](http://stackoverflow.com/questions/33481730/difference-between-preinstalled-and-privileged-protection-level)
-- Dev
-- All
+- [Various](https://developer.android.com/reference/android/R.attr.html#protectionLevel)
