@@ -24,6 +24,8 @@ See [\<permission\>](https://developer.android.com/guide/topics/manifest/permiss
 
 ## android:protectionLevels
 
+[R.attr list](https://developer.android.com/reference/android/R.attr.html#protectionLevel)
+
 3rd party app definable:
 
 - Normal
