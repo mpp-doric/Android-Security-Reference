@@ -38,8 +38,7 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
     - If an Application defines this permission then the holder would need to be signed by the same key as the application
   - Permission will be auto granted if sig check passes 
 - `signatureOrSystem` 
-  - A permission that the system grants only to applications that are in the Android system image or that are signed with the same certificate as the application that declared the permission.  
-  - `System` has same requirements as below 
+  - See `signiture` and `system`
   
 ###Other:
 
