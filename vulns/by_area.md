@@ -12,6 +12,8 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
     - 3 of 4 of these are IOCTL based, and patched in August security patches
 - Drag & Drop
   - [Be Careful of Drag-and-Drop on Android N](https://commonsware.com/blog/2016/06/01/be-careful-drag-drop-android-n.html) _1st June 2016_
+- Filesystem
+  - [How My Rogue Android App Could Monitor & Brute-force Your App’s Sensitive Metadata](https://www.arneswinnen.net/2016/09/how-my-rogue-android-app-could-monitor-brute-force-your-apps-sensitive-metadata/) _8th Sept 16_
 - Intents
   - [Surreptitious Sharing on Android](https://www.ibr.cs.tu-bs.de/news/ibr/surreptitious-sharing-2016-04-04.xml) _4th April 2016_
     - Accessing app private data via intents
