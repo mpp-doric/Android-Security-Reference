@@ -53,6 +53,8 @@
 
 # Linux Utils
 
+## Guides
+
 - [Linux Debugging Tools You'll ♥](http://jvns.ca/debugging-zine.pdf)
 
 ## Process Analysis
