@@ -24,16 +24,24 @@ See [\<permission\>](https://developer.android.com/guide/topics/manifest/permiss
 
 ## android:protectionLevels
 
+3rd party app definable:
+
 - Normal
   - The system automatically grants this type of permission to a requesting application at installation
+- Dangerous
+  - This type of permission introduces potential risk, the system may not automatically grant it to the requesting application 
 - Signature
   - Meaning of this depends on where the permission is defined. 
     - If in the core OS [AndroidManifest.xml](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml) then permission holder would need to be signed by the same key as the OS (ROM?) 
     - If an Application defines this permission then the holder would need to be signed by the same key as the application
+  - Permission will be auto granted if sig check passes 
+- signatureOrSystem 
+  - A permission that the system grants only to applications that are in the Android system image or that are signed with the same certificate as the application that declared the permission.  
+  
+Other:
+
 - System
   - An app that resides in `system/app` (<4.4) or `system/priv-app/` (4.4+) [link](http://stackoverflow.com/a/20104400/236743) 
-- signatureOrSystem 
-- Dangerous
 - Privileged
   - An app that resides in `system/priv-app/` (4.4+)  
   - Added so ROM bundled apps can be seperated into 
