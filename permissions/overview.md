@@ -20,7 +20,7 @@ An interesting example of inspecting a processes permissions can be seen here [A
 
 ## Declaring custom permissions
 
-See [<permission>](https://developer.android.com/guide/topics/manifest/permission-element.html)
+See [\<permission\>](https://developer.android.com/guide/topics/manifest/permission-element.html)
 
 ## `android:protectionLevel`s
 
