@@ -22,8 +22,10 @@ An interesting example of inspecting a processes permissions can be seen here [A
 
 See [\<permission\>](https://developer.android.com/guide/topics/manifest/permission-element.html)
 
-## `android:protectionLevel`s
+## android:protectionLevels
 
+- Normal
+  - The system automatically grants this type of permission to a requesting application at installation
 - Signature
   - Meaning of this depends on where the permission is defined. 
     - If in the core OS [AndroidManifest.xml](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml) then permission holder would need to be signed by the same key as the OS (ROM?) 
@@ -31,7 +33,6 @@ See [\<permission\>](https://developer.android.com/guide/topics/manifest/permiss
 - System
   - An app that resides in `system/app` (<4.4) or `system/priv-app/` (4.4+) [link](http://stackoverflow.com/a/20104400/236743) 
 - signatureOrSystem 
-- Normal
 - Dangerous
 - Privileged
   - An app that resides in `system/priv-app/` (4.4+)  
