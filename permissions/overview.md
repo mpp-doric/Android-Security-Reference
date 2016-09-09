@@ -46,6 +46,6 @@ Other:
   - [Now deprecated](https://developer.android.com/reference/android/content/pm/PermissionInfo.html#PROTECTION_FLAG_SYSTEM) 
 - Privileged
   - An app that resides in `system/priv-app/` (4.4+)  
-  - Added so ROM bundled apps can be seperated into 
+  - Superceeds `system`
 - Dev
 - All
