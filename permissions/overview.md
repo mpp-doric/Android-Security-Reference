@@ -47,5 +47,7 @@ Other:
 - Privileged
   - An app that resides in `system/priv-app/` (4.4+)  
   - Superceeds `system`
+- Preinstalled 
+  - An app that resides in `system/app` (4.4+)? [link](http://stackoverflow.com/questions/33481730/difference-between-preinstalled-and-privileged-protection-level)
 - Dev
 - All
