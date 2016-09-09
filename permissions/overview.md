@@ -37,6 +37,7 @@ See [\<permission\>](https://developer.android.com/guide/topics/manifest/permiss
   - Permission will be auto granted if sig check passes 
 - signatureOrSystem 
   - A permission that the system grants only to applications that are in the Android system image or that are signed with the same certificate as the application that declared the permission.  
+  - `System` has same requirements as below 
   
 Other:
 
