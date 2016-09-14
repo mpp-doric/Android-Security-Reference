@@ -23,6 +23,9 @@ Follows format of:
 - Vuln: Memory Data
 	- Only kept in memory for as short a time as possible
 	- When finished with data is zeroed out / overwritten where possible instead of just leaving for GC
+	- Debugger Detection
+		- Native Debugger Defenses [p54](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf)
+		- JDWP Debugger Detection [p56](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf)
 
 #Vuln: Data In Transit
 
