@@ -6,6 +6,8 @@ This doc is for tacking vulns found with the Android platform
   - [On Malware Leveraging the Android
 Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf) _~2013_
      - Uses Accessibility Framework to detect launcher icon presses and will show fake application instead. 
+- Binder
+  - [racy getpidcon usage permits binder service replacement](https://bugs.chromium.org/p/project-zero/issues/detail?id=851) _15th June 2016_ 
 - Chipsets
   - [QuadRooter: New Android Vulnerabilities in Over 900 Million Devices](http://blog.checkpoint.com/2016/08/07/quadrooter/) _7th August 16_
     - [Full details](https://www.checkpoint.com/downloads/resources/quadRooter-vulnerability-research-report.pdf)
