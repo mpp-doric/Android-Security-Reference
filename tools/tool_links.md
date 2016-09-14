@@ -1,6 +1,6 @@
 
 
-# Analysis
+# Analysis Tools
 
 ## System Call Analysis
 
@@ -51,7 +51,7 @@
 
 - [Introduction to Fridump](http://pentestcorner.com/introduction-to-fridump/)
 
-# Linux Utils
+# Linux Tools
 
 ## Guides
 
