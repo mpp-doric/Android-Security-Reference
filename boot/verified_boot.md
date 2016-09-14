@@ -1,4 +1,10 @@
-#Verified Boot
+# Platform Changes
+
+- 4.4: Added to kernel. OEMs can enable
+- 6: In 'Warning' mode
+- 7: In 'Enforcing' mode
+
+# Overview
 
 > Verified Boot, introduced in Android 4.4, provides a hardware-based root of
 trust, and confirms the state of each stage of the boot process. During boot,
@@ -15,6 +21,8 @@ seconds support Verified Boot for device integrity.
 in the [Verified Boot](https://source.android.com/security/verifiedboot/index.html) section on source.android.com.
 
 _From [Android Security 2015 Year in Review](http://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_2015_Report_Final.pdf)_
+
+# Links
 
 - [Verified boot in Android 7.0 won't let your phone boot if the software is corrupt](http://www.androidpolice.com/2016/07/20/verified-boot-android-7-0-wont-let-phone-boot-software-corrupt/)
 - [Strictly Enforced Verified Boot with Error Correction](http://android-developers.blogspot.co.uk/2016/07/strictly-enforced-verified-boot-with.html)
