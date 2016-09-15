@@ -7,7 +7,9 @@ unlock	the	bootloader	is	blocked	entirely.	(from [SamDunk][SamDunk])
 
 ##Security implications of unlocking
 
-[Security risks of unlocking](http://android.stackexchange.com/questions/36830/whats-the-security-implication-of-having-an-unlocked-boot-loader)
+[Security risks of unlocking](http://android.stackexchange.com/questions/36830/whats-the-security-implication-of-having-an-unlocked-boot-loader).
+
+Check out the `Verified Boot` section of this guide as it talks about unlocked bootloaders disabling verified boot in 7.0, which means its even more important in some cases that we know the state of it.
 
 ##Checking bootloader lock status
 
