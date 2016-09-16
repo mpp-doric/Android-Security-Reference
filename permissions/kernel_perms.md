@@ -11,7 +11,7 @@
     - Or other AID restricted **(TODO:link to AID defs)** activity calling process UID/GID can be used to determine access
   - Filesystem level
     - Where system daemons expose unix domain sockets via `/dev/socket/` (see Ex1) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
-  - 
+  
     
 ```
 root@generic_x86:/ # ls dev/socket
