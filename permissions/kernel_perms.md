@@ -10,7 +10,7 @@
     - Where the perm is related to net activity regarding the AIDs in [linux/android_aid.h](https://android.googlesource.com/kernel/common/+/android-3.18/include/linux/android_aid.h) 
     - Or other AID restricted **(TODO:link to AID defs)** activity calling process UID/GID can be used to determine access
   - Filesystem level
-    - Where system daemons expose unix domain sockets via `/dev/socket/` (see Ex1) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
+    - Where system daemons expose unix domain sockets via `/dev/socket/` (see term output below) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
   
     
 ```
@@ -26,7 +26,7 @@ rild-debug
 vold
 zygote
 ```
-^ Ex1
+^ deamon sockets
   
 ## Links
 
