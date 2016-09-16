@@ -1,9 +1,5 @@
 # Checking
 
-## Official 
-
-- SafetyNet
-
 ## Open Src
 
 - [scottyab/rootbeer](https://github.com/scottyab/rootbeer)
