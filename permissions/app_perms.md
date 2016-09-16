@@ -1,7 +1,5 @@
 #Application Permissions
 
-- [List of OS permissions with levels](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml) 
-
 ## Declaring custom permissions
 
 See [\<permission\>](https://developer.android.com/guide/topics/manifest/permission-element.html)
