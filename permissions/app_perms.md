@@ -66,3 +66,5 @@ Entry looks like
 com.example.android.apis 10050 0 /data/data/com.example.android.apis default 3003,1028,1015
 ```
 
+_**TODO: more info on GIDs at end ^**_
+
