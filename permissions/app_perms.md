@@ -37,7 +37,11 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
 
 ## Platform permission holder representation
 
-`/data/system/packages.xml`
+When an app is installed the applications permissions are added to the below files. If you edit these on a rooted device the changes are ignored - and seemed to be wiped (or still ignored) on reboot (tested on 4.4.2 emulator). 
+
+The `PackageManager` most likely has this info in mem and it may be verified on boot or have more verification checks down the protected call chains. Need to look into this more.
+
+### `/data/system/packages.xml`
 
 Entry looks like
 
@@ -54,7 +58,7 @@ Entry looks like
 </package>
 ```
 
-`/data/system/packages.list`
+### `/data/system/packages.list`
 
 Entry looks like
 
