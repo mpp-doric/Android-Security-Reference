@@ -41,7 +41,7 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
 
 Entry looks like
 
-```
+```xml
 <package name="com.example.android.apis" codePath="/data/app/ApiDemos.apk" nativeLibraryPath="/data/app-lib/ApiDemos" flags="4767300" ft="154bb1bf808" it="154bb1bf808" ut="154bb1bf808" version="19" userId="10050">
     <sigs count="1">
         <cert index="0" />
