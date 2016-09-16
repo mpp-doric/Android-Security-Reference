@@ -34,3 +34,31 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
 - `Preinstalled` 
   - An app that resides in `system/app` (4.4+)? [link](http://stackoverflow.com/questions/33481730/difference-between-preinstalled-and-privileged-protection-level)
 - [Various](https://developer.android.com/reference/android/R.attr.html#protectionLevel)
+
+## Platform permission holder representation
+
+`/data/system/packages.xml`
+
+Entry looks like
+
+```
+<package name="com.example.android.apis" codePath="/data/app/ApiDemos.apk" nativeLibraryPath="/data/app-lib/ApiDemos" flags="4767300" ft="154bb1bf808" it="154bb1bf808" ut="154bb1bf808" version="19" userId="10050">
+    <sigs count="1">
+        <cert index="0" />
+    </sigs>
+    <perms>
+        <item name="android.permission.READ_EXTERNAL_STORAGE" />
+        ...
+    </perms>
+    <signing-keyset identifier="2" />
+</package>
+```
+
+`/data/system/packages.list`
+
+Entry looks like
+
+```
+com.example.android.apis 10050 0 /data/data/com.example.android.apis default 3003,1028,1015
+```
+
