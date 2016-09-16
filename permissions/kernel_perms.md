@@ -12,6 +12,8 @@
   - Filesystem level
     - Where system daemons expose unix domain sockets via `/dev/socket/` (see term output below) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
   
+
+### Deamon Sockets
     
 ```
 root@generic_x86:/ # ls dev/socket
@@ -26,7 +28,6 @@ rild-debug
 vold
 zygote
 ```
-^ deamon sockets
   
 ## Links
 
