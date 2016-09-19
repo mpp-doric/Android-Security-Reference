@@ -14,7 +14,7 @@ Used for low level components which dont have access to the `PackageManager`. A 
      - Also [maps AIDs (Android IDs?) to strings](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#154)
 - How GIDs are added to processes
   - For **daemon and native service processes**
-    - init.rc
+    - init.rc [daemon setup](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#618)
     - deamon native code calling [libminijail.h](https://android.googlesource.com/platform/external/minijail/+/master/libminijail.h#44) methods e.g. the [adb daemon setup](http://androidxref.com/7.0.0_r1/xref/system/core/adb/daemon/main.cpp#113)
   - For **installed applications** (quick diversion) the package manager will add the GIDs for the application at install time, for permissions that appear in the `platform.xml` file, to `data/system/packages.list` for the applications entry
     - Entries appear in this list like `com.android.defcontainer 10003 0 /data/data/com.android.defcontainer platform 1028,1015,1023,2001,1035` 
