@@ -5,9 +5,13 @@
 
 ## Overview
 
+Used for low level components which dont have access to the `PackageManager`.
+
 - Processes are assigned permissions based upon:
   - Its UID
   - Its GIDs
+- Mappings are defined at:
+   - Permissions -> GID [data/etc/platform.xml](https://android.googlesource.com/platform/frameworks/base/+/master/data/etc/platform.xml)
 - These are checked at:
   - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
   - Kernel/framework code level 
