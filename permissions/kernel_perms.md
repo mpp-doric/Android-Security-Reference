@@ -15,13 +15,14 @@ Used for low level components which dont have access to the `PackageManager`.
    - Platform static UIDs and supplemental GIDs: [android_filesystem.config.h](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h)
      - _"The [3000](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#109) series are intended for use as supplemental group id's only. They indicate special Android capabilities that the kernel is aware of."_
      - Also [maps AIDs to strings](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#154)
-- These are checked at:
+- UID/GIDs are checked at:
   - Kernel/framework code level 
     - Where the perm is related to net activity regarding the AIDs in [linux/android_aid.h](https://android.googlesource.com/kernel/common/+/android-3.18/include/linux/android_aid.h) 
     - Or other AID restricted **(TODO:link to AID defs)** activity calling process UID/GID can be used to determine access
     - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
   - Filesystem level
-    - Where system daemons expose unix domain sockets via `/dev/socket/` (see term output below) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
+    - Any file / folder access inc:
+      - Where system daemons expose unix domain sockets via `/dev/socket/` (see term output below) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
   
 
 ### Deamon Sockets
