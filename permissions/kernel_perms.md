@@ -12,7 +12,7 @@ Used for low level components which dont have access to the `PackageManager`.
   - Its GIDs
 - Mappings are defined at:
    - Permissions -> GID: [data/etc/platform.xml](https://android.googlesource.com/platform/frameworks/base/+/master/data/etc/platform.xml)
-   - Platform static UIDs and supplemental GIDs: `android_filesystem.config.h`
+   - Platform static UIDs and supplemental GIDs: [android_filesystem.config.h](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h)
      - "The 3000 series are intended for use as supplemental group id's only. They indicate special Android capabilities that the kernel is aware of." 
 - These are checked at:
   - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
