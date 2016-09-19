@@ -1,8 +1,5 @@
 # Kernel Permissions
 
-- //TODO include definitions in OS
-- //TODO include exmaple call path for inet? (see blog post)
-
 ## Overview
 
 Used for low level components which dont have access to the `PackageManager`. A list of permissions handled in this way is below:
@@ -26,6 +23,8 @@ Used for low level components which dont have access to the `PackageManager`. A 
   
 
 ### Deamon Sockets
+    
+Mentioned above ^    
     
 ```
 root@generic_x86:/ # ls dev/socket
