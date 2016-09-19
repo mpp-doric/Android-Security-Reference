@@ -6,6 +6,7 @@
  
 # Articles
 
+- [AutoMagisk allows root users to play Pokémon GO or use Android Pay without constantly toggling root on and off](http://www.androidpolice.com/2016/09/18/automagisk-allows-root-users-play-pokemon-go-use-android-pay-without-constantly-toggling-root-off/) _18 Sept 16_
 - [Chainfire: Hiding root: a losing game - rant du jour](http://forum.xda-developers.com/showpost.php?p=68424605&postcount=2)
 
 # Modification point options
