@@ -13,8 +13,8 @@ Used for low level components which dont have access to the `PackageManager`. A 
      - _"The [3000](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#109) series are intended for use as supplemental group id's only. They indicate special Android capabilities that the kernel is aware of."_
      - Also [maps AIDs (Android IDs?) to strings](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#154)
 - How GIDs are added to processes
-  - For static UIDs, GIDs are assigned.. //TODO 
-  - For applications (quick diversion) the package manager will add the GIDs for the application at install time, for permissions that appear in the `platform.xml` file, to `data/system/packages.list` for the applications entry
+  - For **static UIDs**, GIDs are assigned.. //TODO 
+  - For **installed applications** (quick diversion) the package manager will add the GIDs for the application at install time, for permissions that appear in the `platform.xml` file, to `data/system/packages.list` for the applications entry
     - Entries appear in this list like `com.android.defcontainer 10003 0 /data/data/com.android.defcontainer platform 1028,1015,1023,2001,1035` 
 - UID/GIDs are checked at:
   - Kernel/framework code level 
