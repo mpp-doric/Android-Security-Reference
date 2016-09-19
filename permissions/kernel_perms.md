@@ -5,7 +5,7 @@
 
 ## Overview
 
-Used for low level components which dont have access to the `PackageManager`.
+Used for low level components which dont have access to the `PackageManager`. A list of permissions handled in this way is below:
 
 - Processes are assigned permissions based upon:
   - Its UID
