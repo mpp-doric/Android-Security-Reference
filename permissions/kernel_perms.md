@@ -9,6 +9,7 @@
   - Its UID
   - Its GIDs
 - These are checked at:
+  - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
   - Kernel/framework code level 
     - Where the perm is related to net activity regarding the AIDs in [linux/android_aid.h](https://android.googlesource.com/kernel/common/+/android-3.18/include/linux/android_aid.h) 
     - Or other AID restricted **(TODO:link to AID defs)** activity calling process UID/GID can be used to determine access
