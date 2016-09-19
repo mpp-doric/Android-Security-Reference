@@ -1,5 +1,8 @@
 # Kernel Permissions
 
+- //TODO include definitions in OS
+- //TODO include exmaple call path for inet? (see blog post)
+
 ## Overview
 
 - Processes are assigned permissions based upon:
