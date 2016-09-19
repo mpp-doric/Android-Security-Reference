@@ -19,12 +19,10 @@ Used for low level components which dont have access to the `PackageManager`. A 
     - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
   - Filesystem level
     - Any file / folder access inc:
-      - Where system daemons expose unix domain sockets via `/dev/socket/` (see term output below) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
+      - Where system daemons expose unix domain sockets via `/dev/socket/` (see `Appendix 1: Deamon Sockets`) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
   
 
-### Deamon Sockets
-    
-Mentioned above ^    
+## Appendix 1: Deamon Sockets
     
 ```
 root@generic_x86:/ # ls dev/socket
