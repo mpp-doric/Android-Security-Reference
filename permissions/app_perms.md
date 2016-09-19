@@ -1,4 +1,4 @@
-#Application Permissions
+#Application/Framework Permissions
 
 - //TODO include info about where this runs and hows its accessed
 - //TODO include info about meddling with definition files
