@@ -11,7 +11,7 @@ Used for low level components which dont have access to the `PackageManager`. A 
    - Permissions -> GID: [data/etc/platform.xml](https://android.googlesource.com/platform/frameworks/base/+/master/data/etc/platform.xml)
    - Platform static UIDs and supplemental GIDs: [android_filesystem.config.h](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h)
      - _"The [3000](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#109) series are intended for use as supplemental group id's only. They indicate special Android capabilities that the kernel is aware of."_
-     - Also [maps AIDs to strings](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#154)
+     - Also [maps AIDs (Android IDs?) to strings](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#154)
 - UID/GIDs are checked at:
   - Kernel/framework code level 
     - Where the perm is related to net activity regarding the AIDs in [linux/android_aid.h](https://android.googlesource.com/kernel/common/+/android-3.18/include/linux/android_aid.h) 
