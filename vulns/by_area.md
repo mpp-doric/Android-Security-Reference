@@ -12,6 +12,8 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
   - [QuadRooter: New Android Vulnerabilities in Over 900 Million Devices](http://blog.checkpoint.com/2016/08/07/quadrooter/) _7th August 16_
     - [Full details](https://www.checkpoint.com/downloads/resources/quadRooter-vulnerability-research-report.pdf)
     - 3 of 4 of these are IOCTL based, and patched in August security patches
+- Dev
+  - [Reminder: Check Your Projects Before Importing Them](https://commonsware.com/blog/2016/09/19/reminder-check-projects-before-importing.html) _19 Sept 16_ 
 - Drag & Drop
   - [Be Careful of Drag-and-Drop on Android N](https://commonsware.com/blog/2016/06/01/be-careful-drag-drop-android-n.html) _1st June 2016_
 - Filesystem
