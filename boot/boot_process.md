@@ -1,0 +1,1 @@
+- [Android Booting](http://elinux.org/Android_Booting)
