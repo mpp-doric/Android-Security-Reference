@@ -1,5 +1,7 @@
 # Package Manager Permissions
 
+- //TODO include info about meddling with definition files
+
 For application level permission the package manager service plays a role regarding runtime permission checks.
 
 ## Permission Checking
