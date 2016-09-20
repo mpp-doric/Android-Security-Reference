@@ -1,4 +1,4 @@
-# Package Manager Permissions
+# Package Manager Permission Handling
 
 - //TODO include info about meddling with definition files
 
