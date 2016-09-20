@@ -6,6 +6,8 @@
 
 # Overview
 
+"Make persistence across reboots extraordinarily difficult"
+
 > Verified Boot, introduced in Android 4.4, provides a hardware-based root of
 trust, and confirms the state of each stage of the boot process. During boot,
 Android warns the user if the operating system has been modified from the
