@@ -139,4 +139,7 @@ Below is a list of patches that need to be applied as to not expose officially p
 - SecureRandom ([fix](http://android-developers.blogspot.co.uk/2013/08/some-securerandom-thoughts.html))
 - PlayServices version ([SSL fix](http://developer.android.com/training/articles/security-gms-provider.html))
 
+#Vuln: Dependencies
 
+- Verify integrity TOFU style
+  - [Gradle Witness](https://github.com/WhisperSystems/gradle-witness)
