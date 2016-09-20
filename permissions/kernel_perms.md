@@ -25,7 +25,7 @@ Used for low level components which dont have access to the `PackageManager`. A 
   - Framework
     - Calling process UID/GID can be used to determine access when interacting with system services
       - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
-      - [PermissionState](https://github.com/android/platform_frameworks_base/blob/master/services/core/java/com/android/server/pm/PermissionsState.java#L434) objects which is used with the `PackageManagerService` contains GID info - as comment says this is not used often as generally if something has access the the `PackageManager` there is a cleaner API for app level permission checking. (see elsewhere in this folder) 
+      - [PermissionState](https://github.com/android/platform_frameworks_base/blob/master/services/core/java/com/android/server/pm/PermissionsState.java#L434) objects which is used with the `PackageManagerService` contains GID info - as comment says this is not used often as generally if something has access the the `PackageManager` there is a cleaner API for app level permission checking. (see [Package Manager Permissions](package_manager_perms.md)) 
   - Filesystem level
     - Any file / folder access inc:
       - Where system daemons expose unix domain sockets via `/dev/socket/` (see `Appendix 1: Deamon Sockets`) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
