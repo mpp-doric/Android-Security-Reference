@@ -19,10 +19,12 @@ Used for low level components which dont have access to the `PackageManager`. A 
   - For **installed applications** (quick diversion) the package manager will add the GIDs for the application at install time, for permissions that appear in the `platform.xml` file, to `data/system/packages.list` for the applications entry
     - Entries appear in this list like `com.android.defcontainer 10003 0 /data/data/com.android.defcontainer platform 1028,1015,1023,2001,1035` 
 - UID/GIDs are checked at:
-  - Kernel/framework code level 
+  - Kernel
     - Where the perm is related to net activity regarding the AIDs in [linux/android_aid.h](https://android.googlesource.com/kernel/common/+/android-3.18/include/linux/android_aid.h) 
+      - Example [net/ipv4/af_inet.c](https://android.googlesource.com/kernel/common/+/android-3.4/net/ipv4/af_inet.c#127) 
+  - Framework
     - Or other AID restricted **(TODO:link to AID defs)** activity calling process UID/GID can be used to determine access
-    - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
+      - `Binder.getCallingUid()` inside services exposed a `Binder`. This is used when the callers UID is whitelisted in advance (i.e. if `root` or `system`)  
   - Filesystem level
     - Any file / folder access inc:
       - Where system daemons expose unix domain sockets via `/dev/socket/` (see `Appendix 1: Deamon Sockets`) as defined in [`init.rc`](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#617) (seems this config may have moved elsewhere)
