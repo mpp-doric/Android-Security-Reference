@@ -1,10 +1,5 @@
 #Application/Framework Permissions
 
-- //TODO include info about where this runs and hows its accessed
-- //TODO include info about meddling with definition files
-- //TODO do some app permissions still get granted depending on UID and GID of app process? Check Sl.
-- //TODO add /system/framework/..apk
-
 ## Declaring custom permissions
 
 See [\<permission\>](https://developer.android.com/guide/topics/manifest/permission-element.html)
