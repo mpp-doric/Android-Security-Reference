@@ -1,4 +1,4 @@
-# Package Manager 
+# Package Manager Permissions
 
 For application level permission the package manager service plays a role regarding runtime permission checks.
 
