@@ -1,4 +1,4 @@
-#Application/Framework Permissions
+#Application & Framework Permissions
 
 ## Declaring custom permissions
 
