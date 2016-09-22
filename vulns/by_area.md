@@ -13,6 +13,7 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
     - [Full details](https://www.checkpoint.com/downloads/resources/quadRooter-vulnerability-research-report.pdf)
     - 3 of 4 of these are IOCTL based, and patched in August security patches
 - Dev
+  - [Unofficial Copies of Android Support Libraries Being Distributed on JCenter](http://tools.android.com/unofficial-copies-of-android-support-libraries-being-distributed-on-jcenter) _20 Sept 16_
   - [Reminder: Check Your Projects Before Importing Them](https://commonsware.com/blog/2016/09/19/reminder-check-projects-before-importing.html) _19 Sept 16_ 
 - Drag & Drop
   - [Be Careful of Drag-and-Drop on Android N](https://commonsware.com/blog/2016/06/01/be-careful-drag-drop-android-n.html) _1st June 2016_
