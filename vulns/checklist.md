@@ -132,6 +132,8 @@ Could be on users device i.e. inspecting memory or attackers device to understan
         - Ensure components are non-exported unless required and validate all inputs 
 - Vuln: Input Injection
         - Validate UI input
+- Vuln: Javascript 
+        - Follow latest practise for safe exposing of Java APIs to Javascript 
 	
 #Vuln: OS bugs
 
