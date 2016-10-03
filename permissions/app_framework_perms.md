@@ -1,5 +1,7 @@
 #Application & Framework Permissions
 
+[List of all platform provided permissions](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml)
+
 ## Declaring custom permissions
 
 See [\<permission\>](https://developer.android.com/guide/topics/manifest/permission-element.html)
