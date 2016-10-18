@@ -28,7 +28,7 @@
 - [Hacking mobile login tokens tricky but doable, says reverse-engineer](http://www.theregister.co.uk/2016/09/02/mobile_2fa_shortcomings/)
   - Links to _very_ comprehensive [paper](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf) about analysing and closing OTP banking apps 
 
-## Pen Testing Frameworks / Collections
+## Pen|Security Testing Frameworks / Collections
 
 - [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
 - [QARK](https://github.com/linkedin/qark)
@@ -41,6 +41,8 @@
   - [Lab Suite](https://www.nowsecure.com/lab/) _Commercial_
 - [MonkOp](http://www.monkop.com/index.html)
   - Upload apk to remote 
+- [bherbst/OpenSSL-Checker](https://github.com/bherbst/OpenSSL-Checker)
+  - A Gradle plugin for checking whether an .apk or an .aar contains OpenSSL versions with known vulnerabilities
 
 ## Network traffic
 
