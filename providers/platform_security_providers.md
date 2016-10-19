@@ -24,7 +24,11 @@ Guide to terms like JCE & JSSE can be found [here](http://www.oracle.com/technet
 ####OpenSSL
 
 - Used since the beginning?
-- OpenSSL version used - look in AOSP openSSL version file for each platform tag i.e. 4.3 used 1.0.1e
+- OpenSSL version used - look in AOSP [openSSL version file](https://github.com/android/platform_external_openssl/blob/jb-release/openssl.version) for each platform tag 
+  - K-4.3 `1.0.1e`
+  - J-4.4 `1.0.1c`
+  - L-5 `1.0.1h`
+  - M-6 superceeded by BoringSSL 
 - Backs `SecureRandom` since [4.2](http://android-developers.blogspot.co.uk/2013/02/using-cryptography-to-store-credentials.html)
 	
 ####BoringSSL
