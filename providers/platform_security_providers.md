@@ -33,7 +33,8 @@ Guide to terms like JCE & JSSE can be found [here](http://www.oracle.com/technet
 	
 ####BoringSSL
 
-- [Source link](https://boringssl.googlesource.com/boringssl/)	
+- Android's [BoringSSL repo](https://android.googlesource.com/platform/external/boringssl/) 
+- Upstream [repo](https://boringssl.googlesource.com/boringssl/)	
   - Has build instructions 
 - "BoringSSL is a fork of OpenSSL that is designed to meet Google’s needs."
   - First commit msg `BoringSSL versions Initial fork from f2d678e6e89b6508147086610e985d4e8416e867 (1.0.2 beta).`
