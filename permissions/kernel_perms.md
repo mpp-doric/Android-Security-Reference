@@ -12,6 +12,9 @@ Used for low level components which dont have access to the `PackageManager`. A 
    - Platform static UIDs and supplemental GIDs: [android_filesystem.config.h](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h)
      - _"The [3000](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#109) series are intended for use as supplemental group id's only. They indicate special Android capabilities that the kernel is aware of."_
      - Also [maps AIDs (Android IDs?) to strings](https://android.googlesource.com/platform/system/core/+/master/include/private/android_filesystem_config.h#154)
+   - Application UIDs
+     - Can be seen at `/data/system/pacakges.xml` on rooted devices
+     - Otherwise, `adb` `dumpsys package` as described [here](http://android.stackexchange.com/a/122757) 
 - How GIDs are added to processes
   - For **daemon and native service processes**
     - init.rc [daemon setup](https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc#618)
