@@ -1,0 +1,1 @@
+- [Security bug lifetime](https://outflux.net/blog/archives/2016/10/18/security-bug-lifetime/)
