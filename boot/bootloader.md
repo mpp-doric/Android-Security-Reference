@@ -13,6 +13,8 @@ Check out the `Verified Boot` section of this guide as it talks about unlocked b
 
 ##Checking bootloader lock status
 
+EDIT: 20/10/16 SafetyNet [now](https://www.reddit.com/r/android/comments/587ss9/_/) seems to check bootloader status! 
+
 AFAIK there is no single and/or public apis/methods to check the bootloader lock status. OEMs have different private approaches for doing this. 
 
 There is a system api [PersistentDataBlockManager](http://androidxref.com/7.0.0_r1/xref/frameworks/base/core/java/android/service/persistentdata/PersistentDataBlockManager.java#55) for this, which seems like it needs system permissions. Guessing exposed as a service and permissions controlled kernel level.
