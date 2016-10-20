@@ -33,6 +33,9 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
 - Mem Dumps
   - [Undocumented Patched Vulnerability in Nexus 5X Allowed for Memory Dumping Via USB](https://securityintelligence.com/undocumented-patched-vulnerability-in-nexus-5x-allowed-for-memory-dumping-via-usb/) _1st Sept 2016_  
   - [Forensics tool nabs data from Signal, Telegram, WhatsApp ](http://www.theregister.co.uk/2016/08/15/retroscope/?mt=1471266388161) _15h Aug 2016_
+- OpenSSL
+  - [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed)
+    - _"Android 4.1.1, used in various portable devices.[124] Chris Smith writes in Boy Genius Report that just this one version of Android is affected but that it is a popular version of Android (Chitika claim 4.1.1 is on 50 million devices;[125] Google describe it as less than 10% of activated Android devices). Other Android versions are not vulnerable as they either have heartbeats disabled or use an unaffected version of OpenSSL"_
 - TCP
   - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TrustZone
