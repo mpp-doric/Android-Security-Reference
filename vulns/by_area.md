@@ -24,6 +24,8 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
 - Intents
   - [Surreptitious Sharing on Android](https://www.ibr.cs.tu-bs.de/news/ibr/surreptitious-sharing-2016-04-04.xml) _4th April 2016_
     - Accessing app private data via intents
+- Kernel 
+  - [Dirty COW explained: Get a moooo-ve on and patch Linux root hole](http://www.theregister.co.uk/2016/10/21/linux_privilege_escalation_hole/) _21 Oct 16_
 - MediaServer
   - [Return to libstagefright: exploiting libutils on Android](https://googleprojectzero.blogspot.co.uk/2016/09/return-to-libstagefright-exploiting.html) _7th Sept 2016_
   - [EXIF Parsing](http://www.forbes.com/sites/thomasbrewster/2016/09/06/google-android-one-photo-hack/#3db069111555) _7th Sept 16_ ([fix](https://twitter.com/timstrazz/status/773275505235591168))
