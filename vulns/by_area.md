@@ -26,6 +26,7 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
     - Accessing app private data via intents
 - Kernel 
   - [Dirty COW explained: Get a moooo-ve on and patch Linux root hole](http://www.theregister.co.uk/2016/10/21/linux_privilege_escalation_hole/) _21 Oct 16_
+    - [What is the Dirty COW vulnerability and how does it impact mobile security?](https://www.nowsecure.com/blog/2016/10/21/dirty-cow-vulnerability-mobile-impact/)
 - MediaServer
   - [Return to libstagefright: exploiting libutils on Android](https://googleprojectzero.blogspot.co.uk/2016/09/return-to-libstagefright-exploiting.html) _7th Sept 2016_
   - [EXIF Parsing](http://www.forbes.com/sites/thomasbrewster/2016/09/06/google-android-one-photo-hack/#3db069111555) _7th Sept 16_ ([fix](https://twitter.com/timstrazz/status/773275505235591168))
