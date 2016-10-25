@@ -22,6 +22,10 @@
   - Commercial Decompiler (& Debugger)
 - [Classy Shark](https://github.com/google/android-classyshark)
   - Quick view for apk package / class breakdown  
+- [Radare2 ](http://rada.re/r/)
+  - Radare is a portable reversing framework
+- [Hopper](https://www.hopperapp.com/)
+  - The OS X and Linux Disassembler
 
 ## Walkthroughs
 
