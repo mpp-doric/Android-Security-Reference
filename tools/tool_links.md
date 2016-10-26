@@ -26,6 +26,8 @@
   - Radare is a portable reversing framework
 - [Hopper](https://www.hopperapp.com/)
   - The OS X and Linux Disassembler
+- [Deguard](http://www.apk-deguard.com/) 
+  - Statistical Deobfuscation for Android
 
 ## Walkthroughs
 
