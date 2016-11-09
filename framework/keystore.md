@@ -89,11 +89,12 @@ This is especially handy for any kind of challenge / response auth or other proc
     - Specification of how a key or key pair is secured when imported into the Android Keystore system.
   - `KeyStore` keys can require fingerprint auth before use 
     - "User authentication authorizes a specific cryptographic operation associated with one key. In this mode, each operation involving such a key must be individually authorized by the user". See `api/finger` for more.
-- **N-7?-24?**
+- **N-7-24**
   - Key Attestion
     - Can prove to 3rd partys that a hardware keystore exists with certain keys by signing a representation using a factory supplied key 
     - KeyStore now returns a chain for a key alias which can be used to verify that the device has passed CTS testing
   - Hardware KeyStore manditory [IO link](https://youtu.be/XZzLjllizYs?t=571) 
+  - "When the device implementation supports a secure lock screen it MUST back up the keystore implementation with secure hardware" [ACD](http://source.android.com/compatibility/7.0/android-7.0-cdd.html#9_11_keys_and_credentials)
 
 ##User Authenticating Key Use
 
