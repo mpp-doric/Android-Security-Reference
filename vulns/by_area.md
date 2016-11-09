@@ -1,3 +1,10 @@
+Its worth keeping in mind the nature of the below flaws, as they generally fall into camps such as:
+
+- Needs physical (or adb) access
+- Needs malicious app installed on the device 
+- Needs access over digital cellular network
+- MITM of comms of existing app on device
+
 This doc is for tacking vulns found with the Android platform
 
 - Accessability Layer
