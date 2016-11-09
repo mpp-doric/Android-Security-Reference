@@ -19,6 +19,10 @@ AFAIK there is no single and/or public apis/methods to check the bootloader lock
 
 There is a system api [PersistentDataBlockManager](http://androidxref.com/7.0.0_r1/xref/frameworks/base/core/java/android/service/persistentdata/PersistentDataBlockManager.java#55) for this, which seems like it needs system permissions. Guessing exposed as a service and permissions controlled kernel level.
 
+Some information about this appears in [Android 7.0 Compatibility Definition](http://source.android.com/compatibility/7.0/android-7.0-cdd.html#9_10_device_integrity) and is copied below
+
+> Device implementations MUST correctly report through the System API method PersistentDataBlockManager.getFlashLockState() whether their bootloader state permits flashing of the system image. The FLASH_LOCK_UNKNOWN state is reserved for device implementations upgrading from an earlier version of Android where this new system API method did not exist.
+
 See [SamDunk][SamDunk] for some mention of this and a related Samsung vuln.
 
 > Manufacturers	employ	a	wide	variety	of	methods	and	mechanisms	to	determine	and	control	a
