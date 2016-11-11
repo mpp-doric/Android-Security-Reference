@@ -47,6 +47,8 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
 - OpenSSL
   - [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed)
     - Android 4.1.1 only as mentioned in link
+- SYSTEM_ALERT_WINDOW
+  - [Android's Hover feature is a data HOOVER](http://www.theregister.co.uk/2016/11/08/androids_hover_/) _8th Nov 2016_
 - TCP
   - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TrustZone
