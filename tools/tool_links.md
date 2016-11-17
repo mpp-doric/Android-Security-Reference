@@ -23,6 +23,8 @@
   - Quick view for apk package / class breakdown  
 - [Deguard](http://www.apk-deguard.com/) 
   - Statistical Deobfuscation for Android
+- [APKtool](https://ibotpeaches.github.io/Apktool/) 
+- [Enjarify](https://github.com/google/enjarify)
 
 ### Native
 
