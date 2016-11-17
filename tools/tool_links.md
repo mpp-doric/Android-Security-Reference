@@ -15,19 +15,27 @@
 
 ## Decompilers
 
+### Android
+
+- [Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
+  - A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
+- [Classy Shark](https://github.com/google/android-classyshark)
+  - Quick view for apk package / class breakdown  
+- [Deguard](http://www.apk-deguard.com/) 
+  - Statistical Deobfuscation for Android
+
+### Native
+
 - [IDA Pro](https://www.hex-rays.com/products/ida/)
   - ARM, MIPS, ELF, Java Bytecode (-> SMALI)
   - Combines an interactive, programmable, multi-processor disassembler coupled to a local and remote debugger and augmented by a complete plugin programming environment 
 - [JEB](https://www.pnfsoftware.com/)
   - Commercial Decompiler (& Debugger)
-- [Classy Shark](https://github.com/google/android-classyshark)
-  - Quick view for apk package / class breakdown  
 - [Radare2 ](http://rada.re/r/)
   - Radare is a portable reversing framework
 - [Hopper](https://www.hopperapp.com/)
   - The OS X and Linux Disassembler
-- [Deguard](http://www.apk-deguard.com/) 
-  - Statistical Deobfuscation for Android
+
 
 ## Walkthroughs
 
