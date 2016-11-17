@@ -24,6 +24,7 @@
 - [Deguard](http://www.apk-deguard.com/) 
   - Statistical Deobfuscation for Android
 - [APKtool](https://ibotpeaches.github.io/Apktool/) 
+  - A tool for reverse engineering Android apk files
 - [Enjarify](https://github.com/google/enjarify)
 
 ### Native
