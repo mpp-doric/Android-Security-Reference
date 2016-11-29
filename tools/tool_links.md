@@ -26,6 +26,7 @@
 - [APKtool](https://ibotpeaches.github.io/Apktool/) 
   - A tool for reverse engineering Android apk files
 - [Enjarify](https://github.com/google/enjarify)
+- Dex2Jar
 
 ### Native
 
