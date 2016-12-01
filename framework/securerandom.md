@@ -7,7 +7,7 @@
 ### Android 6
 
 - new SecureRandom()  
-  - If no `Services.getSecureRandomService()` then uses SHA1PRNG..
+  - If no `Services.getSecureRandomService()` then uses SHA1PRNG (provided by [`AndroidOpenSSL` and `Crypto`](http://stackoverflow.com/a/40913256/236743))
   - otherwise returns first `Engine.door.getService` service/provider that supports `SecureRandom`
 
 ## Links
