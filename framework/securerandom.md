@@ -2,6 +2,14 @@
 
 - [CDD](https://source.android.com/compatibility/7.0/android-7.0-cdd.html) doc contains no info on `SecureRandom`
 
+## What happens when calling `SecureRandom`?
+
+### Android 6
+
+- new SecureRandom()  
+  - If no `Services.getSecureRandomService()` then uses SHA1PRNG..
+  - otherwise returns first `Engine.door.getService` service/provider that supports `SecureRandom`
+
 ## Links
 
 - [android-developers.blogspot.co.uk/][Using Cryptography to Store Credentials Safely](http://android-developers.blogspot.co.uk/2013/02/using-cryptography-to-store-credentials.html)
