@@ -93,3 +93,6 @@ Guide to terms like JCE & JSSE can be found [here](http://www.oracle.com/technet
 
 See [Updating Your Security Provider to Protect Against SSL Exploits](http://developer.android.com/training/articles/security-gms-provider.html). Not clear if updates `BoringSSL` or just the Java `AndroidOpenSSL` SPI (or both). 
 
+##What algorithms do the providers supply?
+
+- [What crypto algorithms does Android support?](http://stackoverflow.com/questions/7560974/what-crypto-algorithms-does-android-support)
