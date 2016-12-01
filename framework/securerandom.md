@@ -1,6 +1,7 @@
 # SecureRandom
 
 - [CDD](https://source.android.com/compatibility/7.0/android-7.0-cdd.html) doc contains no info on `SecureRandom`
+- Src can be found at `libcore/luni/src/main/java/java/security/SecureRandom.java`
 
 ## What happens when calling `SecureRandom`?
 
@@ -9,6 +10,10 @@
 - new SecureRandom()  
   - If no `Services.getSecureRandomService()` then uses SHA1PRNG (provided by [`AndroidOpenSSL` and `Crypto`](http://stackoverflow.com/a/40913256/236743))
   - otherwise returns first `Engine.door.getService` service/provider that supports `SecureRandom`
+  
+### Android 7
+
+SecureRandom has changed in 7 (the `Crypto` provider was removed, which removed one of two SHA1PRNG implementations from stock android) and the javadoc has been [updated](https://developer.android.com/reference/java/security/SecureRandom.html) with test info
 
 ## Links
 
