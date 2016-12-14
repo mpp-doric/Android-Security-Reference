@@ -17,7 +17,7 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
 - `Normal`
   - The system automatically grants this type of permission to a requesting application at installation
 - `Dangerous`
-  - This type of permission introduces potential risk, the system may not automatically grant it to the requesting application 
+  - This type of permission introduces potential risk, the system may not automatically grant it to the requesting application. On M-6-23 (when the target is also 23+) this would trigger a dialog for the user to grant the perm 
 - `Signature`
   - Meaning of this depends on where the permission is defined. 
     - If in the core OS [/system/framework/framework-res.apk/AndroidManifest.xml](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml) then the permission holder would need to be signed by the same key (which is the _`platform`_ key used in the OS signing process)
