@@ -17,6 +17,10 @@
   - DroidScope is a malware analysis engine based on QEMU. It adds instrumentation on several levels, https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yanmaking it possible to fully reconstruct the semantics on the hardware, Linux and Java level  
 - [PANDA](https://github.com/moyix/panda) 
 
+## Hex
+
+- [Veles](https://codisec.com/veles/)
+
 ## Decompilers
 
 ### Android
