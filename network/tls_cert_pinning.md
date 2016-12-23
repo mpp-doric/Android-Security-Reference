@@ -23,6 +23,7 @@ Can pin via xml as shown
   - [Okhttp pinning discussion](https://github.com/square/okhttp/issues/173) 
 - Patching out
   - [Bypassing SSL Pinning in Android Applications](https://serializethoughts.com/2016/08/18/bypassing-ssl-pinning-in-android-applications/)
+  - [Android-SSL-TrustKiller](https://github.com/iSECPartners/Android-SSL-TrustKiller/blob/master/src/com/android/SSLTrustKiller/Hook.java)
 - RFCs
   - [rfc7469 `Public Key Pinning Extension for HTTP`](https://tools.ietf.org/html/rfc7469) (HPKP TOFU pin)
   - [rfc5280 Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://tools.ietf.org/html/rfc5280)
