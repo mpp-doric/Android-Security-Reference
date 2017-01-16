@@ -8,7 +8,8 @@
   - Facebook. Fast cryptographic operations for Android 
 - [Spongy Castle](https://rtyley.github.io/spongycastle/)
   - Spongy Castle is the stock Bouncy Castle libraries with a couple of small changes to make it work on Android: 
-  
+- [google/keyczar](https://github.com/google/keyczar) 
+  - Open-source cryptographic toolkit
 
 ##Applied Crypto - Persistence
 
