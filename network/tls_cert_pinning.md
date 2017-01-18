@@ -34,6 +34,7 @@ Can pin via xml as shown
   - [moxie0/AndroidPinning](https://github.com/moxie0/AndroidPinning)
     - Has manual inclusion of system TrustManager 
   - [iSECPartners/android-ssl-bypass](https://github.com/iSECPartners/android-ssl-bypass)
+  - [TrustKit-Android](https://github.com/datatheorem/TrustKit-Android)
 
 #Random Notes
 
