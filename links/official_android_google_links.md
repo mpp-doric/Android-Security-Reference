@@ -27,6 +27,7 @@
 
 ##Security Blog Posts
 
+- [android-developers.blogspot.co.uk] [Silence speaks louder than words when finding malware](https://android-developers.googleblog.com/2017/01/findingmalware.html)
 - [android-developers.blogspot.co.uk] [Keeping Android safe: Security enhancements in Nougat](http://android-developers.blogspot.co.uk/2016/09/security-enhancements-in-nougat.html) _6th Sept 16_
 - [android-developers.blogspot.co.uk] [Protecting Android with more Linux kernel defenses](https://android-developers.blogspot.co.uk/2016/07/protecting-android-with-more-linux.html) 27th July 16
 - [android-developers.blogspot.co.uk] [Hardening the media stack](http://android-developers.blogspot.co.uk/2016/05/hardening-media-stack.html) 5th May 16
