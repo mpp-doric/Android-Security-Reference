@@ -1,0 +1,2 @@
+- [hannob/hackercon](https://github.com/hannob/hackercon)
+  - List of Free Software and IT Security related conferences
