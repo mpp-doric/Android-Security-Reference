@@ -23,10 +23,23 @@
 
 ## Decompilers
 
-### Android
+### Mixed (Android & Java)
 
+- [Decompilers online](http://www.javadecompilers.com/)
+  - Online Android & Java decompilation
 - [Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
   - A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
+
+### Java
+
+- [CFR](http://www.benf.org/other/cfr/)
+  - CFR will decompile modern Java features - Java 8 lambdas (pre and post Java beta 103 changes), Java 7 String switches etc, but is written entirely in Java 6. (FAQ)
+- [JDGui](http://jd.benow.ca/)
+  - The “Java Decompiler project” aims to develop tools in order to decompile and analyze Java 5 “byte code” and the later versions.
+  - Can use to export source from jars
+
+### Android
+
 - [Classy Shark](https://github.com/google/android-classyshark)
   - Quick view for apk package / class breakdown  
 - [Deguard](http://www.apk-deguard.com/) 
@@ -36,12 +49,6 @@
 - [Enjarify](https://github.com/google/enjarify)
   - Ment to improve on Dex2Jar
 - Dex2Jar
-- [JDGui](http://jd.benow.ca/)
-  - The “Java Decompiler project” aims to develop tools in order to decompile and analyze Java 5 “byte code” and the later versions.
-  - Can use to export source from jars
-- [Decompilers online](http://www.javadecompilers.com/)
-  - Online Android & Java decompilation
-
 
 ### Native
 
