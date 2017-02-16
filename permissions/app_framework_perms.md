@@ -1,4 +1,4 @@
-#Application & Framework Permissions
+#Framework Permissions
 
 ## Platform Provided Permissions
 
