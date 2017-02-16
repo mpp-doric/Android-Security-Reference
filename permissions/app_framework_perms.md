@@ -4,10 +4,6 @@
 
 [List of all platform provided permissions](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml)
 
-## Declaring custom permissions
-
-See [\<permission\>](https://developer.android.com/guide/topics/manifest/permission-element.html)
-
 ## android:protectionLevels
 
 See comprehensive official list [R.attr list](https://developer.android.com/reference/android/R.attr.html#protectionLevel). Notes below:
