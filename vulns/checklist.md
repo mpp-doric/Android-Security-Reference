@@ -142,7 +142,7 @@ Below is a list of patches that need to be applied as to not expose officially p
 - SecureRandom ([fix](http://android-developers.blogspot.co.uk/2013/08/some-securerandom-thoughts.html))
 - PlayServices version ([SSL fix](http://developer.android.com/training/articles/security-gms-provider.html))
 
-#Vuln: Permissions
+#Vuln: Custom Permissions
 
 - Pre 5 check for pre-held permission declarations [The Custom Permission Problem](https://github.com/commonsguy/cwac-security/blob/master/PERMS.md)
 
