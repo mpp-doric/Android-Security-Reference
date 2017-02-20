@@ -6,6 +6,9 @@
   - A pragmatic guide to working with Android security
 - [source.android.com] [Security](https://source.android.com/security/index.html)
   - Covers various areas of Android OS security info and updates
+- [developer.android.com] [Security for Android Developers](https://developer.android.com/topic/security/index.html)
+  - Outlines latest security blog-posts
+  - Offical checklist
 
 ##Compatability Docs
 
