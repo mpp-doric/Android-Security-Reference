@@ -93,7 +93,7 @@ Follows format of:
 - Vuln: Broken OS Crypto
 - Vuln: Compromised OS Crypto
 - Vuln: Broken Crypto Implementation
-  - Should use force updated CryptoProvider through GPlayServices 
+  - Should use force [update CryptoProvider through GPlayServices](https://developer.android.com/training/articles/security-gms-provider.html) 
 
 #Vuln: Static Analysis 
 
