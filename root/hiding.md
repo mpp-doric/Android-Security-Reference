@@ -3,6 +3,10 @@
 - [suhide](http://www.androidpolice.com/2016/08/29/chainfire-releases-suhide-experimental-officially-unsupported-way-hide-root-status-app-app-basis/)
   - Tool for hiding systemless root
 - RootCloak (and +) 
+- [Magisk](https://forum.xda-developers.com/apps/magisk/mod-magisk-v1-universal-systemless-t3432382)
+  - Magisk Is A Magic Mask to Alter System Systemless-ly
+- [Frida](https://www.frida.re/docs/android/)
+  - Dynamic code instrumentation toolkit
  
 # Articles
 
