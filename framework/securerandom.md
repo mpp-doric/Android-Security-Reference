@@ -15,6 +15,12 @@
 
 SecureRandom has changed in 7 (the `Crypto` provider was removed, which removed one of two SHA1PRNG implementations from stock android) and the javadoc has been [updated](https://developer.android.com/reference/java/security/SecureRandom.html) with test info
 
+## /urandom
+
+- [Android empties the entropy pool, resulting in blocking, user perceived lag/poor performance](https://code.google.com/p/android/issues/detail?id=42265)
+  - States since 2.3 Android has used `dev/urandom`
+- [Myths about /dev/urandom](http://www.2uo.de/myths-about-urandom/)
+
 ## Links
 
 - [android-developers.blogspot.co.uk] [Using Cryptography to Store Credentials Safely](http://android-developers.blogspot.co.uk/2013/02/using-cryptography-to-store-credentials.html)
