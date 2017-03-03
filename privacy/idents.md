@@ -9,4 +9,7 @@
   - `SSAIDs`
   - `MAC` addresses
     - Not availible since 6.0
-  
+- [Android Identifiers: How Android devices and their users are identified](https://android.izzysoft.de/articles/named/identifiers-1?lang=en)
+  - Which identifiers exist, and what´s their respective purpose?
+  - By which permission can I tell that an app has access to a given identifier?
+  - Possible protective measures
