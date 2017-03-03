@@ -1,7 +1,7 @@
 - [developer.android.com] [Best Practices for Unique Identifiers](https://developer.android.com/training/articles/user-data-ids.html)
   - `UUID`s
     - App Generated
-  - `InstanceIds`
+  - [`InstanceIds`](https://developers.google.com/instance-id/)
     - Server can use to detect app live-ness
   - `IMEIs` and `IMSIs`
     - `Phone` perms
