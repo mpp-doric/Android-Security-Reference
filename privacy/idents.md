@@ -1,4 +1,4 @@
-- [Best Practices for Unique Identifiers](https://developer.android.com/training/articles/user-data-ids.html)
+- [developer.android.com] [Best Practices for Unique Identifiers](https://developer.android.com/training/articles/user-data-ids.html)
   - `UUID`s
     - App Generated
   - `InstanceIds`
