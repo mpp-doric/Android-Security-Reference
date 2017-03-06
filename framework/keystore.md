@@ -95,6 +95,8 @@ This is especially handy for any kind of challenge / response auth or other proc
     - KeyStore now returns a chain for a key alias which can be used to verify that the device has passed CTS testing
   - Hardware KeyStore manditory [IO link](https://youtu.be/XZzLjllizYs?t=571) 
   - "When the device implementation supports a secure lock screen it MUST back up the keystore implementation with secure hardware" [ACD](http://source.android.com/compatibility/7.0/android-7.0-cdd.html#9_11_keys_and_credentials)
+  - "Note that if a device implementation is already launched on an earlier Android version, and does not have a fingerprint scanner, such a device is exempted from the requirement to have a hardware-backed keystore." also from keys and creds
+
 
 ##User Authenticating Key Use
 
