@@ -90,7 +90,7 @@ This is especially handy for any kind of challenge / response auth or other proc
   - `KeyStore` keys can require fingerprint auth before use 
     - "User authentication authorizes a specific cryptographic operation associated with one key. In this mode, each operation involving such a key must be individually authorized by the user". See `api/finger` for more.
 - **N-7-24**
-  - Key Attestion
+  - [Key Attestion](https://developer.android.com/training/articles/security-key-attestation.html#certificate_schema)
     - Can prove to 3rd partys that a hardware keystore exists with certain keys by signing a representation using a factory supplied key 
     - KeyStore now returns a chain for a key alias which can be used to verify that the device has passed CTS testing
   - Hardware KeyStore manditory [IO link](https://youtu.be/XZzLjllizYs?t=571) 
