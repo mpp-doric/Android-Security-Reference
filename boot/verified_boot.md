@@ -3,6 +3,10 @@
 - 4.4: Added to kernel. OEMs can enable
 - 6: In 'Warning' mode
 - 7: In 'Enforcing' mode
+  - Phone wont boot if verified boot fails
+    - Unless bootloader unlocked
+      - No direct APIs to check bootloader status
+      - [SafetyNet seems to now check bootloader lock status](https://www.reddit.com/r/Android/comments/587ss9/psa_android_safetynet_now_tripped_by_unlocking/)
 
 # Overview
 
@@ -23,6 +27,8 @@ seconds support Verified Boot for device integrity.
 in the [Verified Boot](https://source.android.com/security/verifiedboot/index.html) section on source.android.com.
 
 _From [Android Security 2015 Year in Review](http://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_2015_Report_Final.pdf)_
+
+
 
 # Links
 
