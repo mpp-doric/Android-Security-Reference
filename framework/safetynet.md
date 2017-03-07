@@ -8,3 +8,7 @@
 
 - Bootloader lock status [(reddit)](https://www.reddit.com/r/android/comments/587ss9/_/)
 - And more (see above links)
+
+## Links
+
+- [Inside SafetyNet series](https://koz.io/inside-safetynet-3/)
