@@ -8,6 +8,12 @@
       - No direct APIs to check bootloader status
       - [SafetyNet seems to now check bootloader lock status](https://www.reddit.com/r/Android/comments/587ss9/psa_android_safetynet_now_tripped_by_unlocking/)
 
+# Checking verified boot
+
+The [Android CDD](https://source.android.com/compatibility/7.0/android-7.0-cdd.html#9_10_device_integrity) states that if a device supports verified boot then it MUST set the `android.software.verified_boot` prop flag.
+
+Also see the SafetyNet link above.
+
 # Overview
 
 "Make persistence across reboots extraordinarily difficult"
