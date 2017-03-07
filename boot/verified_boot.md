@@ -12,7 +12,9 @@
 
 The [Android CDD](https://source.android.com/compatibility/7.0/android-7.0-cdd.html#9_10_device_integrity) states that if a device supports verified boot then it MUST set the `android.software.verified_boot` prop flag.
 
-Also see the SafetyNet link above.
+[Key Attestion](https://developer.android.com/training/articles/security-key-attestation.html#certificate_schema) API can be used to check bootloader / verified boot status.
+
+Also see the SafetyNet link in the Platform Changes section above.
 
 # Overview
 
