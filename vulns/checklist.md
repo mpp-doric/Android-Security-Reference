@@ -69,9 +69,9 @@ Follows format of:
 - Vuln: Exception output
     - Global exception handler so not output to log
 - Vuln: Intent Extras
-    - Dont pass sensitive data in intent extras and can be read / spoofed 
-    	- `ActivityManager.getRecentTasks()`
-	- Deprecated in API 21
+	- Dont pass sensitive data in intent extras and can be read / spoofed 
+		- `ActivityManager.getRecentTasks()`
+		- Deprecated in API 21
 - Vuln: Persisted Background State
     - Detail: Android Bundle - Activity / Fragment Saved State `Bundle` - OS may keep in memory for a while and also ambigous if written to disk when process killed
     - dont write sensitive stuff in Bundles. See `Vuln: Screen Caches` above for more.
