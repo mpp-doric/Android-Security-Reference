@@ -1,6 +1,6 @@
 The below can be used as a checklist for your application.
 
-#Vuln Format
+# Vuln Format
 
 Follows format of:
 
@@ -10,7 +10,7 @@ Follows format of:
   - `[info:<description>]` _optional_
   - `<mitigations>`
 
-#Vuln: Data At Rest
+# Vuln: Data At Rest
 
 - Vuln: Filesystem Data
 	- Stored on disk using a hardware / software `KeyStore` backed AES key. Keystore access is mitigated via OS level permissions.
@@ -18,7 +18,7 @@ Follows format of:
 	- Data retreived with integrity checks
 	- Should be stored using a `PRIVATE` mode
 
-#Vuln: Data In Use
+# Vuln: Data In Use
 
 - Vuln: Memory Data
 	- Only kept in memory for as short a time as possible
@@ -27,7 +27,7 @@ Follows format of:
 		- Native Debugger Defenses [p54](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf)
 		- JDWP Debugger Detection [p56](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf)
 
-#Vuln: Data In Transit
+# Vuln: Data In Transit
 
 - Vuln: Network
 	- Vuln: SSL downgrade to http
@@ -46,7 +46,7 @@ Follows format of:
     - Vuln: SSL bypassed 
 		- Pin transmission is optionally hidden inside the SIGMA session
 
-#Vuln: Data Entry / Display
+# Vuln: Data Entry / Display
 
 - Vuln: Screen Capture
     - set FLAG_SECURE otherwise screen can be read / captures with stock apis
@@ -62,21 +62,23 @@ Follows format of:
   - Info: Can listen to all keypresses, and have access to view hierarchy via Accessability API 
   - Check if any custom [AccessabilityService](http://developer.android.com/reference/android/accessibilityservice/AccessibilityService.html) active as has access to all View objects and
 
-#Vuln: Data Leakage
+# Vuln: Data Leakage
 
 - Vuln: Log output
     - Compile time obfuscator tools strip out
 - Vuln: Exception output
     - Global exception handler so not output to log
 - Vuln: Intent Extras
-    - Dont pass sensitive data in intent extras and can be read / spoofed
+    - Dont pass sensitive data in intent extras and can be read / spoofed 
+    	- `ActivityManager.getRecentTasks()`
+	- Deprecated in API 21
 - Vuln: Persisted Background State
     - Detail: Android Bundle - Activity / Fragment Saved State `Bundle` - OS may keep in memory for a while and also ambigous if written to disk when process killed
     - dont write sensitive stuff in Bundles. See `Vuln: Screen Caches` above for more.
 - Vuln: Application Backups
     - `allowBackups=false` in manifest to disable auto backups 
 
-#Vuln: Rooted Device
+# Vuln: Rooted Device
 
 - Mitigation: Root detection
 	- looks for common root mgmt apps
@@ -88,7 +90,7 @@ Follows format of:
 	- check ROM keys
 	- 3rd party tools / libs
 
-#Vuln: Broken Crypto
+# Vuln: Broken Crypto
 
 - Vuln: Broken OS Crypto
 - Vuln: Compromised OS Crypto
@@ -107,7 +109,7 @@ Static and Dynamic Analysis can be used for a multitude of attacks. The main vul
 		- Check if running on emulator 
 		- Move to C as harder to decompile etc
 
-#Vuln: Dynamic Analysis
+# Vuln: Dynamic Analysis
 
 Could be on users device i.e. inspecting memory or attackers device to understand app.
 
@@ -121,12 +123,12 @@ Could be on users device i.e. inspecting memory or attackers device to understan
   - Mem hook detection (ext tooling)
   - open shell detection
 
-#Vuln: Code Reuse
+# Vuln: Code Reuse
 
 - Vuln: App Repackaging (Malware)
 	- Checksumming 
 
-#Vuln: Code execution
+# Vuln: Code execution
 
 - Vuln: Exported Components
         - Ensure components are non-exported unless required and validate all inputs 
@@ -135,18 +137,18 @@ Could be on users device i.e. inspecting memory or attackers device to understan
 - Vuln: Javascript 
         - Follow latest practise for safe exposing of Java APIs to Javascript 
 	
-#Vuln: OS bugs
+# Vuln: OS bugs
 
 Below is a list of patches that need to be applied as to not expose officially patched Vulns
 
 - SecureRandom ([fix](http://android-developers.blogspot.co.uk/2013/08/some-securerandom-thoughts.html))
 - PlayServices version ([SSL fix](http://developer.android.com/training/articles/security-gms-provider.html))
 
-#Vuln: Custom Permissions
+# Vuln: Custom Permissions
 
 - Pre 5 check for pre-held permission declarations [The Custom Permission Problem](https://github.com/commonsguy/cwac-security/blob/master/PERMS.md)
 
-#Vuln: Dependencies
+# Vuln: Dependencies
 
 - Verify integrity TOFU style
   - [Gradle Witness](https://github.com/WhisperSystems/gradle-witness)
