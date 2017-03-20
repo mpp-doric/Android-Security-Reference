@@ -1,8 +1,8 @@
-#Cipher
+# Cipher
 
 For using `Cipher` with the `KeyStore` see [/api/keystore.md](/api/keystore.md)
 
-##Beware of the default IV!
+## Beware of the default IV!
 
 Its easy to accidentally use the default zeroed out IV when using `Cipher`, which can cause vulns as some encryption modes rely on an IV being set. 
 
@@ -13,6 +13,6 @@ byte[] iv = //gen random iv
 c.init(Cipher.ENCRYPT_MODE, keySpec, new IvParameterSpec(iv));
 ```
 
-##Software supported algorithms
+## Software supported algorithms
 
 [SO - What crypto algorithms does Android support?](http://stackoverflow.com/questions/7560974/what-crypto-algorithms-does-android-support)
