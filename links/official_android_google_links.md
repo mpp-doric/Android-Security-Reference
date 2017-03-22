@@ -18,6 +18,7 @@
 
 ## Annual Reports
 
+- [security.googleblog.com] [Diverse protections for a diverse ecosystem: Android Security 2016 Year in Review](https://security.googleblog.com/2017/03/diverse-protections-for-diverse.html) _22nd Mar 17_
 - [security.googleblog.com] [Android Security 2015 Annual Report](https://security.googleblog.com/2016/04/android-security-2015-annual-report.html)
 - [security.googleblog.com] [Android Security State of the Union 2014](https://security.googleblog.com/2015/04/android-security-state-of-union-2014.html)
 
@@ -30,7 +31,6 @@
 
 ## Security Blog Posts
 
-- [security.googleblog.com] [Diverse protections for a diverse ecosystem: Android Security 2016 Year in Review](https://security.googleblog.com/2017/03/diverse-protections-for-diverse.html) _22nd Mar 17_
 - [android-developers.blogspot.co.uk] [Silence speaks louder than words when finding malware](https://android-developers.googleblog.com/2017/01/findingmalware.html) _17th Jan 17_
 - [android-developers.blogspot.co.uk] [Keeping Android safe: Security enhancements in Nougat](http://android-developers.blogspot.co.uk/2016/09/security-enhancements-in-nougat.html) _6th Sept 16_
 - [android-developers.blogspot.co.uk] [Protecting Android with more Linux kernel defenses](https://android-developers.blogspot.co.uk/2016/07/protecting-android-with-more-linux.html) 27th July 16
