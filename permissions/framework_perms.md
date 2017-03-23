@@ -1,4 +1,4 @@
-#Framework Permissions
+# Framework Permissions
 
 ## Platform Provided Permissions
 
@@ -8,7 +8,7 @@
 
 See comprehensive official list [R.attr list](https://developer.android.com/reference/android/R.attr.html#protectionLevel). Notes below:
 
-###Apk definable:
+### Apk definable:
 
 - `Normal`
   - The system automatically grants this type of permission to a requesting application at installation
@@ -22,7 +22,7 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
 - `signatureOrSystem` 
   - See `signiture` and `system`
   
-###Other:
+### Other:
 
 - `System`
   - An app that resides in `system/app` (<4.4) or `system/priv-app/` (4.4+) [link](http://stackoverflow.com/a/20104400/236743) 
