@@ -1,12 +1,12 @@
 See [/api/keystore.md](/api/keystore.md) for API and usage information.
 
-#Hardware backed
+# Hardware backed
 
 Some devices have hardware backed keystore storage, which was introduced in 4.3 but not manditory (Nexus devices since Nexus 4 have had this afaik). 
 
 If a [CTS](http://static.googleusercontent.com/media/source.android.com/en//compatibility/android-cdd.pdf) compatable fingerprint functionality is available then
 
-##TEE
+## TEE
 
 > MUST have a hardware-backed keystore implementation, and perform the fingerprint matching in a Trusted Execution Environment (TEE) or on a chip with a secure channel to the TEE.
 
@@ -14,7 +14,7 @@ See the [hardware/TEE.md](/hardware/TEE.md) for more inc. vulns.
 
 _A [TEE](https://en.wikipedia.org/wiki/Trusted_execution_environment) (or [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module)) can change a `KeyStore` attack from **offline** (which would be against a software KeyStores data) to **online** (running on the device issuing commands to the hardware). This further prevents extraction of the private key and potentially throttling of access attempts (and therefore potential exploitation). See Androids [Trusty TEE](https://source.android.com/security/trusty/index.html)_
 
-##CTS
+## CTS
 
 As of M-6-23 hardware backed keystore is not a requirement, but is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571).
 
@@ -27,7 +27,7 @@ implement a TEE.
 
 _Taken from [6.0 CTS](http://static.googleusercontent.com/media/source.android.com/en//compatibility/android-cdd.pdf) doc section 9.11. Keys and Credentials_
 
-##API checking
+## API checking
 
 The presence of hardware backed key storage can be checked via the [`KeyChain.isBoundKeyAlgorithm`](http://developer.android.com/reference/android/security/KeyChain.html#isBoundKeyAlgorithm(java.lang.String)) method and for M-6-23+ [`KeyInfo.isInsideSecureHardware ()`](http://developer.android.com/reference/android/security/keystore/KeyInfo.html#isInsideSecureHardware()). See below
 
@@ -43,6 +43,6 @@ and
 
 The software blob can however be read on rooted devices. See [nelenkov/keystore-decryptor](https://github.com/nelenkov/keystore-decryptor).
 
-##Links
+## Links
 
 - [Nikolay Elenkov] [Keystore redesign in Android M](https://nelenkov.blogspot.co.uk/2015/06/keystore-redesign-in-android-m.html)
