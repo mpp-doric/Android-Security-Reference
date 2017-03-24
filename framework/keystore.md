@@ -166,7 +166,7 @@ CAs are also stored in the `KeyStore`. When added a custom CA device should prom
 
 ## Links
 
-- [`KeyStore`](http://developer.android.com/reference/java/security/KeyStore.html) class
+- [developer.android.com] [`KeyStore`](http://developer.android.com/reference/java/security/KeyStore.html) class
 - [developer.android.com] [Android Keystore System](http://developer.android.com/training/articles/keystore.html)
   - Shows list of Ciphers (& more) supported by the `KeyStore` 
 - Bugs / Vulns
@@ -175,5 +175,5 @@ CAs are also stored in the `KeyStore`. When added a custom CA device should prom
     - Use `setEncryptionRequired()` to mitigate 
   - 30/6/2016 [Extracting Qualcomm's KeyMaster Keys – Breaking Android Full Disk Encryption](https://news.ycombinator.com/item?id=12007923) 
     - Talks about FDE but as KEK is lifted likely to impact `KeyStore` keys also 
-
+- [Analysis of Secure Key Storage Solutions on Android](http://www.cs.kun.nl/~erikpoll/publications/AndroidSecureStorage.pdf)
 
