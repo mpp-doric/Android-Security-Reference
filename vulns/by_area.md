@@ -55,6 +55,7 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
     - System alert windows can only either consume or pass-on motion events based upon its `Window` bounds
       - A single overlay can have multiple `Windows`
     - [Android's Hover feature is a data HOOVER](http://www.theregister.co.uk/2016/11/08/androids_hover_/) _8th Nov 2016_
+    - [How Tapjacking Made a Return with Android Marshmallow — and Nobody Noticed](https://www.xda-developers.com/how-tapjacking-made-a-return-with-android-marshmallow-and-nobody-noticed/)
 - TCP
   - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TrustZone
