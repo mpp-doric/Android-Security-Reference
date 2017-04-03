@@ -97,7 +97,7 @@ Follows format of:
 - Vuln: Broken Crypto Implementation
   - Should use force [update CryptoProvider through GPlayServices](https://developer.android.com/training/articles/security-gms-provider.html) 
 
-#Vuln: Static Analysis 
+# Vuln: Static Analysis 
 
 Static and Dynamic Analysis can be used for a multitude of attacks. The main vulns are:
 
