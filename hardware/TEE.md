@@ -21,4 +21,16 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - [Extracting Qualcomm's KeyMaster Keys – Breaking Android Full Disk Encryption](https://news.ycombinator.com/item?id=12007923) _30/6/2016_
   - Shows how the KEK can be lifted from Android devices and claims not fixable i.e. a hardware issue. Talks about how this means FDE (full disk encryption) is not bound to the device hardware, which is bad as it could easily be brute-forced off-device. 
   - Likely to have implications to `KeyStore` use
+  
+# Usage
 
+- Verifying kernel integrity (TIMA)
+- Using the Hardware Credential Storage (used by "keystore", "dm-verity")
+- Secure Element Emulation for Mobile Payments
+- Implementing and managing Secure Boot
+- DRM (e.g. PlayReady)
+- Accessing platform hardware features (e.g. hardware entropy)
+
+# Links
+
+- [Getting arbitrary code execution in TrustZone's kernel from any context](http://bits-please.blogspot.co.uk/2015/03/getting-arbitrary-code-execution-in.html)
