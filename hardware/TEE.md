@@ -8,6 +8,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 # Varients
 
 - Qualcomm's Secure Execution Environment (QSEE)
+  - Found on Snapdragon SoCs
   - [Exploring Qualcomm's Secure Execution Environment](http://bits-please.blogspot.co.uk/2016/04/exploring-qualcomms-secure-execution.html)
 
 # Vulns
