@@ -34,3 +34,4 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 # Links
 
 - [Getting arbitrary code execution in TrustZone's kernel from any context](http://bits-please.blogspot.co.uk/2015/03/getting-arbitrary-code-execution-in.html)
+  - Has intro to TrustZone
