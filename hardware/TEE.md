@@ -5,14 +5,19 @@
 
 From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE implemented on top of that. Most likely uses a single master key-encryption key (KEK) which protects all user-generated keys but implementations may use KEK per key and / or hardware fused KEKs.
 
-# Players
+# Chip Security Foundations
 
 - [ARM TrustZone](https://www.arm.com/products/security-on-arm/trustzone)
   - TrustZone is hardware-based security built into SoCs by semiconductor chip designers who want to provide secure end points and a device root of trust. 
   - TrustZone technology provides a foundation for system-wide security and the creation of a trusted platform. Any part of the system can be designed to be part of the secure world, including debug, peripherals, interrupts and memory.
   - TrustZone technology within Cortex-A based application processors is commonly used to run trusted boot and a trusted OS to create a Trusted Execution Environment (TEE)
     - [Cortex-A](https://www.arm.com/products/processors/cortex-a) processors power many mobile devices. For example, the Pixel phone uses a [Kryo](https://en.wikipedia.org/wiki/Kryo_(microarchitecture)) microarchitecture/CPU (as part of the Snapdragon 821 processor SoC) using the ARMv8-A Instruction Set. 
-- Qualcomm's Secure Execution Environment (QSEE)
+  
+# TEEs
+
+## Built on top of TrustZone
+   
+- Qualcomm's Secure Execution Environment (`QSEE`)
   - Found on Snapdragon SoCs
   - [Exploring Qualcomm's Secure Execution Environment](http://bits-please.blogspot.co.uk/2016/04/exploring-qualcomms-secure-execution.html)
   - Interacts with the TrustZone Kernel via `qseecom` kernel driver
@@ -20,6 +25,12 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - AOSP TEE
   - Any TEE OS (not just Trusty) can be used for TEE implementations
   - Currently all Trusty applications are developed by a single party and packaged with the Trusty kernel image.
+- Giesecke & Devrient (G&D) `MobiCore`
+  - [Looks like](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE) it used to be Qualcomms TEE
+- Trustonic TEE 
+  - [Set up by ARM, Gemalto, G&D](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE)
+- Trusted Logic (Gemalto company) `Trusted Foundations`
+  - Unsure if used on Android
 
 
 # Vulns
