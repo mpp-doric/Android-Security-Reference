@@ -30,7 +30,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - Vuln in any Trustlet can allow the TEE to be compromised
   - (Re:Trusty) Although the Trusty OS enables the development of new applications, doing so must be exercised with extreme care; each new application increases the area of the trusted computing base (TCB) of the system. Trusted applications can access device secrets and can perform computations or data transformations using them.
   
-# Usage
+# Common Usage Scenarios
 
 - Verifying kernel integrity (TIMA)
 - Using the Hardware Credential Storage (used by "keystore", "dm-verity")
