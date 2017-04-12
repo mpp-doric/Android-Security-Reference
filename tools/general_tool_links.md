@@ -50,6 +50,7 @@
   - Ment to improve on Dex2Jar
 - Dex2Jar
 - [sonyxperiadev/ApkAnalyser](https://github.com/sonyxperiadev/ApkAnalyser)
+  - ApkAnalyser is a static, virtual analysis tool for examining and validating the development work of your Android app.
 
 ### Native
 
