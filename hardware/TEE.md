@@ -43,6 +43,9 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 
 - `Secure World` - code that runs in a "Trusted" secure enviroment. In contrast to `Normal World`.
 - `SMC` - Secure Monitor Calls
+  - Bridge between Normal and Secure World.
+- `SCM` - Secure Channel Manager
+  - Qualcomm Linux Kernal driver that interacts with QSEE via SMC
 
 # Links
 
