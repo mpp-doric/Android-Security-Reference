@@ -15,7 +15,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - Qualcomm's Secure Execution Environment (QSEE)
   - Found on Snapdragon SoCs
   - [Exploring Qualcomm's Secure Execution Environment](http://bits-please.blogspot.co.uk/2016/04/exploring-qualcomms-secure-execution.html)
-  - Interacts with the TrustZone Kernel
+  - Interacts with the TrustZone Kernel via `qseecom` kernel driver
 - [Trusty TEE](https://source.android.com/security/trusty/)
   - AOSP TEE
   - Any TEE OS (not just Trusty) can be used for TEE implementations
