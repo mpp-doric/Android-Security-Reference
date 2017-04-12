@@ -31,6 +31,10 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - DRM (e.g. PlayReady)
 - Accessing platform hardware features (e.g. hardware entropy)
 
+# Glossary 
+
+- `Secure World` - code that runs in a "Trusted" secure enviroment. In contrast to `Normal World`.
+
 # Links
 
 - Bits Please Series
