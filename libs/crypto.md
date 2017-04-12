@@ -8,6 +8,8 @@
   - Spongy Castle is the stock Bouncy Castle libraries with a couple of small changes to make it work on Android: 
 - [google/keyczar](https://github.com/google/keyczar) 
   - Open-source cryptographic toolkit
+- [martinwithaar/Encryptor4j](https://github.com/martinwithaar/Encryptor4j)
+  - Strong encryption for Java simplified
 
 ## Pw
 
