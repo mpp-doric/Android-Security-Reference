@@ -34,6 +34,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 # Glossary 
 
 - `Secure World` - code that runs in a "Trusted" secure enviroment. In contrast to `Normal World`.
+- `SMC` - Secure Monitor Calls
 
 # Links
 
@@ -41,7 +42,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - [1: Getting arbitrary code execution in TrustZone's kernel from any context](http://bits-please.blogspot.co.uk/2015/03/getting-arbitrary-code-execution-in.html)
     - Has intro to TrustZone
   - [2: Exploring Qualcomm's TrustZone implementation](http://bits-please.blogspot.co.uk/2015/08/exploring-qualcomms-trustzone.html)
-    - Talks about the SMC (`Secure Monitor Calls`) driver opcode calls for `normal-world` to call into `secure-world`
+    - Talks about the SMC driver opcode calls for `normal-world` to call into `secure-world`
   - [3: Exploring Qualcomm's Secure Execution Environment](http://bits-please.blogspot.co.uk/2016/04/exploring-qualcomms-secure-execution.html)
     - Talks about the Qualcomm's Secure Execution Environment (QSEE)
     - What trustlets are and how they are loaded
