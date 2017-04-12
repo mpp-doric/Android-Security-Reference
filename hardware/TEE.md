@@ -28,6 +28,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - Currently all Trusty applications are developed by a single party and packaged with the Trusty kernel image.
 - Giesecke & Devrient (G&D) `MobiCore`
   - [Looks like](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE) it used to be Qualcomms TEE
+  - [G&D CARTES 2012 Demo presentation](https://www.gi-de.com/gd_media/media/documents/complementary_material/events_1/04_STE_CARTES__Demo_Presentation.pdf)
 - Trustonic TEE 
   - [Set up by ARM, Gemalto, G&D](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE)
 - Trusted Logic (Gemalto company) `Trusted Foundations`
