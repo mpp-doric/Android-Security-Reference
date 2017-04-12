@@ -16,12 +16,19 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - Found on Snapdragon SoCs
   - [Exploring Qualcomm's Secure Execution Environment](http://bits-please.blogspot.co.uk/2016/04/exploring-qualcomms-secure-execution.html)
   - Interacts with the TrustZone Kernel
+- [Trusty TEE](https://source.android.com/security/trusty/)
+  - AOSP TEE
+  - Any TEE OS (not just Trusty) can be used for TEE implementations
+  - Currently all Trusty applications are developed by a single party and packaged with the Trusty kernel image.
+
 
 # Vulns
 
 - [Extracting Qualcomm's KeyMaster Keys – Breaking Android Full Disk Encryption](https://news.ycombinator.com/item?id=12007923) _30/6/2016_
   - Shows how the KEK can be lifted from Android devices and claims not fixable i.e. a hardware issue. Talks about how this means FDE (full disk encryption) is not bound to the device hardware, which is bad as it could easily be brute-forced off-device. 
   - Likely to have implications to `KeyStore` use
+- Vuln in any Trustlet can allow the TEE to be compromised
+  - (Re:Trusty) Although the Trusty OS enables the development of new applications, doing so must be exercised with extreme care; each new application increases the area of the trusted computing base (TCB) of the system. Trusted applications can access device secrets and can perform computations or data transformations using them.
   
 # Usage
 
