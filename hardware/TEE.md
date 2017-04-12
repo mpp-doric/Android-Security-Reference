@@ -46,3 +46,6 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - [3: Exploring Qualcomm's Secure Execution Environment](http://bits-please.blogspot.co.uk/2016/04/exploring-qualcomms-secure-execution.html)
     - Talks about the Qualcomm's Secure Execution Environment (QSEE)
     - What trustlets are and how they are loaded
+  - [4: QSEE privilege escalation vulnerability and exploit (CVE-2015-6639)](http://bits-please.blogspot.co.uk/2016/05/qsee-privilege-escalation-vulnerability.html)
+    - Talks about the Linux kernel device, called "qseecom", which enables user-space processes to perform a wide range of TrustZone-related operations, such as loading trustlets into the secure environment and communicating with loaded trustlets.
+    - Mainly focuses on the ability for exisiting system TrustLet vulns to expose the entire system memory to attack, even without a kernel vuln (focuses on Widevine DRM)
