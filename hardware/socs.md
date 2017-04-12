@@ -5,7 +5,8 @@ Here is a non-exhaustive list of some common Android Socs _(ARM unless noted oth
 - Saumsung [Exynos](https://en.wikipedia.org/wiki/Exynos)
 - Intel [Atom](https://en.wikipedia.org/wiki/Atom_(system_on_chip)) _(x86)_
 - Qualcomm [Snapdragon](https://en.wikipedia.org/wiki/Qualcomm_Snapdragon)
-- MediaTek Helio
+- MediaTek MP* 
+  - Newer MP* SoCs are named `Helio`
 - Huawei HiSilicon Kirin
 - Texas Instruments OMAP
 - ST-Ericsson NovaThor
