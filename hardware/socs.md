@@ -3,7 +3,7 @@ While not directly related to security, sometimes the SoC on a device can have s
 Here is a non-exhaustive list of some common Android Socs (ARM unless noted otherwise):
 
 - Saumsung [Exynos](https://en.wikipedia.org/wiki/Exynos)
-- Intel [Atom](https://en.wikipedia.org/wiki/Atom_(system_on_chip)) _x86_
+- Intel [Atom](https://en.wikipedia.org/wiki/Atom_(system_on_chip)) _(x86)_
 - Qualcomm [Snapdragon](https://en.wikipedia.org/wiki/Qualcomm_Snapdragon)
 - MediaTek Helio
 - Huawei HiSilicon Kirin
