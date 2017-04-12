@@ -81,3 +81,5 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
     - Talks about how the FDE key is a software key KDFed from a SHK (hardware key) and can therefore be lifted by an OEM signed Trustlet, or a vuln in an existing Trustlet
 - [Reflections on Trusting TrustZone](https://www.blackhat.com/docs/us-14/materials/us-14-Rosenberg-Reflections-on-Trusting-TrustZone.pdf)
 - [Trusted Execution Environments (and Android)](https://usmile.at/sites/default/files/androidsecuritysymposium/presentations2015/Ekberg_AndroidAndTrustedExecutionEnvironments.pdf)
+- [A software level analysis of TrustZone OS and Trustlets in Samsung Galaxy Phone](https://sensepost.com/blog/2013/a-software-level-analysis-of-trustzone-os-and-trustlets-in-samsung-galaxy-phone/)
+  - Talks about MobiCore, how to deploy Trustlets, and how to blackbox assess them
