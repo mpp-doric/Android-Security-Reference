@@ -62,3 +62,4 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
     - Mainly focuses on the ability for exisiting system TrustLet vulns to expose the entire system memory to attack, even without a kernel vuln (focuses on Widevine DRM)
   - [Extracting Qualcomm's KeyMaster Keys - Breaking Android Full Disk Encryption](http://bits-please.blogspot.co.uk/2016/06/extracting-qualcomms-keymaster-keys.html)
     - Talks about how the FDE key is a software key KDFed from a SHK (hardware key) and can therefore be lifted by an OEM signed Trustlet, or a vuln in an existing Trustlet
+  - [Reflections on Trusting TrustZone](https://www.blackhat.com/docs/us-14/materials/us-14-Rosenberg-Reflections-on-Trusting-TrustZone.pdf)
