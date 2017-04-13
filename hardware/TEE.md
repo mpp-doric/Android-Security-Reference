@@ -16,6 +16,8 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   
 ## TEEs
 
+- [What is a TEE?](https://www.globalplatform.org/mediaguidetee.asp)
+
 ### Built on top of TrustZone
    
 - Qualcomm's Secure Execution Environment (`QSEE`)
@@ -38,6 +40,12 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 ### Built on top of x86
 
 //TODO
+
+### Standards
+
+- [Global Platform](https://www.globalplatform.org/)
+  - GlobalPlatform is a non-profit, member driven association which defines and develops specifications to facilitate the secure deployment and management of multiple applications on secure chip technology. 
+  - [Members](https://www.globalplatform.org/membershipcurrentfull.asp)
 
 ### Trustlets
 
