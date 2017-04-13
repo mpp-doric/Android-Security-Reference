@@ -53,6 +53,10 @@ Trustlets and small applications which are intended to run in the TEE. The Trust
 
 The blog posts listed below talks about reversing Trustlets. They seem to be signed but not encrypted. Not sure if any SoCs support Trustlet encryption: seems like it would be a good way to prevent reversing!
 
+## Trusted UIs
+
+- [GlobalPlatform | Trusted User Interface Made Simple](https://www.globalplatform.org/mediaguidetrustedui.asp)
+
 ## Vulns
 
 - [Extracting Qualcomm's KeyMaster Keys – Breaking Android Full Disk Encryption](https://news.ycombinator.com/item?id=12007923) _30/6/2016_
