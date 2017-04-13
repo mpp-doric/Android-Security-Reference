@@ -1,11 +1,11 @@
-# General Info
+## General Info
 
 - See [Trusty TEE](https://source.android.com/security/trusty/index.html)
 - See [Mobile Platform Security: Trusted Execution Environments](http://asokan.org/asokan/Padova2014/tutorial-mobileplatsec.pdf)
 
 From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE implemented on top of that. Most likely uses a single master key-encryption key (KEK) which protects all user-generated keys but implementations may use KEK per key and / or hardware fused KEKs.
 
-# Chip Security Foundations
+## Chip Security Foundations
 
 - [ARM TrustZone](https://www.arm.com/products/security-on-arm/trustzone)
   - TrustZone is hardware-based security built into SoCs by semiconductor chip designers who want to provide secure end points and a device root of trust. 
@@ -14,9 +14,9 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
     - [Cortex-A](https://www.arm.com/products/processors/cortex-a) processors power many mobile devices. For example, the Pixel phone uses a [Kryo](https://en.wikipedia.org/wiki/Kryo_(microarchitecture)) microarchitecture/CPU (as part of the Snapdragon 821 processor SoC) using the ARMv8-A Instruction Set. 
 - x86 //TODO
   
-# TEEs
+## TEEs
 
-## Built on top of TrustZone
+### Built on top of TrustZone
    
 - Qualcomm's Secure Execution Environment (`QSEE`)
   - Found on Snapdragon SoCs
@@ -35,11 +35,17 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - Trusted Logic (Gemalto company) `Trusted Foundations`
   - Unsure if used on Android
 
-## Built on top of x86
+### Built on top of x86
 
 //TODO
 
-# Vulns
+### Trustlets
+
+Trustlets and small applications which are intended to run in the TEE. The TrustZone Kernel  can vary depending on the SoC but the TrustLet code should remain pretty much the same. 
+
+The blog posts listed below talks about reversing Trustlets. They seem to be signed but not encrypted. Not sure if any SoCs support Trustlet encryption: seems like it would be a good way to prevent reversing!
+
+## Vulns
 
 - [Extracting Qualcomm's KeyMaster Keys – Breaking Android Full Disk Encryption](https://news.ycombinator.com/item?id=12007923) _30/6/2016_
   - Shows how the KEK can be lifted from Android devices and claims not fixable i.e. a hardware issue. Talks about how this means FDE (full disk encryption) is not bound to the device hardware, which is bad as it could easily be brute-forced off-device. 
@@ -47,7 +53,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - Vuln in any Trustlet can allow the TEE to be compromised
   - (Re:Trusty) Although the Trusty OS enables the development of new applications, doing so must be exercised with extreme care; each new application increases the area of the trusted computing base (TCB) of the system. Trusted applications can access device secrets and can perform computations or data transformations using them.
   
-# Common Usage Scenarios
+## Common Usage Scenarios
 
 - Verifying kernel integrity (TIMA)
 - Using the Hardware Credential Storage (used by "keystore", "dm-verity")
@@ -56,7 +62,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - DRM (e.g. PlayReady)
 - Accessing platform hardware features (e.g. hardware entropy)
 
-# Glossary 
+## Glossary 
 
 - `Secure World` - code that runs in a "Trusted" secure enviroment. In contrast to `Normal World`.
 - `SMC` - Secure Monitor Calls
@@ -64,7 +70,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
 - `SCM` - Secure Channel Manager
   - Qualcomm Linux Kernal driver that interacts with QSEE via SMC
 
-# Links
+## Links
 
 - Bits Please Series
   - [1: Getting arbitrary code execution in TrustZone's kernel from any context](http://bits-please.blogspot.co.uk/2015/03/getting-arbitrary-code-execution-in.html)
