@@ -101,3 +101,4 @@ The blog posts listed below talks about reversing Trustlets. They seem to be sig
 - [Trusted Execution Environments (and Android)](https://usmile.at/sites/default/files/androidsecuritysymposium/presentations2015/Ekberg_AndroidAndTrustedExecutionEnvironments.pdf)
 - [A software level analysis of TrustZone OS and Trustlets in Samsung Galaxy Phone](https://sensepost.com/blog/2013/a-software-level-analysis-of-trustzone-os-and-trustlets-in-samsung-galaxy-phone/)
   - Talks about MobiCore, how to deploy Trustlets, and how to blackbox assess them
+- [ARM: Trusted Zone on Android\*](https://www.slideshare.net/lekaha/arm-trusted-zone-on-android)  
