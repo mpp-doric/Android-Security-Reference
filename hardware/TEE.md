@@ -39,6 +39,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - Used by [**MediaTek**](https://www.trustonic.com/news/company/mediatek-licences-trustonic-trusted-execution-environment/)
 - Trusted Logic (Gemalto company) `Trusted Foundations`
   - Unsure if used on Android
+- Kinibi (prev. Mobicore)
 
 ### Built on top of x86
 
