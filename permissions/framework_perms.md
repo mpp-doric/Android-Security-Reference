@@ -4,6 +4,12 @@
 
 [List of all platform provided permissions](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml)
 
+### Permissions Groups
+
+Permission grouping affect the way the permissions request is shown to the user. If a user has given permission for a permission in a group, other permissions in that group with be automatically granted to the requesting application.
+
+See a list of permission groups here [Permission groups](https://developer.android.com/guide/topics/permissions/requesting.html#perm-groups)
+
 ## android:protectionLevels
 
 See comprehensive official list [R.attr list](https://developer.android.com/reference/android/R.attr.html#protectionLevel). Notes below:
