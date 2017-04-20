@@ -1,3 +1,7 @@
+# TLDR
+
+Host card emulation involves the NFC controller talking to the Host-CPU (code that lives in a custom Android `Service`), as opposed to talking directly to an SE.
+
 # Links
 
 - [developer.android.com] [Host-based Card Emulation](https://developer.android.com/guide/topics/connectivity/nfc/hce.html)
