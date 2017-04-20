@@ -1,4 +1,4 @@
-#TLS Cert Pinning
+# TLS Cert Pinning
 
 There are various approaches to cert pinning on android. What they all have in common is that they validate the cert chain in use by looking for compile time known certs. Below is a TLDR of a simple approach as spoken about in the below links.
 
@@ -7,14 +7,14 @@ There are various approaches to cert pinning on android. What they all have in c
 - "...developers should not check pins against the list of certificates sent by the server. Instead, pins should be checked against the new, 'clean' chain that is created during SSL validation.". See Blog Posts below for more info, **lots of pinning implementations in the wild are broken**!
 - Easiest by far is to use Okhttp's `CertificatePinner` which accounts for ["cleaning the chain" (3.2.0)](https://github.com/square/okhttp/blob/parent-3.2.0/okhttp/src/main/java/okhttp3/CertificatePinner.java#L149). See [here](https://github.com/square/okhttp/wiki/HTTPS) for an example.
 
-#Changes in Nougat
+# Changes in Nougat
 
 Can pin via xml as shown 
 
 - [developer.android.com] [Network Security Configuration] (http://developer.android.com/preview/features/security-config.html#CertificatePinning).
 - [android-developers.blogspot] [Changes to Trusted Certificate Authorities in Android Nougat](http://android-developers.blogspot.co.uk/2016/07/changes-to-trusted-certificate.html) for more. 
 
-#Links
+# Links
 
 - Blog posts
   - [Paypal Engineering - Key Pinning in Mobile Applications](https://www.paypal-engineering.com/2015/10/14/key-pinning-in-mobile-applications/)
@@ -36,6 +36,6 @@ Can pin via xml as shown
   - [iSECPartners/android-ssl-bypass](https://github.com/iSECPartners/android-ssl-bypass)
   - [TrustKit-Android](https://github.com/datatheorem/TrustKit-Android)
 
-#Random Notes
+# Random Notes
 
 - When creating a `TrustManagerFactory` pass in null to get system `TrustManager`. Can pin while extending system TrustManager. 

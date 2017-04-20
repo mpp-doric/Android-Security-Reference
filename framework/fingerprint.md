@@ -1,8 +1,8 @@
-#Fingerprint Support
+# Fingerprint Support
 
 Added in M-6-23, AOSP now officially supports fingerprint hardware with an API also available to applications.
 
-##API
+## API
 
 - Official Examples
   - [FingerPrintDialog](http://developer.android.com/samples/FingerprintDialog/src/com.example.android.fingerprintdialog/MainActivity.html) 
@@ -25,7 +25,7 @@ Added in M-6-23, AOSP now officially supports fingerprint hardware with an API a
 - `USER_FINGERPRINT` permission needed
 	- [`normal`](http://developer.android.com/reference/android/Manifest.permission.html#USE_FINGERPRINT) level permission, therefore no need to request at runtime
 
-##`KeyStore` keys requiring auth
+## `KeyStore` keys requiring auth
 
 > User authentication authorizes a specific cryptographic operation associated with one key. In this mode, each 
 operation involving such a key must be individually authorized by the user. Currently, the only means of such authorization 
@@ -40,7 +40,7 @@ Losing Keys after new finger enrollment
 Taken from [`setUserAuthenticationRequired()`](http://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired(boolean)). More info about Key creation can be found in [keystore.md](/api/keystore.md).
 
 
-##AOSP CTS Requirements
+## AOSP CTS Requirements
 
 To have google apps & services OEM devices must pass the CTS. 
 [M-6-23 Compatability Doc](http://static.googleusercontent.com/media/source.android.com/en//compatibility/android-cdd.pdf)
@@ -49,7 +49,7 @@ To have google apps & services OEM devices must pass the CTS.
 
 > MUST have a false acceptance rate not higher than 0.002%.
 
-##3rd party OEM APIs
+## 3rd party OEM APIs
 
 Some OEMs have introduced their own fingerprint API/hardware outside of the CTS running Android versions pre M-6-23. These include:
 
@@ -62,7 +62,7 @@ Its unknown if each OEM will maintain their own API as well as AOSPs when runnin
 
 Some 3rd party (non-CTS?) implementations have been [shown to be vulnerable](http://www.engadget.com/2015/08/05/android-fingerprint-readers-may-be-easier-to-hack-than-touch-id/) however. 
 
-##Risk of using Biometric?
+## Risk of using Biometric?
 
 There are a few articles saying using biometric is very risky as if you lose your fingerprint data you cant change your 
 fingers. Using fingerprint on Android will never allow access to any print data directly and can only be directly be 
@@ -72,13 +72,13 @@ _and_ someone clones your fingerprint then this security measure is bypassed. In
 
 Official link [Fingerprint security on Nexus devices](https://support.google.com/nexus/answer/6300638?hl=en-GB)
 
-##Links
+## Links
 
 - [Official] [New in Android Samples: Authenticating to remote servers using the Fingerprint API](http://android-developers.blogspot.co.uk/2015/10/new-in-android-samples-authenticating.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+blogspot/hsDu+(Android+Developers+Blog))
   - Talks about `.setUserAuthenticationRequired(true)` 
 - [Android: Fingerprint Authentication Thoughts](https://medium.com/@manuelvicnt/android-fingerprint-authentication-f8c7c76c50f8#.htn7xmypk)
 
-##Libs 
+## Libs 
 
 - [square/Whorlwind](https://github.com/square/whorlwind)
   - A reactive wrapper around Android's fingerprint API that handles encrypting/decrypting sensitive data using a fingerprint.

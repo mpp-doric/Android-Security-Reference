@@ -1,17 +1,17 @@
-##Unlocking
+## Unlocking
 
 Unlock via `fastboot` for devices that allow it. See [Unlocking the bootloader](https://source.android.com/source/running.html#unlocking-the-bootloader).
 
 > In	some	cases,	like	most	devices	built	for	use	on	the	Verizon	network,	the	ability	for	a	user	to	
 unlock	the	bootloader	is	blocked	entirely.	(from [SamDunk][SamDunk])
 
-##Security implications of unlocking
+## Security implications of unlocking
 
 [Security risks of unlocking](http://android.stackexchange.com/questions/36830/whats-the-security-implication-of-having-an-unlocked-boot-loader).
 
 Check out the `Verified Boot` section of this guide as it talks about unlocked bootloaders disabling verified boot in 7.0, which means its even more important in some cases that we know the state of it.
 
-##Checking bootloader lock status
+## Checking bootloader lock status
 
 _EDIT: 20/10/16_ SafetyNet [now seems to check bootloader status](https://www.reddit.com/r/android/comments/587ss9/_/)! 
 
