@@ -7,6 +7,8 @@
     - `Phone` perms
   - `Ad Ids`
   - `SSAIDs`
+    - Root accessable only
+    - Regen on factory reset
   - `MAC` addresses
     - Not availible since 6.0
 - [Android Identifiers: How Android devices and their users are identified](https://android.izzysoft.de/articles/named/identifiers-1?lang=en)
