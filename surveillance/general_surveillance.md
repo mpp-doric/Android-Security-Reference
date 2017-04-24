@@ -19,3 +19,8 @@ This is spoken about in the Bruce Schneier book [Data and Goliath](https://www.s
 - [Why privacy is important, and having "nothing to hide" is irrelevant](https://robindoherty.com/2016/01/06/nothing-to-hide.html) 
   - Great read about why we should care about this stuff, even if we are doing nothing "wrong". 
 - [How free is our freedom of the press?](http://www.ted.com/talks/trevor_timm_how_free_is_our_freedom_of_the_press)
+
+## Surveillance Hacks
+
+- [A SURPRISE ENCOUNTER
+WITH A TELCO APT](https://conference.hitb.org/hitbsecconf2017ams/materials/D2T4%20-%20Emmanuel%20Gadaix%20-%20A%20Surprise%20Encounter%20With%20a%20Telco%20APT.pdf)
