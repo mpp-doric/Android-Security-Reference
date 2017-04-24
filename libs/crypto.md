@@ -1,5 +1,7 @@
 # Pure Crypto
 
+## Java
+
 - [tozny/java-aes-crypto](https://github.com/tozny/java-aes-crypto)
   - A simple Android class for encrypting & decrypting strings, aiming to avoid the classic mistakes that most such classes suffer from.
 - [Conceal](http://facebook.github.io/conceal/)
@@ -10,8 +12,12 @@
   - Open-source cryptographic toolkit
 - [martinwithaar/Encryptor4j](https://github.com/martinwithaar/Encryptor4j)
   - Strong encryption for Java simplified
+  
+## Native
+  
 - [guardianproject/openssl-android](https://github.com/guardianproject/openssl-android)
   - a version of the official Android openssl setup to build standalone for use in app http://guardianproject.info/
+- [ctz/cifra](https://github.com/ctz/cifra)
 
 ## Pw
 
