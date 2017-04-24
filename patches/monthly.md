@@ -8,7 +8,7 @@
 
 No single place for this data atm. [The Art of Defense](https://www.blackhat.com/docs/us-16/materials/us-16-Kralevich-The-Art-Of-Defense-How-Vulnerabilities-Help-Shape-Security-Features-And-Mitigations-In-Android.pdf) shows:
 
-![oem_support.png]
+![OEM support chart](oem_support.png)
 
 # Links
 
