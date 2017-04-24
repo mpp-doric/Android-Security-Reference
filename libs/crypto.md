@@ -18,6 +18,8 @@
 - [guardianproject/openssl-android](https://github.com/guardianproject/openssl-android)
   - a version of the official Android openssl setup to build standalone for use in app http://guardianproject.info/
 - [ctz/cifra](https://github.com/ctz/cifra)
+- [jedisct1/libsodium](https://github.com/jedisct1/libsodium)
+  - A modern and easy-to-use crypto library. https://libsodium.org
 
 ## Pw
 
