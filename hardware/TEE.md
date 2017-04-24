@@ -35,13 +35,13 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - [Looks like](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE) it used to be Qualcomms TEE
   - [G&D CARTES 2012 Demo presentation](https://www.gi-de.com/gd_media/media/documents/complementary_material/events_1/04_STE_CARTES__Demo_Presentation.pdf)
   - **Samung** have used in the past (and may still)
-- Trustonic TEE 
+- Trustonic TEE (`Kinibi` _prev. Mobicore?_)
   - [Set up by ARM, Gemalto, G&D](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE)
   - GlobalPlatform conforming
   - Used by [**MediaTek**](https://www.trustonic.com/news/company/mediatek-licences-trustonic-trusted-execution-environment/) and Samsungs **Eyxnos**
 - Trusted Logic (Gemalto company) `Trusted Foundations`
   - Unsure if used on Android
-- Kinibi (prev. Mobicore)
+
 
 ### Built on top of x86
 
