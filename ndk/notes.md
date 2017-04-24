@@ -9,4 +9,4 @@ From [Android changes for NDK developers
 
 # Standalone libs
 
-See (/libs/crypto.md)[/libs/crypto.md]
+See [/libs/crypto.md](/libs/crypto.md)
