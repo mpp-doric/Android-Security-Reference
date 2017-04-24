@@ -1,4 +1,4 @@
 - [hannob/hackercon](https://github.com/hannob/hackercon)
   - List of Free Software and IT Security related conferences
 - [HITB](http://www.hitb.org/)
-= [Black Hat](#)
+- [Black Hat](#)
