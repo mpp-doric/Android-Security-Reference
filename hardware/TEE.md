@@ -30,13 +30,15 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - AOSP TEE
   - Any TEE OS (not just Trusty) can be used for TEE implementations
   - Currently all Trusty applications are developed by a single party and packaged with the Trusty kernel image.
+  - NOT GlobalPlatform conforming
 - Giesecke & Devrient (G&D) `MobiCore`
   - [Looks like](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE) it used to be Qualcomms TEE
   - [G&D CARTES 2012 Demo presentation](https://www.gi-de.com/gd_media/media/documents/complementary_material/events_1/04_STE_CARTES__Demo_Presentation.pdf)
   - **Samung** have used in the past (and may still)
 - Trustonic TEE 
   - [Set up by ARM, Gemalto, G&D](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE)
-  - Used by [**MediaTek**](https://www.trustonic.com/news/company/mediatek-licences-trustonic-trusted-execution-environment/)
+  - GlobalPlatform conforming
+  - Used by [**MediaTek**](https://www.trustonic.com/news/company/mediatek-licences-trustonic-trusted-execution-environment/) and Samsungs **Eyxnos**
 - Trusted Logic (Gemalto company) `Trusted Foundations`
   - Unsure if used on Android
 - Kinibi (prev. Mobicore)
