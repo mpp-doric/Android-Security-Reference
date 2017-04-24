@@ -10,6 +10,8 @@
   - Open-source cryptographic toolkit
 - [martinwithaar/Encryptor4j](https://github.com/martinwithaar/Encryptor4j)
   - Strong encryption for Java simplified
+- [guardianproject/openssl-android](https://github.com/guardianproject/openssl-android)
+  - a version of the official Android openssl setup to build standalone for use in app http://guardianproject.info/
 
 ## Pw
 
