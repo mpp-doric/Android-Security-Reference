@@ -2,3 +2,5 @@
   - List of Free Software and IT Security related conferences
 - [HITB](http://www.hitb.org/)
 - [Black Hat](#)
+- [Android Security Symposium](https://usmile.at/symposium)
+  - 2015 & 2017 held in Vienna
