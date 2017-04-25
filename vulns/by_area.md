@@ -16,6 +16,8 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
 - Ashmem
   - [BitUnmap: Attacking Android Ashmem](https://googleprojectzero.blogspot.co.uk/2016/12/bitunmap-attacking-android-ashmem.html) _1st Dec 16_
     - Fixed in the Nov security update
+- AutoFill
+  - [FLAG_SECURE and Android O Autofill](https://commonsware.com/blog/2017/04/25/flag_secure-android-o-autofill.html) _25 Apr 17_
 - Binder
   - [racy getpidcon usage permits binder service replacement](https://bugs.chromium.org/p/project-zero/issues/detail?id=851) _15th June 2016_ 
 - Chipsets
