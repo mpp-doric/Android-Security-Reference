@@ -61,6 +61,9 @@ Follows format of:
 - Vuln: Accessability Layer
   - Info: Can listen to all keypresses, and have access to view hierarchy via Accessability API 
   - Check if any custom [AccessabilityService](http://developer.android.com/reference/android/accessibilityservice/AccessibilityService.html) active as has access to all View objects and
+- Vuln: Autofill
+  - Be aware that if using stock widgets then any Autofill services can ["read and modify"](https://commonsware.com/blog/2017/04/25/flag_secure-android-o-autofill.html) `FLAG_SECURE` Activities
+  - Linked SO post has multiple solutions
 
 # Vuln: Data Leakage
 
