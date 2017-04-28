@@ -2,3 +2,4 @@
 - [Android Security Internals: An In-Depth Guide to Android's Security Architecture](https://www.amazon.co.uk/Android-Security-Internals--Depth-Architecture/dp/1593275811/)
 - [Android Hacker's Handbook](https://www.amazon.co.uk/Android-Hackers-Handbook-Joshua-Drake/dp/111860864X/)
 - [Android Internals::A Confectioner's Cookbook](http://newandroidbook.com/21-Security.pdf) (Security chapter)
+- [Hack-with-Github/Free-Security-eBooks](https://github.com/Hack-with-Github/Free-Security-eBooks)
