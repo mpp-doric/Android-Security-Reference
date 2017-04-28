@@ -1,5 +1,7 @@
 The below can be used as a checklist for your application.
 
+_[OWASP/owasp-mstg](https://github.com/OWASP/owasp-mstg/) now has a (comprehensive) [checklist](https://github.com/OWASP/owasp-mstg/tree/master/Checklists) also_
+
 # Vuln Format
 
 Follows format of:
