@@ -30,6 +30,7 @@ Guide to terms like JCE & JSSE can be found [here](http://www.oracle.com/technet
   - L-5 `1.0.1h`
   - M-6 superceeded by BoringSSL 
 - Backs `SecureRandom` since [4.2](http://android-developers.blogspot.co.uk/2013/02/using-cryptography-to-store-credentials.html)
+- Compiling for Android [notes](https://scottyab.com/2017/05/how-to-build-and-integrate-openssl-into-your-android-ndk-project/)
 	
 #### BoringSSL
 
