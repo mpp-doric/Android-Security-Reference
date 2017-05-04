@@ -12,3 +12,4 @@
 ## Links
 
 - [Inside SafetyNet series](https://koz.io/inside-safetynet-3/)
+- [[Guide] Bypass Safetynet on MM with Custom ROM & Kernel](https://forum.xda-developers.com/galaxy-s6/general/guide-bypass-safetynet-mm-custom-rom-t3534709)
