@@ -7,7 +7,7 @@
     - Unless bootloader unlocked
       - No direct APIs to check bootloader status
       - [SafetyNet seems to now check bootloader lock status](https://www.reddit.com/r/Android/comments/587ss9/psa_android_safetynet_now_tripped_by_unlocking/)
-      - [Key Attestion](https://developer.android.com/training/articles/security-key-attestation.html) checks bootloader status with hardware crypto backing
+      - [Key Attestion](https://developer.android.com/training/articles/security-key-attestation.html) checks bootloader status with hardware-based certs [verify source] signing the response
 
 # Checking verified boot
 
