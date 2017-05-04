@@ -8,6 +8,7 @@ Its worth keeping in mind the nature of the below flaws, as they generally fall 
 This doc is for tacking vulns found with the Android platform
 
 - Accessability Layer
+  - [CLOAK & DAGGER: FROM TWO PERMISSIONS TO COMPLETE CONTROL OF THE UI FEEDBACK LOOP](https://www.blackhat.com/us-17/briefings/schedule/index.html#cloak--dagger-from-two-permission-to-complete-control-of-the-ui-feedback-loop-6210) _22 Jul 17_
   - [How Android Accessibility Services Can Be Used To Hack Your Phone](http://www.makeuseof.com/tag/android-accessibility-services-can-used-hack-phone/) _17th May 2016_
      - Up to M-6-23 only as takes advantage of gaps in system overlays
   - [On Malware Leveraging the Android
