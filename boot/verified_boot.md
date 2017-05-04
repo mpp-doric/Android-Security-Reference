@@ -40,6 +40,8 @@ _From [Android Security 2015 Year in Review](http://static.googleusercontent.com
 
 # Links
 
+- [Signing boot images for Android Verified Boot (AVB)
+](https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606)
 - [source.android.com] [https://source.android.com/security/verifiedboot/index.html](https://source.android.com/security/verifiedboot/index.html)
 - [Verified boot in Android 7.0 won't let your phone boot if the software is corrupt](http://www.androidpolice.com/2016/07/20/verified-boot-android-7-0-wont-let-phone-boot-software-corrupt/)
 - [Strictly Enforced Verified Boot with Error Correction](http://android-developers.blogspot.co.uk/2016/07/strictly-enforced-verified-boot-with.html)
