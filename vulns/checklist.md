@@ -85,17 +85,22 @@ Follows format of:
 - Vuln: Application Backups
     - `allowBackups=false` in manifest to disable auto backups 
 
-# Vuln: Rooted Device
+# Vuln: Device Insecure
 
-- Mitigation: Root detection
-	- looks for common root mgmt apps
-	- looks for apps commonly found on rooted devices
-	- looks for `su` binary by common names
-	- looks for busybox binary
-	- .props file check (`ro.secure`)
-	- check perms on `/system`
-	- check ROM keys
-	- 3rd party tools / libs
+- Vuln: Rooted Device
+	- Mitigation: Root detection
+		- looks for common root mgmt apps
+		- looks for apps commonly found on rooted devices
+		- looks for `su` binary by common names
+		- looks for busybox binary
+		- .props file check (`ro.secure`)
+		- check perms on `/system`
+		- check ROM keys
+		- 3rd party tools / libs
+	- Method:
+		- RootBeer
+		- SafetyNet
+		- Ensure Verified Boot via Key Attestion API `VerifiedBootState`
 
 # Vuln: Broken Crypto
 
