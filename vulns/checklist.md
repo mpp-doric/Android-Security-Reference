@@ -135,7 +135,7 @@ Could be on users device i.e. inspecting memory or attackers device to understan
 - Vuln: App Repackaging (Malware)
 	- Checksumming 
 	- Signing Key checking	
-          - Can do this manually or via Safety Net's `apkCertificateDigestSha256`
+		- Can do this manually or via Safety Net's `apkCertificateDigestSha256`
 
 # Vuln: Code execution
 
