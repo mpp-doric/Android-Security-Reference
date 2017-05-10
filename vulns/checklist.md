@@ -58,11 +58,13 @@ Follows format of:
 - Vuln: Screen Caches 
 	- Disable default OS view state saving via `android:saveEnabled` | `activity android:noHistory=true`
 - Vuln: Tap Jacking
-	- `View.setFilterTouchesWhenObscured(true)`
-	- `onFilterTouchEventForSecurity(MotionEvent)`
+	- Implement `View.setFilterTouchesWhenObscured(true)`
+	- Implement `onFilterTouchEventForSecurity(MotionEvent)`
+	- Check for `SYSTEM_ALERT_WINDOW`
 - Vuln: Accessability Layer
   - Info: Can listen to all keypresses, and have access to view hierarchy via Accessability API 
   - Check if any custom [AccessabilityService](http://developer.android.com/reference/android/accessibilityservice/AccessibilityService.html) active as has access to all View objects and
+  - Look for `BIND_ACCESSIBILITY_SERVICE` perms
 - Vuln: Assistant
   - Uses [same](https://developer.android.com/training/articles/assistant.html) data-src as the Accessability-Layer so follow mitigatations there if dealiing with sensitive data
 - Vuln: Autofill
