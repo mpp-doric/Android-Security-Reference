@@ -134,6 +134,8 @@ Could be on users device i.e. inspecting memory or attackers device to understan
 	- Vuln: Debuggable 
 		- Device. `.props` file check (`ro.debuggable`) 
 		- App. Check `debuggable` not set
+		- Attach forked child process debugger ([p54](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf))
+		- Spread anti-debugging checks across processes and JNI ([p50](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf))
   - Vuln: Mem dumps
     - Mitigate _debuggable_ as above
     - Ensure device does not dump .hprof on [`kill -10`](http://stackoverflow.com/questions/5640182/why-cant-i-get-an-hprof-dump-from-certain-devices)
