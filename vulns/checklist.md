@@ -32,6 +32,7 @@ Follows format of:
 # Vuln: Data In Transit
 
 - Vuln: Network
+	- _Example OkHttp [config](https://gist.github.com/doridori/63c399e3186bea31a7ded4a75443734e) to cover most of the below_
 	- Vuln: SSL downgrade to http
 		- Server should not serve over http 
 		- Okhttp `.followRedirects(false)`
