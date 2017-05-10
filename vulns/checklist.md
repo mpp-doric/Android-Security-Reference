@@ -103,6 +103,9 @@ Follows format of:
 		- RootBeer
 		- SafetyNet
 		- Ensure Verified Boot via Key Attestion API `VerifiedBootState`
+		- OEM Extensions
+			- Knox ISV
+		
 
 # Vuln: Broken Crypto
 
