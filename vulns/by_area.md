@@ -50,6 +50,8 @@ This doc is for tacking vulns found with the Android platform
   - `SYSTEM_ALERT_WINDOW`
     - System alert windows can only either consume or pass-on motion events based upon its `Window` bounds
       - A single overlay can have multiple `Windows`
+    - [SYSTEM_ALERT_WINDOW, Android O, and Disappointment](https://commonsware.com/blog/2017/05/11/system_alert_window-updates.html) _11th May 17_
+    - [Google Working on Fix for Android Permission Weakness](https://www.onthewire.io/google-working-on-fix-for-android-permission-weakness/)
     - [Android's Hover feature is a data HOOVER](http://www.theregister.co.uk/2016/11/08/androids_hover_/) _8th Nov 2016_
     - [How Tapjacking Made a Return with Android Marshmallow — and Nobody Noticed](https://www.xda-developers.com/how-tapjacking-made-a-return-with-android-marshmallow-and-nobody-noticed/)
   - `BIND_ACCESSIBILITY_SERVICE`
