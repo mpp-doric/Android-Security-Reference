@@ -39,6 +39,9 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
   - Superceeds `system`
 - `Preinstalled` 
   - An app that resides in `system/app` (4.4+)? [link](http://stackoverflow.com/questions/33481730/difference-between-preinstalled-and-privileged-protection-level)
+- `appop`
+  - Additional flag from base permission type: this permission is closely associated with an app op for controlling access.
+  - e.g. [`SYSTEM_ALERT_WINDOW`](https://commonsware.com/blog/2017/05/11/system_alert_window-updates.html)
 - [Various](https://developer.android.com/reference/android/R.attr.html#protectionLevel)
 
 ## Platform permission holder representation
