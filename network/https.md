@@ -23,4 +23,7 @@ From [Protecting against unintentional regressions to cleartext traffic in your 
 - `StrictMode.VmPolicy.Builder.detectCleartextNetwork()` in development
 - N+ `<network-security-config>` [developer.android.com] [Network Security Configuration] (http://developer.android.com/preview/features/security-config.html).
 
+# Supported CipherSuites
+
+- [User Agent Capabilities: Android 6.0](https://www.ssllabs.com/ssltest/viewClient.html?name=Android&version=6.0&key=129)
 
