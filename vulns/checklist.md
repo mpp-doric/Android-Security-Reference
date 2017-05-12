@@ -174,3 +174,7 @@ Below is a list of patches that need to be applied as to not expose officially p
 
 - Verify integrity TOFU style
   - [Gradle Witness](https://github.com/WhisperSystems/gradle-witness)
+  
+# Code quality issues
+
+- Set lint to enforcing!
