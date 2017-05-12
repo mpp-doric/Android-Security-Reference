@@ -1,10 +1,11 @@
 
 
-# Analysis Tools
-
-## Link Collections
+# Link Collections
 
 - [tanprathan/MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#security-libraries)
+
+
+# Static Analysis Tools
 
 ## System Call Analysis
 
@@ -21,16 +22,21 @@
 
 - [Veles](https://codisec.com/veles/)
 
-## Decompilers
+# Dynamic Analysis
 
-### Mixed (Android & Java)
+- [rednaga/native-shim](https://github.com/rednaga/native-shim)
+  - NDK / JNI 
+
+# Decompilers
+
+## Mixed (Android & Java)
 
 - [Decompilers online](http://www.javadecompilers.com/)
   - Online Android & Java decompilation
 - [Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
   - A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
 
-### Java
+## Java
 
 - [CFR](http://www.benf.org/other/cfr/)
   - CFR will decompile modern Java features - Java 8 lambdas (pre and post Java beta 103 changes), Java 7 String switches etc, but is written entirely in Java 6. (FAQ)
@@ -52,7 +58,7 @@
 - [sonyxperiadev/ApkAnalyser](https://github.com/sonyxperiadev/ApkAnalyser)
   - ApkAnalyser is a static, virtual analysis tool for examining and validating the development work of your Android app.
 
-### Native
+## Native
 
 - [IDA Pro](https://www.hex-rays.com/products/ida/)
   - ARM, MIPS, ELF, Java Bytecode (-> SMALI)
