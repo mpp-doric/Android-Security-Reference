@@ -17,6 +17,10 @@ The [Android CDD](https://source.android.com/compatibility/7.0/android-7.0-cdd.h
 
 Also see the SafetyNet link in the Platform Changes section above.
 
+# Setting / Checking
+
+Can by done via [SafetyNet](../framework/safetynet.md)
+
 # Overview
 
 "Make persistence across reboots extraordinarily difficult"
