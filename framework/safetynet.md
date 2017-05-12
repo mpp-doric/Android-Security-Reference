@@ -9,6 +9,13 @@
 - Bootloader lock status [(reddit)](https://www.reddit.com/r/android/comments/587ss9/_/)
 - And more (see above links)
 
+## Verified boot
+
+Undocumented at present but can:
+
+- `SafetyNet.SafetyNetApi.isVerifyAppsEnabled(context);`
+- `SafetyNet.SafetyNetApi.enableVerifyApps(googleApiClient);`
+
 ## Links
 
 - [Inside SafetyNet series](https://koz.io/inside-safetynet-3/)
