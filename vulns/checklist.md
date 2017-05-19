@@ -133,8 +133,13 @@ Could be on users device i.e. inspecting memory or attackers device to understan
 
 - Vuln: Dynamic MITA (Man In The App) 
 	- Vuln: Debuggable 
-		- Device. `.props` file check (`ro.debuggable`) 
-		- App. Check `debuggable` not set
+		- Device. `.props` file check (`ro.debuggable`), which is true for official dev devices and some ROMs
+		- App. Check [`android:debuggable`](https://developer.android.com/guide/topics/manifest/application-element.html#debug) not set
+		  - Can be done with `getApplcationInfo().flags & ApplicationInfo.FLAG_DEBUGGABLE`
+		- Check if `Developer Mode` enabled
+		  - `Settings.Secure.getInt(this.getContentResolver(), Settings.Global.DEVELOPMENT_SETTINGS_ENABLED , 0);`
+		- Check if `ADB` is enabled
+		  - `Settings.Secure.getInt(context.getContentResolver(), Settings.Secure.ADB_ENABLED, 0);`
 		- Attach forked child process debugger ([p54](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf))
 		- Spread anti-debugging checks across processes and JNI ([p50](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf))
   - Vuln: Mem dumps
