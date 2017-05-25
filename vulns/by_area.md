@@ -55,12 +55,14 @@ This doc is for tacking vulns found with the Android platform
     - [Android's Hover feature is a data HOOVER](http://www.theregister.co.uk/2016/11/08/androids_hover_/) _8th Nov 2016_
     - [How Tapjacking Made a Return with Android Marshmallow — and Nobody Noticed](https://www.xda-developers.com/how-tapjacking-made-a-return-with-android-marshmallow-and-nobody-noticed/)
   - `BIND_ACCESSIBILITY_SERVICE`
-    - [CLOAK & DAGGER: FROM TWO PERMISSIONS TO COMPLETE CONTROL OF THE UI FEEDBACK LOOP](https://www.blackhat.com/us-17/briefings/schedule/index.html#cloak--dagger-from-two-permission-to-complete-control-of-the-ui-feedback-loop-6210) _22 Jul 17_
     - [How Android Accessibility Services Can Be Used To Hack Your Phone](http://www.makeuseof.com/tag/android-accessibility-services-can-used-hack-phone/) _17th May 2016_
       - Up to M-6-23 only as takes advantage of gaps in system overlays
     - [On Malware Leveraging the Android
 Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf) _~2013_
       - Uses Accessibility Framework to detect launcher icon presses and will show fake application instead. 
+  - `Both`
+      - [CLOAK & DAGGER: FROM TWO PERMISSIONS TO COMPLETE CONTROL OF THE UI FEEDBACK LOOP](https://www.blackhat.com/us-17/briefings/schedule/index.html#cloak--dagger-from-two-permission-to-complete-control-of-the-ui-feedback-loop-6210) _22 Jul 17_
+        - [cloak-and-dagger.org](http://cloak-and-dagger.org/)
 - TCP
   - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TrustZone
