@@ -72,6 +72,7 @@ The blog posts listed below talks about reversing Trustlets. They seem to be sig
   - Likely to have implications to `KeyStore` use
 - Vuln in any Trustlet can allow the TEE to be compromised
   - (Re:Trusty) Although the Trusty OS enables the development of new applications, doing so must be exercised with extreme care; each new application increases the area of the trusted computing base (TCB) of the system. Trusted applications can access device secrets and can perform computations or data transformations using them.
+- [INSPECTING DATA FROM THE SAFETY OF YOUR TRUSTED EXECUTION ENVIRONMENT](https://www.blackhat.com/docs/ldn-15/materials/london-15-Williams-Inspecting-Data-From-The-Safety-Of-Your-Trusted-Execution-Environment.pdf)
   
 ## Common Usage Scenarios
 
