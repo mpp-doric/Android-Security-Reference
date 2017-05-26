@@ -46,6 +46,8 @@ This doc is for tacking vulns found with the Android platform
 - OpenSSL
   - [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed)
     - Android 4.1.1 only as mentioned in link
+- Samsung
+  - [Remote Code Execution as System User on Samsung Phones](https://www.nowsecure.com/blog/2015/06/16/remote-code-execution-as-system-user-on-samsung-phones/)
 - TapJacking
   - `SYSTEM_ALERT_WINDOW`
     - System alert windows can only either consume or pass-on motion events based upon its `Window` bounds
