@@ -35,6 +35,8 @@ Can pin via xml as shown
     - Has manual inclusion of system TrustManager 
   - [iSECPartners/android-ssl-bypass](https://github.com/iSECPartners/android-ssl-bypass)
   - [TrustKit-Android](https://github.com/datatheorem/TrustKit-Android)
+- Talks
+  - [Pinning: Not as simple as it sounds](https://usmile.at/symposium/2017/program/kozyrakis)
 
 # Random Notes
 
