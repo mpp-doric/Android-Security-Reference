@@ -15,7 +15,7 @@ Added in M-6-23, AOSP now officially supports fingerprint hardware with an API a
     - Check if supported
     - Check if fingers enrolled
     - Requesting Auth 
-  - [`FingerPrintManager.authenticate`](http://developer.android.com/reference/android/hardware/fingerprint/FingerprintManager.html#authenticate(android.hardware.fingerprint.FingerprintManager.CryptoObject, android.os.CancellationSignal, int, android.hardware.fingerprint.FingerprintManager.AuthenticationCallback, android.os.Handler))
+  - [`FingerPrintManager.authenticate`](http://developer.android.com/reference/android/hardware/fingerprint/FingerprintManager.html#authenticate)
     - Warms up the sensor and will make callback once fingerprint made 
     - Can show own dialog. Recommended to use official finger icon
     - Crypto keys should be valid during lifecycle of succesful callback
