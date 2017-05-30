@@ -4,6 +4,7 @@ Added in M-6-23, AOSP now officially supports fingerprint hardware with an API a
 
 ## API
 
+- [Android 6.0 APIs - Fingerprint Authentication](https://developer.android.com/about/versions/marshmallow/android-6.0.html#fingerprint-authentication)
 - Official Examples
   - [FingerPrintDialog](http://developer.android.com/samples/FingerprintDialog/src/com.example.android.fingerprintdialog/MainActivity.html) 
     - This sample demonstrates how you can use registered fingerprints to authenticate the user before proceeding some actions such as purchasing an item.
