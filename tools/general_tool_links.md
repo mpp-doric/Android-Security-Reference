@@ -21,6 +21,7 @@
 ## Hex
 
 - [Veles](https://codisec.com/veles/)
+- [https://twitter.com/i/moments/841916822014332930](https://twitter.com/i/moments/841916822014332930)
 
 # Dynamic Analysis
 
