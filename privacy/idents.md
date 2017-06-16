@@ -5,7 +5,7 @@
     - Server can use to detect app live-ness
   - `IMEI/MEIDs` and `IMSIs`
     - `Phone` perms
-    - APIs changed in O preview (method renaming)
+    - [TelephonyManager](https://developer.android.com/reference/android/telephony/TelephonyManager.html) APIs changed in O preview (method renaming)
   - `Ad Ids`
   - `SSAIDs`
     - Root accessable only
