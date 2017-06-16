@@ -17,3 +17,8 @@
   - By which permission can I tell that an app has access to a given identifier?
   - Possible protective measures
 - [What is Instance ID](https://developers.google.com/instance-id/)
+- Google Services Framework ID
+  - [SO post to obtain](https://stackoverflow.com/questions/22743087/gsf-id-key-google-service-framework-id-as-android-device-unique-identifier)
+  - [What’s the difference between the GSF ID and the Android ID?](http://blog.onyxbits.de/whats-the-difference-between-the-gsf-id-and-the-android-id-208/)
+  - Not really documented
+- [developer.android.com] [Identifying App Installations](https://android-developers.googleblog.com/2011/03/identifying-app-installations.html)
