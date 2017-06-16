@@ -3,8 +3,9 @@
     - App Generated
   - [`InstanceIds`](https://developers.google.com/instance-id/)
     - Server can use to detect app live-ness
-  - `IMEIs` and `IMSIs`
+  - `IMEI/MEIDs` and `IMSIs`
     - `Phone` perms
+    - APIs changed in O preview (method renaming)
   - `Ad Ids`
   - `SSAIDs`
     - Root accessable only
@@ -15,3 +16,4 @@
   - Which identifiers exist, and what´s their respective purpose?
   - By which permission can I tell that an app has access to a given identifier?
   - Possible protective measures
+- [What is Instance ID](https://developers.google.com/instance-id/)
