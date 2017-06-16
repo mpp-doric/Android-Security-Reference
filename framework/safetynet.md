@@ -1,8 +1,14 @@
 # SafetyNet
 
+- SafetyNet Attestation API
+- SafetyNet Verify Apps API
+- SafetyNet reCAPTCHA API
+- SafetyNet Safe Browsing API
+
+## What does it do?
+
 - [developer.android.com] [Checking Device Compatibility with SafetyNet](https://developer.android.com/training/safetynet/index.html)
-  - "The service provides an API your app can use to analyze the device where it is installed. The API uses software and hardware information on the device where your app is installed to create a profile of that device. The service then attempts to match it to a list of device models that have passed Android compatibility testing. This check can help you decide if the device is configured in a way that is consistent with the Android platform specifications and has the capabilities to run your app."
-- [xda-developers.com] [Google Security Engineer Explains Issues With Root and Android Pay in the XDA Forums](http://www.xda-developers.com/google-security-engineer-explains-issues-with-root-and-android-pay-in-the-xda-forums/) 
+  - (about core function) "The service provides an API your app can use to analyze the device where it is installed. The API uses software and hardware information on the device where your app is installed to create a profile of that device. The service then attempts to match it to a list of device models that have passed Android compatibility testing. This check can help you decide if the device is configured in a way that is consistent with the Android platform specifications and has the capabilities to run your app."
 
 ## What does it look for
 
@@ -17,6 +23,8 @@ Undocumented at present but can:
 - `SafetyNet.SafetyNetApi.enableVerifyApps(googleApiClient);`
 
 ## Links
+
+- [xda-developers.com] [Google Security Engineer Explains Issues With Root and Android Pay in the XDA Forums](http://www.xda-developers.com/google-security-engineer-explains-issues-with-root-and-android-pay-in-the-xda-forums/) 
 
 - [Inside SafetyNet series](https://koz.io/inside-safetynet-3/)
 - [[Guide] Bypass Safetynet on MM with Custom ROM & Kernel](https://forum.xda-developers.com/galaxy-s6/general/guide-bypass-safetynet-mm-custom-rom-t3534709)
