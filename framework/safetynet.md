@@ -31,3 +31,4 @@ Undocumented at present but can:
 - [xda-developers.com] [Google Security Engineer Explains Issues With Root and Android Pay in the XDA Forums](http://www.xda-developers.com/google-security-engineer-explains-issues-with-root-and-android-pay-in-the-xda-forums/) 
 - [Inside SafetyNet series](https://koz.io/inside-safetynet-3/)
 - [[Guide] Bypass Safetynet on MM with Custom ROM & Kernel](https://forum.xda-developers.com/galaxy-s6/general/guide-bypass-safetynet-mm-custom-rom-t3534709)
+- [API docs](https://developers.google.com/android/reference/com/google/android/gms/safetynet/SafetyNetApi)
