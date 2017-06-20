@@ -7,11 +7,6 @@
 
 # Static Analysis Tools
 
-## System Call Analysis
-
-- [FЯIDA](http://www.frida.re/)
-  - Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android. 
-
 ## VMs
 
 - [DroidScope](https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yan)
@@ -27,7 +22,11 @@
 
 - [rednaga/native-shim](https://github.com/rednaga/native-shim)
   - NDK / JNI 
-
+- [FЯIDA](http://www.frida.re/)
+  - Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android. 
+  - Can do system call analysis
+  - [Using Frida on Android without root](https://koz.io/using-frida-on-android-without-root/)
+  
 # Decompilers
 
 ## Mixed (Android & Java)
