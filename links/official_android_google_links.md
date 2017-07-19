@@ -31,6 +31,7 @@
 
 ## Security Blog Posts
 
+- [android-developers.blogspot.co.uk] [Shut the HAL Up](https://android-developers.googleblog.com/2017/07/shut-hal-up.html) _jul 18_
 - [android-developers.blogspot.co.uk] [An investigation of Chrysaor Malware on Android](https://android-developers.googleblog.com/2017/04/an-investigation-of-chrysaor-malware-on.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+blogspot/hsDu+(Android+Developers+Blog)) _3 Apr 17_
 - [android-developers.blogspot.co.uk] [Detecting and eliminating Chamois, a fraud botnet on Android](https://android-developers.googleblog.com/2017/03/detecting-and-eliminating-chamois-fraud.html) _13 Mar 17_
 - [android-developers.blogspot.co.uk] [Silence speaks louder than words when finding malware](https://android-developers.googleblog.com/2017/01/findingmalware.html) _17th Jan 17_
