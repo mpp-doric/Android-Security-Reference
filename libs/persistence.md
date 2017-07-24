@@ -10,3 +10,7 @@
   - A cryptography library and a SharedPreferences wrapper for Android that encrypts the content with 256 bit AES encryption. The Encryption key is securely stored in device's KeyStore. 
 - [Ufkoku/CipherSharedPrefs](https://github.com/Ufkoku/CipherSharedPrefs/blob/master/README.md)
   - Contains its own AES impl
+- [R2D2](https://github.com/moldedbits/r2d2)
+  - R2D2 Android uses Android Keystore to store passwords and other sensitive information for different API versions in an encrypted form.
+
+
