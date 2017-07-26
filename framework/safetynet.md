@@ -25,6 +25,7 @@ Undocumented at present but can:
 ## Google Play device exclusion rules
 
 - [Netflix was just the start: Google Play Console lets developers exclude app availability for devices that don't pass SafetyNet](http://www.androidpolice.com/2017/05/18/netflix-just-start-google-play-console-lets-developers-exclude-app-availability-devices-dont-pass-safetynet/)
+- [Netflix's SafetyNet Exclusion is Actually a New Feature in the Google Play Console](https://www.xda-developers.com/netflixs-safetynet-exclusion-is-actually-a-new-feature-in-the-google-play-console/)
 
 ## Links
 
