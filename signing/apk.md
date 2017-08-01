@@ -7,3 +7,7 @@
 - Seems not vert well supported anecdotally
 - [Android code signing](https://nelenkov.blogspot.co.uk/2013/04/android-code-signing.html)
   - Multiple signatures can be performed, resulting in multiple .SF and .RSA/DSA/EC files in the JAR file's META-INF/ directory.
+
+# Signing key strength
+
+- [How to Migrate Your Android App’s Signing Key](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/)
