@@ -14,5 +14,5 @@
 
 # Inspecting signing info
 
-- [Checkey](https://github.com/guardianproject/checkey)
+- [guardianproject/checkey](https://github.com/guardianproject/checkey)
   - Releated to interesting F-Droid [reproducable builds](https://f-droid.org/wiki/page/Deterministic,_Reproducible_Builds) project
