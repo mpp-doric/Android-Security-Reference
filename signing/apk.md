@@ -11,3 +11,8 @@
 # Signing key strength
 
 - [How to Migrate Your Android App’s Signing Key](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/)
+
+# Inspecting signing info
+
+- [Checkey](https://github.com/guardianproject/checkey)
+  - Releated to interesting F-Droid [reproducable builds](https://f-droid.org/wiki/page/Deterministic,_Reproducible_Builds) project
