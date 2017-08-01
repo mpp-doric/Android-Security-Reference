@@ -16,3 +16,4 @@
 
 - [guardianproject/checkey](https://github.com/guardianproject/checkey)
   - Releated to interesting F-Droid [reproducable builds](https://f-droid.org/wiki/page/Deterministic,_Reproducible_Builds) project
+    - [blog post](https://guardianproject.info/2015/02/11/complete-reproducible-app-distribution-achieved/)
