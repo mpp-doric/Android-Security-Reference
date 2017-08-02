@@ -7,8 +7,9 @@
     - `Phone` perms
     - [TelephonyManager](https://developer.android.com/reference/android/telephony/TelephonyManager.html) APIs changed in O preview (method renaming)
   - `Ad Ids`
-  - `SSAIDs`
-    - Root accessable only
+  - `SSAIDs` aka `Settings.Secure.ANDROID_ID`
+    - From android O [unique](https://android-developers.googleblog.com/2017/04/changes-to-device-identifiers-in.html) for each packagename / signing cert combo
+    - Root accessable only via database
     - Regen on factory reset
   - `MAC` addresses
     - Not availible since 6.0
