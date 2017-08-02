@@ -13,9 +13,13 @@
   - `MAC` addresses
     - Not availible since 6.0
 - [Android Identifiers: How Android devices and their users are identified](https://android.izzysoft.de/articles/named/identifiers-1?lang=en)
-  - Which identifiers exist, and what´s their respective purpose?
-  - By which permission can I tell that an app has access to a given identifier?
-  - Possible protective measures
+  - Talks about
+    - Which identifiers exist, and what´s their respective purpose?
+    - By which permission can I tell that an app has access to a given identifier?
+    - Possible protective measures
+  - Adds to the above:
+    - [Build.Serial](https://developer.android.com/reference/android/os/Build.html#getSerial())
+      - Since Android 2.3 (“Gingerbread”) this is available via android.os.Build.SERIAL. Devices without telephony are required to report a unique device ID here; some phones may do so also. [android blog](https://android-developers.googleblog.com/2011/03/identifying-app-installations.html)    
 - [What is Instance ID](https://developers.google.com/instance-id/)
 - Google Services Framework ID
   - [SO post to obtain](https://stackoverflow.com/questions/22743087/gsf-id-key-google-service-framework-id-as-android-device-unique-identifier)
