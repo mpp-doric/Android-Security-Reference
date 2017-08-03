@@ -7,6 +7,8 @@
 
 # Static Analysis Tools
 
+- [OWASP list](https://www.owasp.org/index.php/Static_Code_Analysis)
+
 ## VMs
 
 - [DroidScope](https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yan)
