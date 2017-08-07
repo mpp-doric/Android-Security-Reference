@@ -32,3 +32,6 @@ partition.		There	are	likely	many	other	methods,	but	the	concept	is	the	same:	on
 unlock	status	to	be	changed	via	a	controlled	and	deliberate	method.	
 
   [SamDunk]: http://theroot.ninja/disclosures/SAMDUNK_1.0-03262016.pdf
+
+## Updating
+
