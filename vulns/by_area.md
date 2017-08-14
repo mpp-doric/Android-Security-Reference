@@ -30,6 +30,8 @@ This doc is for tacking vulns found with the Android platform
 - Intents
   - [Surreptitious Sharing on Android](https://www.ibr.cs.tu-bs.de/news/ibr/surreptitious-sharing-2016-04-04.xml) _4th April 2016_
     - Accessing app private data via intents
+- Hardware 
+  - [Shattered Trust: When Replacement Smartphone Components Attack](https://www.usenix.org/conference/woot17/workshop-program/presentation/shwartz) _Aug 17_
 - Kernel 
   - [Dirty COW explained: Get a moooo-ve on and patch Linux root hole](http://www.theregister.co.uk/2016/10/21/linux_privilege_escalation_hole/) _21 Oct 16_
     - [What is the Dirty COW vulnerability and how does it impact mobile security?](https://www.nowsecure.com/blog/2016/10/21/dirty-cow-vulnerability-mobile-impact/)
