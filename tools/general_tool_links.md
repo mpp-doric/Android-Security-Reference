@@ -28,6 +28,8 @@
   - Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android. 
   - Can do system call analysis
   - [Using Frida on Android without root](https://koz.io/using-frida-on-android-without-root/)
+  - [sensepost/objection](https://github.com/sensepost/objection)
+    - runtime mobile exploration
   
 # Decompilers
 
