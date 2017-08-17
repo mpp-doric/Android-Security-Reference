@@ -1,0 +1,1 @@
+- [Google Identity Platform](https://developers.google.com/identity/choose-auth)
