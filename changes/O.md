@@ -1,3 +1,10 @@
+# Key Features
+
+- [Project Treble](https://source.android.com/devices/architecture/treble)
+
+# Assorted notes
+
+
 From [Hidden Gems of Android O](https://medium.com/@ianhlake/hidden-gems-of-android-o-7def63136629)
 
 - "Recovering from SecurityExceptions" via [`RecoverableSecurityException`](https://developer.android.com/reference/android/app/RecoverableSecurityException.html)
