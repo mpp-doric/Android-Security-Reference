@@ -15,7 +15,7 @@
 - Bootloader lock status [(reddit)](https://www.reddit.com/r/android/comments/587ss9/_/)
 - And more (see above links)
 
-## Verified boot checking
+## Verified Apps checking
 
 Undocumented at present but can:
 
