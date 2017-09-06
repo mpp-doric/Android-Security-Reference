@@ -61,6 +61,7 @@
 - Dex2Jar
 - [sonyxperiadev/ApkAnalyser](https://github.com/sonyxperiadev/ApkAnalyser)
   - ApkAnalyser is a static, virtual analysis tool for examining and validating the development work of your Android app.
+- [Android Studios ApkAnalyser](https://developer.android.com/studio/build/apk-analyzer.html)
 - [CalebFenton/apkfile](https://github.com/CalebFenton/apkfile)
   - Android app analysis and feature extraction library
 
