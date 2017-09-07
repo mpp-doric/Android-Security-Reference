@@ -14,3 +14,4 @@ Here is a non-exhaustive list of some common Android Socs _(ARM unless noted oth
 - Huawei HiSilicon Kirin
 - Texas Instruments OMAP
 - ST-Ericsson NovaThor
+- NVidea Tegra
