@@ -14,6 +14,8 @@ This doc is for tacking vulns found with the Android platform
   - [FLAG_SECURE and Android O Autofill](https://commonsware.com/blog/2017/04/25/flag_secure-android-o-autofill.html) _25 Apr 17_
 - Binder
   - [racy getpidcon usage permits binder service replacement](https://bugs.chromium.org/p/project-zero/issues/detail?id=851) _15th June 2016_ 
+- Bootloader
+  - [Mobile Bootloaders From Top Manufacturers Found Vulnerable to Persistent Threats](http://thehackernews.com/2017/09/hacking-android-bootloader-unlock.html) _Sept 17_
 - Chipsets
   - [QuadRooter: New Android Vulnerabilities in Over 900 Million Devices](http://blog.checkpoint.com/2016/08/07/quadrooter/) _7th August 16_
     - [Full details](https://www.checkpoint.com/downloads/resources/quadRooter-vulnerability-research-report.pdf)
