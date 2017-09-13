@@ -14,6 +14,9 @@ This doc is for tacking vulns found with the Android platform
   - [FLAG_SECURE and Android O Autofill](https://commonsware.com/blog/2017/04/25/flag_secure-android-o-autofill.html) _25 Apr 17_
 - Binder
   - [racy getpidcon usage permits binder service replacement](https://bugs.chromium.org/p/project-zero/issues/detail?id=851) _15th June 2016_ 
+- Bluetooth
+  - [Billions of devices imperiled by new clickless Bluetooth attack](https://arstechnica.com/information-technology/2017/09/bluetooth-bugs-open-billions-of-devices-to-attacks-no-clicking-required/) _13 Sept 17_
+    - [Whitepaper](https://www.armis.com/blueborne/)
 - Bootloader
   - [Mobile Bootloaders From Top Manufacturers Found Vulnerable to Persistent Threats](http://thehackernews.com/2017/09/hacking-android-bootloader-unlock.html) _Sept 17_
 - Chipsets
