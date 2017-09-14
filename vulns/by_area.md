@@ -63,8 +63,8 @@ This doc is for tacking vulns found with the Android platform
     - [Google Working on Fix for Android Permission Weakness](https://www.onthewire.io/google-working-on-fix-for-android-permission-weakness/)
     - [Android's Hover feature is a data HOOVER](http://www.theregister.co.uk/2016/11/08/androids_hover_/) _8th Nov 2016_
     - [How Tapjacking Made a Return with Android Marshmallow — and Nobody Noticed](https://www.xda-developers.com/how-tapjacking-made-a-return-with-android-marshmallow-and-nobody-noticed/)
-  - [‘SAW’-ing through the UI: Android overlay malware and the System Alert Window permission explained](https://www.nowsecure.com/blog/2017/05/25/android-overlay-malware-system-alert-window-permission/)
-  - Restricted touch functionality in 4.0 [SO](https://stackoverflow.com/a/9462190/236743)
+    - [‘SAW’-ing through the UI: Android overlay malware and the System Alert Window permission explained](https://www.nowsecure.com/blog/2017/05/25/android-overlay-malware-system-alert-window-permission/)
+    - Restricted touch functionality in 4.0 [SO](https://stackoverflow.com/a/9462190/236743)
   - `BIND_ACCESSIBILITY_SERVICE`
     - [How Android Accessibility Services Can Be Used To Hack Your Phone](http://www.makeuseof.com/tag/android-accessibility-services-can-used-hack-phone/) _17th May 2016_
       - Up to M-6-23 only as takes advantage of gaps in system overlays
