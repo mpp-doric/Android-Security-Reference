@@ -77,3 +77,13 @@ com.example.android.apis 10050 0 /data/data/com.example.android.apis default 300
 
 For info on the GIDs at the end look at [Kernel Permissions](kernel_perms.md)
 
+# Permission Requesting
+
+## 6 
+
+[Overlays not allowed][https://i.stack.imgur.com/BEGzf.png]
+
+## 7 
+
+SYSTEM_ALERT_OVERLAY is auto removed when any permissions dialog is shown
+
