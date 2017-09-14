@@ -73,6 +73,9 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
   - `Both`
       - [CLOAK & DAGGER: FROM TWO PERMISSIONS TO COMPLETE CONTROL OF THE UI FEEDBACK LOOP](https://www.blackhat.com/us-17/briefings/schedule/index.html#cloak--dagger-from-two-permission-to-complete-control-of-the-ui-feedback-loop-6210) _22 Jul 17_
         - [cloak-and-dagger.org](http://cloak-and-dagger.org/)
+  - `TYPE_APPLICATION_OVERLAY`
+    - No Vulns yet tracked
+    - [New in Android O](https://developer.android.com/about/versions/oreo/android-8.0-changes.html#all-aw)
 - TCP
   - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TrustZone
