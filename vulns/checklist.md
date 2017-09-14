@@ -60,8 +60,8 @@ Follows format of:
 	- Disable default OS view state saving via `android:saveEnabled` | `activity android:noHistory=true`
 - Vuln: Tap Jacking
 	- Implement `View.setFilterTouchesWhenObscured(true)`
+		  - "Specifies whether to filter touches when the view's window is obscured by another visible window. When set to true, the view will not receive touches whenever a toast, dialog or other window appears above the view's window. Refer to the {@link android.view.View} security documentation for more details."
 	- Implement `onFilterTouchEventForSecurity(MotionEvent)`
-	  - "Specifies whether to filter touches when the view's window is obscured by another visible window. When set to true, the view will not receive touches whenever a toast, dialog or other window appears above the view's window. Refer to the {@link android.view.View} security documentation for more details."
 	- Check for `SYSTEM_ALERT_WINDOW`
 - Vuln: Accessability Layer
   - Info: Can listen to all keypresses, and have access to view hierarchy via Accessability API 
