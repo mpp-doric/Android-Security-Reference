@@ -1,3 +1,8 @@
+# Changes
+
+- [Platform Changes](https://developer.android.com/about/versions/oreo/android-8.0-changes.html#security-all)
+- [Target Changes](https://developer.android.com/about/versions/oreo/android-8.0-changes.html#o-sec)
+
 # Key Features
 
 - [Project Treble](https://source.android.com/devices/architecture/treble)
