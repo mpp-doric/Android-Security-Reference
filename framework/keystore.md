@@ -25,7 +25,7 @@ This is especially handy for any kind of challenge / response auth or other proc
 - [`KeyStore`](http://developer.android.com/reference/java/security/KeyStore.html)
   - KeyStore is responsible for maintaining cryptographic keys and their owners.
 - Used with   
-  - [`Cipher`](http://developer.android.com/reference/javax/crypto/Cipher.html#init(int, java.security.Key))
+  - [`Cipher`](http://developer.android.com/reference/javax/crypto/Cipher.html#init)
     - `Cipher.init(...)` takes a [`Key`](http://developer.android.com/reference/java/security/Key.html) which can represent a key that lives in the `KeyStore`
     - From **J-4.3-18** this can be the output of `KeyPair.getPrivate()`, where `KeyPair` is obtained from `KeyStore.getEntry(...)` e.g. RSA
     - From **M-6-23** this can be the output of `KeyStore.getKey(..)` if the `Key` for the passes `alias` is a `SecretKey` e.g. AES
