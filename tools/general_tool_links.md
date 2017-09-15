@@ -65,6 +65,7 @@
 - [CalebFenton/apkfile](https://github.com/CalebFenton/apkfile)
   - Android app analysis and feature extraction library
 - [skylot/jadx](https://github.com/skylot/jadx)
+  - Dex to Java decompiler
 
 ## Native
 
