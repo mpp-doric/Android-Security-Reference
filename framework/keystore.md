@@ -153,11 +153,12 @@ I have not encountered this myself but there are anecdontal reports of keystores
 
 See [/hardware/keystore.md](/hardware/keystore.md)
 
-## KeyMaster 
+## `KeyMaster` 
 
-The hardware `KeyStore` is accessed through an [OEM specfific HAL](https://source.android.com/security/keystore/). There is a `softkeymaster` also.
+The hardware `KeyStore` is accessed through an [OEM specfific HAL](https://source.android.com/security/keystore/). There is a `softkeymaster` also. See some interesting comments and links around this [here](https://doridori.github.io/android-security-the-forgetful-keystore/#comment-3220919933).
 
 See [android.googlesource.com](https://android.googlesource.com/platform/system/keymaster/+/master) for `keymaster` code. This [clone](https://github.com/geekboxzone/mmallow_system_keymaster/) maybe easier to navigate.
+
 
 ## CAs
 
