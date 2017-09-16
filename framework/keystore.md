@@ -131,7 +131,7 @@ Keep in mind the different modes of usage will have have an impact of the stabil
 
 If a key has been created with `.setUserAuthenticationRequired(true)` then the user has to either authenticate via 
 
-- [`KeyGuardManager.createConfirmDeviceCredentialIntent(...)`](https://developer.android.com/reference/android/app/KeyguardManager.html#createConfirmDeviceCredentialIntent(java.lang.CharSequence, java.lang.CharSequence)) to promt the user to enter pin, pattern or password. 
+- [`KeyGuardManager.createConfirmDeviceCredentialIntent(...)`](https://developer.android.com/reference/android/app/KeyguardManager.html#createConfirmDeviceCredentialIntent) to prompt the user to enter pin, pattern or password. 
   - [ConfirmCredential](http://developer.android.com/samples/ConfirmCredential/index.html)
     - Uses `.setUserAuthenticationValidityDurationSeconds(AUTHENTICATION_DURATION_SECONDS)`  
     - This sample demonstrates how you can use device credentials (PIN, Pattern, Password) in your app to authenticate the user before they are trying to complete some actions
