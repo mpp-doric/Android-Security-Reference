@@ -31,6 +31,30 @@ Takeaway: _Always be specific!_
 
 # Inspecting signing info
 
+## On Android
+
 - [guardianproject/checkey](https://github.com/guardianproject/checkey)
   - Releated to interesting F-Droid [reproducable builds](https://f-droid.org/wiki/page/Deterministic,_Reproducible_Builds) project
     - [blog post](https://guardianproject.info/2015/02/11/complete-reproducible-app-distribution-achieved/)
+
+## Via `term`
+
+```
+$ keytool -list -v -keystore ./my_keystore.jks -alias key_alias
+Enter keystore password:  
+Alias name: key_alias
+Creation date: 19-May-2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: O=ME
+Issuer: O=ME
+Serial number: 3675053
+Valid from: Thu May 18 14:02:08 BST 2017 until: Mon May 12 14:02:08 BST 2042
+Certificate fingerprints:
+	 MD5:  DE:EA:4B:B6:8B:60:68:4B:9F:A8:BA:E5:1C:6D:00:02
+	 SHA1: 7F:BA:DE:19:87:1F:31:E5:82:59:E2:98:D3:04:C9:C5:70:B3:00:02
+	 SHA256: F5:57:F3:91:12:3E:12:AA:ED:C8:7B:C3:1C:53:9A:63:BB:11:F2:63:C1:F7:F1:29:7B:3F:56:14:C1:50:02:12
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+```
