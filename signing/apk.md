@@ -58,3 +58,7 @@ Certificate fingerprints:
 	 Signature algorithm name: SHA256withRSA
 	 Version: 3
 ```
+
+# Checking from in app
+
+- [Checking own signing cert](https://stackoverflow.com/questions/9293019/get-certificate-fingerprint-from-android-app/22506133#22506133)
