@@ -16,7 +16,7 @@ Follows format of:
 
 - Vuln: Filesystem Data
 	- Stored on disk using a hardware / software `KeyStore` backed AES key. Keystore access is mitigated via OS level permissions.
-	- `Keystore` is encrypted with device lockscreen method (PIN|PATTERN|PW|FINGER?)
+	- ~`Keystore` is encrypted with device lockscreen method (PIN|PATTERN|PW|FINGER?)~ DEPRECATED
 	- Data retreived with integrity checks
 	- Should be stored using a `PRIVATE` mode
 
