@@ -40,8 +40,8 @@ Takeaway: _Always be specific!_
 ## Via `term`
 
 ```
-$ keytool -list -v -keystore ./my_keystore.jks -alias key_alias
-Enter keystore password:  
+$ keytool -list -v -keystore ./signing/debug.keystore -alias androidDebugKey
+Enter keystore password: <android>
 Alias name: key_alias
 Creation date: 19-May-2017
 Entry type: PrivateKeyEntry
