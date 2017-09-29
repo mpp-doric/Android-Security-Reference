@@ -1,3 +1,4 @@
+- [Difference between TEE and SE](https://security.stackexchange.com/questions/122738/difference-between-tmp-tee-and-se)
 - [Accessing the embedded secure element in Android 4.x 
 ](https://nelenkov.blogspot.co.uk/2012/08/accessing-embedded-secure-element-in.html)
   - Not open to 3rd party apps. OS signed apps _may_ be able to access the UICC/SIM SE.
