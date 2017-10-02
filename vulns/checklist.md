@@ -52,7 +52,7 @@ Follows format of:
 # Vuln: Data Entry / Display
 
 - Vuln: Screen Capture
-    - set FLAG_SECURE otherwise screen can be read / captures with stock apis
+    - set [FLAG_SECURE](https://developer.android.com/reference/android/view/Display.html#FLAG_SECURE) otherwise screen can be read / captures with stock apis
     - ensure sensitive information entered by secure IMEs only. [PSA: FLAG_SECURE Window Leaks](https://commonsware.com/blog/2016/06/06/psa-flag-secure-window-leaks.html)
     - check for open file handle frame buffers. [Some OEMs leave these open](http://stackoverflow.com/questions/11271436/how-to-capture-a-screenshot-of-other-android-applications-from-an-app-without-ro/11273364#11273364)
     - `screencap` is for `system` users only so can ignore  
