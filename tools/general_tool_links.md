@@ -100,6 +100,7 @@
   - Upload apk to remote 
 - [bherbst/OpenSSL-Checker](https://github.com/bherbst/OpenSSL-Checker)
   - A Gradle plugin for checking whether an .apk or an .aar contains OpenSSL versions with known vulnerabilities
+- [SUPER Analyzer](http://superanalyzer.rocks/): [Source](https://github.com/SUPERAndroidAnalyzer/super/) : Secure, Unified, Powerful and Extensible Rust Android Analyzer 
 
 ## Network traffic
 
@@ -143,4 +144,6 @@ _Below are taken from [FileSystem Monitor Tool For iOS and Android](https://www.
 - [Kali Linux](https://www.kali.org/)
   - Kali Linux is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains several hundred tools aimed at various information security tasks, such as  Penetration Testing, Forensics and Reverse Engineering. 
 - [Santoku](https://santoku-linux.com/)
+- [AndroidTamer](https://androidtamer.com) : Android Tamer is a Virtual / Live Platform for Android Security professionals. This Environment allows people to work on large array of android security related task’s ranging from Malware Analysis, Penetration Testing and Reverse Engineering.
+- [MobiSecLive](https://sourceforge.net/projects/mobisec/?source=navbar) : This project was a DARPA CFT funded project that is now being released through OWASP. It is focused on providing a live environment for mobile security testing, forensics, reverse engineering and wireless analysis.
 
