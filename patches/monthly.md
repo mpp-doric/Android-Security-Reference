@@ -3,6 +3,7 @@
 - [android.os.build.VERSION.SECURITY_PATCH](https://developer.android.com/reference/android/os/Build.VERSION.html#SECURITY_PATCH)
   - Available since M-6-23
   - IO16 talk [says available from K+](https://youtu.be/XZzLjllizYs?t=2344) but not sure how if only in since M
+  - If no security patch installed have observed an empty `String` here (Nexus 5 running 6). Anecdontally people have seen the last OS OTA update date here also
 
 # OEM support
 
