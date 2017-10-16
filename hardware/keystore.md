@@ -24,7 +24,7 @@ The CTS history of the `KeyStore` is quite interesting. There are a few fundamen
 
 And also some clauses only seem to come into effect if a device _ships_ with an OS version as opposed to _is upgraded_ to an OS version.
 
-### CTS 6.0
+### CTS M-6.0-23
 
 As of M-6-23 hardware backed `KeyStore` is not a requirement, as indicated at the bottom of the [9.11. Keys and Credentials](https://source.android.com/compatibility/6.0/android-6.0-cdd#9_11_keys_and_credentials):
 
@@ -36,9 +36,19 @@ requirements through a system software update and thus is STRONGLY RECOMMENDED t
 implement a TEE.
 
 
-### CTS 7.0
+### CTS N-7.0-24
 
-Hardware based `KeyStore` is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571).
+Hardware based `KeyStore` is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571); In the updated CDD [9.11. Keys and Credentials](https://source.android.com/compatibility/7.0/android-7.0-cdd#9_11_keys_and_credentials)  this changed the 6.0 **SHOULD** to: 
+
+> Note that if a device implementation is already launched on an earlier Android version, such a device is exempted from the requirement to have a hardware-backed keystore, unless it declares the android.hardware.fingerprint feature which requires a hardware-backed keystore.
+
+### CTS N-7.1-25
+
+An Interesting change to section `9.11` in `7.1` is that:
+
+> MUST have implementations of RSA, AES, ECDSA and HMAC cryptographic algorithms and MD5, SHA1, and SHA-2 family hash functions to properly support the Android Keystore system's supported algorithms in an area that is securely isolated from the code running on the kernel and above. Secure isolation MUST block all potential mechanisms by which kernel or userspace code might access the internal state of the isolated environment, including DMA. The upstream Android Open Source Project (AOSP) meets this requirement by using the Trusty implementation, but another ARM TrustZone-based solution or a third-party reviewed secure implementation of a proper hypervisor-based isolation are alternative options.
+
+Previous to this change, _harware keystore support_ was pretty ambiguous. A device could have a hardware `KeyStore`, but not support all the [Supported Algorithms](https://developer.android.com/training/articles/keystore.html#SupportedAlgorithms) _in hardware_. This can be seen on the Nexus 5 running M-6-23, which supports hardware RSA but not AES.
 
 ## API checking
 
