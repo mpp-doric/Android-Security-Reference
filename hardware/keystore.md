@@ -16,7 +16,17 @@ _A [TEE](https://en.wikipedia.org/wiki/Trusted_execution_environment) (or [TPM](
 
 ## CTS
 
-As of M-6-23 hardware backed keystore is not a requirement, but is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571).
+The CTS history of the `KeyStore` is quite interesting. There are a few fundamental features for which ROM inclusion or hardware presense of will make some requirements around `KeyStore` implementation come into scope. These are around:
+
+- Secure Lock Screens (can check with `isKeyguardSecure()`)
+- Fingerprint
+- Disk Encryption
+
+And also some clauses only seem to come into effect if a device _ships_ with an OS version as opposed to _is upgraded_ to an OS version.
+
+### CTS 6.0
+
+As of M-6-23 hardware backed `KeyStore` is not a requirement:
 
 > Note that while the above TEE-related requirements are stated as STRONGLY RECOMMENDED, the
 Compatibility Definition for the next API version is planned to changed these to REQIUIRED. If a
@@ -26,6 +36,10 @@ requirements through a system software update and thus is STRONGLY RECOMMENDED t
 implement a TEE.
 
 _Taken from [6.0 CTS](http://static.googleusercontent.com/media/source.android.com/en//compatibility/android-cdd.pdf) doc section 9.11. Keys and Credentials_
+
+### CTS 7.0
+
+Hardware based `KeyStore` is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571).
 
 ## API checking
 
