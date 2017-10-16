@@ -14,9 +14,9 @@ See the [hardware/TEE.md](/hardware/TEE.md) for more inc. vulns.
 
 _A [TEE](https://en.wikipedia.org/wiki/Trusted_execution_environment) (or [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module)) can change a `KeyStore` attack from **offline** (which would be against a software KeyStores data) to **online** (running on the device issuing commands to the hardware). This further prevents extraction of the private key and potentially throttling of access attempts (and therefore potential exploitation). See Androids [Trusty TEE](https://source.android.com/security/trusty/index.html)_
 
-## CTS
+## CDD/CTS
 
-The CTS history of the `KeyStore` is quite interesting. There are a few fundamental features for which ROM inclusion or hardware presense of will make some requirements around `KeyStore` implementation come into scope. These are around:
+The CDD history of the `KeyStore` is quite interesting. There are a few fundamental features for which ROM inclusion or hardware presense of will make some requirements around `KeyStore` implementation come into scope. These are around:
 
 - Secure Lock Screens (can check with `isKeyguardSecure()`)
 - Fingerprint
@@ -24,7 +24,7 @@ The CTS history of the `KeyStore` is quite interesting. There are a few fundamen
 
 And also some clauses only seem to come into effect if a device _ships_ with an OS version as opposed to _is upgraded_ to an OS version.
 
-### CTS M-6.0-23
+### CDD M-6.0-23
 
 As of M-6-23 hardware backed `KeyStore` is not a requirement, as indicated at the bottom of the [9.11. Keys and Credentials](https://source.android.com/compatibility/6.0/android-6.0-cdd#9_11_keys_and_credentials):
 
@@ -36,13 +36,13 @@ requirements through a system software update and thus is STRONGLY RECOMMENDED t
 implement a TEE.
 
 
-### CTS N-7.0-24
+### CDD N-7.0-24
 
 Hardware based `KeyStore` is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571); In the updated CDD [9.11. Keys and Credentials](https://source.android.com/compatibility/7.0/android-7.0-cdd#9_11_keys_and_credentials)  this changed the 6.0 **SHOULD** to: 
 
 > Note that if a device implementation is already launched on an earlier Android version, such a device is exempted from the requirement to have a hardware-backed keystore, unless it declares the android.hardware.fingerprint feature which requires a hardware-backed keystore.
 
-### CTS N-7.1-25
+### CDD N-7.1-25
 
 An Interesting change to section `9.11` in `7.1` is that:
 
