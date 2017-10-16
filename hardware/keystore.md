@@ -1,4 +1,4 @@
-See [/api/keystore.md](/api/keystore.md) for API and usage information.
+_See [/framework/keystore.md](/framework/keystore.md) for API and usage information._
 
 # Hardware backed
 
