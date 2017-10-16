@@ -26,7 +26,7 @@ And also some clauses only seem to come into effect if a device _ships_ with an 
 
 ### CTS 6.0
 
-As of M-6-23 hardware backed `KeyStore` is not a requirement:
+As of M-6-23 hardware backed `KeyStore` is not a requirement, as indicated at the bottom of the [9.11. Keys and Credentials](https://source.android.com/compatibility/6.0/android-6.0-cdd#9_11_keys_and_credentials):
 
 > Note that while the above TEE-related requirements are stated as STRONGLY RECOMMENDED, the
 Compatibility Definition for the next API version is planned to changed these to REQIUIRED. If a
@@ -35,7 +35,6 @@ trusted operating system on the secure hardware, such a device might not be able
 requirements through a system software update and thus is STRONGLY RECOMMENDED to
 implement a TEE.
 
-_Taken from [6.0 CTS](http://static.googleusercontent.com/media/source.android.com/en//compatibility/android-cdd.pdf) doc section 9.11. Keys and Credentials_
 
 ### CTS 7.0
 
