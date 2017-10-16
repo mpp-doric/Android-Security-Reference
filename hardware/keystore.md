@@ -48,7 +48,7 @@ An Interesting change to section `9.11` in `7.1` is that:
 
 > MUST have implementations of RSA, AES, ECDSA and HMAC cryptographic algorithms and MD5, SHA1, and SHA-2 family hash functions to properly support the Android Keystore system's supported algorithms in an area that is securely isolated from the code running on the kernel and above. Secure isolation MUST block all potential mechanisms by which kernel or userspace code might access the internal state of the isolated environment, including DMA. The upstream Android Open Source Project (AOSP) meets this requirement by using the Trusty implementation, but another ARM TrustZone-based solution or a third-party reviewed secure implementation of a proper hypervisor-based isolation are alternative options.
 
-Previous to this change, _harware keystore support_ was pretty ambiguous. A device could have a hardware `KeyStore`, but not support all the [Supported Algorithms](https://developer.android.com/training/articles/keystore.html#SupportedAlgorithms) _in hardware_. This can be seen on the Nexus 5 running M-6-23, which supports hardware RSA but not AES.
+Previous to this change, _harware keystore support_ was pretty ambiguous. A device could have a hardware `KeyStore`, but not support all the [Supported Algorithms](https://developer.android.com/training/articles/keystore.html#SupportedAlgorithms) _in hardware_. This can be seen on the Nexus 5 running M-6-23, which supports hardware RSA but not AES; which would result in the AES operation being performed in the _software_ `KeyStore`.
 
 ## API checking
 
