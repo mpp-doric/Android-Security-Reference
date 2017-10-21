@@ -1,6 +1,14 @@
+# Version 1 signing
+
+> v1 signatures do not protect some parts of the APK, such as ZIP metadata. The APK verifier needs to process lots of untrusted (not yet verified) data structures and then discard data not covered by the signatures. This offers a sizeable attack surface. Moreover, the APK verifier must uncompress all compressed entries, consuming more time and memory. To address these issues, Android 7.0 introduced APK Signature Scheme v2.
+
+From [source.android.com/security/apksigning/](https://source.android.com/security/apksigning/)
+
 # Version 2 signing
 
-- [v2](https://source.android.com/security/apksigning/v2.html)
+> During validation, v2 scheme treats the APK file as a blob and performs signature checking across the entire file. Any modification to the APK, including ZIP metadata modifications, invalidates the APK signature. This form of APK verification is substantially faster and enables detection of more classes of unauthorized modifications.
+
+From [source.android.com/security/apksigning/](https://source.android.com/security/apksigning/#v2)
 
 # Signing with multiple certs
 
