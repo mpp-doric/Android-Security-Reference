@@ -66,6 +66,8 @@
   - Android app analysis and feature extraction library
 - [skylot/jadx](https://github.com/skylot/jadx)
   - Dex to Java decompiler
+  - Drag and drop apk decompilation
+  - Nice search
 
 ## Native
 
