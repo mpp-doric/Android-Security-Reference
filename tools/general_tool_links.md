@@ -68,6 +68,7 @@
   - Dex to Java decompiler
   - Drag and drop apk decompilation
   - Nice search
+  - Currently not working for new (circa AS3) projects
 
 ## Native
 
