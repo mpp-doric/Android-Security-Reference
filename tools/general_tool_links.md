@@ -30,6 +30,7 @@
   - [Using Frida on Android without root](https://koz.io/using-frida-on-android-without-root/)
   - [sensepost/objection](https://github.com/sensepost/objection)
     - runtime mobile exploration
+  - [dweinstein/awesome-frida](https://libraries.io/github/dweinstein/awesome-frida)
   
 # Decompilers
 
