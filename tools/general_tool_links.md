@@ -40,6 +40,7 @@
   - Online Android & Java decompilation
 - [Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
   - A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
+  - Seems broken for APKs build with AS 3.0 and AGP 3.0 (if not before). Project may be abandoned, lots of issues and no activity in 10 months _Nov 17_
 
 ## Java
 
