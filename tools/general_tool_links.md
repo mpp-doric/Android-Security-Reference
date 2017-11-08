@@ -60,7 +60,7 @@
   - A tool for reverse engineering Android apk files
 - [google/Enjarify](https://github.com/google/enjarify)
   - Ment to improve on Dex2Jar
-- Dex2Jar
+- [Dex2Jar](https://github.com/pxb1988/dex2jar)
   - Most reliable imho
   - Can view after in something like JD-GUI
 - [sonyxperiadev/ApkAnalyser](https://github.com/sonyxperiadev/ApkAnalyser)
