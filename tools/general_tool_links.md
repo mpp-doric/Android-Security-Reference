@@ -61,6 +61,8 @@
 - [google/Enjarify](https://github.com/google/enjarify)
   - Ment to improve on Dex2Jar
 - Dex2Jar
+  - Most reliable imho
+  - Can view after in something like JD-GUI
 - [sonyxperiadev/ApkAnalyser](https://github.com/sonyxperiadev/ApkAnalyser)
   - ApkAnalyser is a static, virtual analysis tool for examining and validating the development work of your Android app.
 - [Android Studios ApkAnalyser](https://developer.android.com/studio/build/apk-analyzer.html)
