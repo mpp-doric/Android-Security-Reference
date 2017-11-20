@@ -141,7 +141,7 @@ _Below are taken from [FileSystem Monitor Tool For iOS and Android](https://www.
 
 - `inotify` - In Linux, and therefore Android, the inotify syscall provides access to receive the filesystem events happening on a specific file or directory. 
 - `fanotify` - Improved `inotify` added in Android 5.0
-- [fsmon] (https://github.com/nowsecure/fsmon)
+- [fsmon](https://github.com/nowsecure/fsmon)
 - [Linux debugging tools I love](http://jvns.ca/blog/2016/07/03/debugging-tools-i-love/)
 
 # Device Vuln Testing
