@@ -46,9 +46,12 @@
 
 - [CFR](http://www.benf.org/other/cfr/)
   - CFR will decompile modern Java features - Java 8 lambdas (pre and post Java beta 103 changes), Java 7 String switches etc, but is written entirely in Java 6. (FAQ)
+  - Cmd line, simple; 
+  - **Currently my goto for `jar->src`**
 - [JDGui](http://jd.benow.ca/)
   - The “Java Decompiler project” aims to develop tools in order to decompile and analyze Java 5 “byte code” and the later versions.
   - Can use to export source from jars
+  - GUI; I always find to be a bit clunky and broken (export src / restricted search) but others seem to like it
 
 ### Android
 
@@ -59,9 +62,10 @@
 - [APKtool](https://ibotpeaches.github.io/Apktool/) 
   - A tool for reverse engineering Android apk files
 - [google/Enjarify](https://github.com/google/enjarify)
-  - Ment to improve on Dex2Jar
+  - Ment to improve on Dex2Jar in terms of what it can handle
+  - **Currently my goto for `dex->jar`**
 - [Dex2Jar](https://github.com/pxb1988/dex2jar)
-  - Most reliable imho
+  - Pretty reliable
   - Can view after in something like JD-GUI
 - [sonyxperiadev/ApkAnalyser](https://github.com/sonyxperiadev/ApkAnalyser)
   - ApkAnalyser is a static, virtual analysis tool for examining and validating the development work of your Android app.
