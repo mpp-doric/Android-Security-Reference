@@ -52,6 +52,8 @@
   - The “Java Decompiler project” aims to develop tools in order to decompile and analyze Java 5 “byte code” and the later versions.
   - Can use to export source from jars
   - GUI; I always find to be a bit clunky and broken (export src / restricted search) but others seem to like it
+- `javap`!
+  - JDK `class` to bytecode
 
 ### Android
 
