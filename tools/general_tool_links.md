@@ -6,7 +6,7 @@
 
 # Both Static & Dynamic Analysis Tools
 
-...
+- [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
 
 # Static Analysis Tools
 
@@ -112,7 +112,6 @@
 
 ## Pen|Security Testing Frameworks / Collections
 
-- [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
 - [Drozer](https://labs.mwrinfosecurity.com/tools/drozer/)
   - drozer is a comprehensive security audit and attack framework for Android
   - Needs to execute on a device the apk is installed on
