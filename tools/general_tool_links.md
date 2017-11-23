@@ -115,12 +115,6 @@
 - [Hopper](https://www.hopperapp.com/)
   - The OS X and Linux Disassembler
 
-
-# Walkthroughs
-
-- [Hacking mobile login tokens tricky but doable, says reverse-engineer](http://www.theregister.co.uk/2016/09/02/mobile_2fa_shortcomings/)
-  - Links to _very_ comprehensive [paper](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf) about analysing and closing OTP banking apps 
-
 # Pen|Security Testing Frameworks / Collections
 
 - [Drozer](https://labs.mwrinfosecurity.com/tools/drozer/)
@@ -131,6 +125,11 @@
 - [MonkOp](http://www.monkop.com/index.html)
   - Upload apk to remote 
 - [SUPER Analyzer](http://superanalyzer.rocks/): [Source](https://github.com/SUPERAndroidAnalyzer/super/) : Secure, Unified, Powerful and Extensible Rust Android Analyzer 
+
+## Walkthroughs
+
+- [Hacking mobile login tokens tricky but doable, says reverse-engineer](http://www.theregister.co.uk/2016/09/02/mobile_2fa_shortcomings/)
+  - Links to _very_ comprehensive [paper](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf) about analysing and closing OTP banking apps 
 
 # Linux Tools
 
