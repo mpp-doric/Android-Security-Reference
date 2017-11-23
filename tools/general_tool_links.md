@@ -4,11 +4,13 @@
 
 - [tanprathan/MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#security-libraries)
 
-# Both Static & Dynamic Analysis Tools
+# Analysis
+
+## Both Static & Dynamic Analysis Tools
 
 - [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
 
-# Static Analysis Tools
+## Static Analysis Tools
 
 - [OWASP list](https://www.owasp.org/index.php/Static_Code_Analysis)
 - [QARK](https://github.com/linkedin/qark)
@@ -21,18 +23,18 @@
 - CheckMarx
   - Commercial 
 
-## VMs
+### VMs
 
 - [DroidScope](https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yan)
   - DroidScope is a malware analysis engine based on QEMU. It adds instrumentation on several levels, https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yanmaking it possible to fully reconstruct the semantics on the hardware, Linux and Java level  
 - [PANDA](https://github.com/moyix/panda) 
 
-## Hex
+### Hex
 
 - [Veles](https://codisec.com/veles/)
 - [https://twitter.com/i/moments/841916822014332930](https://twitter.com/i/moments/841916822014332930)
 
-# Dynamic Analysis
+## Dynamic Analysis
 
 - [rednaga/native-shim](https://github.com/rednaga/native-shim)
   - NDK / JNI 
