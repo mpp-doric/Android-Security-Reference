@@ -46,6 +46,15 @@
     - runtime mobile exploration
   - [dweinstein/awesome-frida](https://libraries.io/github/dweinstein/awesome-frida)
   
+### Network traffic
+
+- [Nogotofail](https://github.com/google/nogotofail) 
+  - Nogotofail is a network security testing tool designed to help developers and security researchers spot and fix weak TLS/SSL connections and sensitive cleartext traffic on devices and applications in a flexible, scalable, powerful way. 
+  
+### MemDump
+
+- [Introduction to Fridump](http://pentestcorner.com/introduction-to-fridump/)
+  
 # Decompilers
 
 ## Mixed (Android & Java)
@@ -107,12 +116,12 @@
   - The OS X and Linux Disassembler
 
 
-## Walkthroughs
+# Walkthroughs
 
 - [Hacking mobile login tokens tricky but doable, says reverse-engineer](http://www.theregister.co.uk/2016/09/02/mobile_2fa_shortcomings/)
   - Links to _very_ comprehensive [paper](https://regmedia.co.uk/2016/09/02/hacking_soft_tokens_-_bernhard_mueller.pdf) about analysing and closing OTP banking apps 
 
-## Pen|Security Testing Frameworks / Collections
+# Pen|Security Testing Frameworks / Collections
 
 - [Drozer](https://labs.mwrinfosecurity.com/tools/drozer/)
   - drozer is a comprehensive security audit and attack framework for Android
@@ -122,15 +131,6 @@
 - [MonkOp](http://www.monkop.com/index.html)
   - Upload apk to remote 
 - [SUPER Analyzer](http://superanalyzer.rocks/): [Source](https://github.com/SUPERAndroidAnalyzer/super/) : Secure, Unified, Powerful and Extensible Rust Android Analyzer 
-
-## Network traffic
-
-- [Nogotofail](https://github.com/google/nogotofail) 
-  - Nogotofail is a network security testing tool designed to help developers and security researchers spot and fix weak TLS/SSL connections and sensitive cleartext traffic on devices and applications in a flexible, scalable, powerful way. 
-
-## MemDump
-
-- [Introduction to Fridump](http://pentestcorner.com/introduction-to-fridump/)
 
 # Linux Tools
 
