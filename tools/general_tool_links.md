@@ -4,10 +4,22 @@
 
 - [tanprathan/MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#security-libraries)
 
+# Both Static & Dynamic Analysis Tools
+
+...
 
 # Static Analysis Tools
 
 - [OWASP list](https://www.owasp.org/index.php/Static_Code_Analysis)
+- [QARK](https://github.com/linkedin/qark)
+  - Nice apk static analysis tool for Android
+  - No way to supress certain warnings / errors so probably would not want to run as part of CI build
+- [bherbst/OpenSSL-Checker](https://github.com/bherbst/OpenSSL-Checker)
+  - A Gradle plugin for checking whether an .apk or an .aar contains OpenSSL versions with known vulnerabilities
+- Veracode
+  - Commercial
+- CheckMarx
+  - Commercial 
 
 ## VMs
 
@@ -101,9 +113,6 @@
 ## Pen|Security Testing Frameworks / Collections
 
 - [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
-- [QARK](https://github.com/linkedin/qark)
-  - Nice apk static analysis tool for Android
-  - No way to supress certain warnings / errors so probably would not want to run as part of CI build
 - [Drozer](https://labs.mwrinfosecurity.com/tools/drozer/)
   - drozer is a comprehensive security audit and attack framework for Android
   - Needs to execute on a device the apk is installed on
@@ -111,8 +120,6 @@
   - [Lab Suite](https://www.nowsecure.com/lab/) _Commercial_
 - [MonkOp](http://www.monkop.com/index.html)
   - Upload apk to remote 
-- [bherbst/OpenSSL-Checker](https://github.com/bherbst/OpenSSL-Checker)
-  - A Gradle plugin for checking whether an .apk or an .aar contains OpenSSL versions with known vulnerabilities
 - [SUPER Analyzer](http://superanalyzer.rocks/): [Source](https://github.com/SUPERAndroidAnalyzer/super/) : Secure, Unified, Powerful and Extensible Rust Android Analyzer 
 
 ## Network traffic
