@@ -78,6 +78,7 @@
 - `javap`!
   - JDK `class` to bytecode
   - [Exploring Java bytecode](https://blog.nishtahir.com/2015/09/12/exploring-java-byte-code/)
+  - [Keynote: Sinking Your Teeth Into Bytecode](https://skillsmatter.com/skillscasts/10012-keynote-sinking-your-teeth-into-bytecode)
 
 ### Android
 
