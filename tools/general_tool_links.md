@@ -77,6 +77,7 @@
   - GUI; I always find to be a bit clunky and broken (export src / restricted search) but others seem to like it
 - `javap`!
   - JDK `class` to bytecode
+  - [Exploring Java bytecode](https://blog.nishtahir.com/2015/09/12/exploring-java-byte-code/)
 
 ### Android
 
