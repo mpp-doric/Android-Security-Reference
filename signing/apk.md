@@ -39,6 +39,10 @@ Takeaway: _Always be specific!_
 
 # Inspecting signing info
 
+## Via APK
+
+[https://stackoverflow.com/a/11331951/236743](https://stackoverflow.com/a/11331951/236743)
+
 ## On Android
 
 - [guardianproject/checkey](https://github.com/guardianproject/checkey)
