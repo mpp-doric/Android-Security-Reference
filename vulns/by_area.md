@@ -80,6 +80,8 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
     - [New in Android O](https://developer.android.com/about/versions/oreo/android-8.0-changes.html#all-aw)
 - Signing
   - [Android Fake ID Vulnerability](https://www.blackhat.com/docs/us-14/materials/us-14-Forristal-Android-FakeID-Vulnerability-Walkthrough.pdf)
+  - [Janus](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures?utm_content=buffer9737f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) _Dev 17_
+    - APK and dex file duality
 - TCP
   - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TrustZone
