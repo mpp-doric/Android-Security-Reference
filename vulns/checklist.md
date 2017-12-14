@@ -127,6 +127,13 @@ Static and Dynamic Analysis can be used for a multitude of attacks. The main vul
 		- Obfuscation tooling
 		- Check if running on emulator 
 		- Move to C as harder to decompile etc
+	- Vuln: Source discovery 
+		- Easier to formulate hooking / repackaging attacks if understand the source
+		- Obfuscate
+		- Remove context from things that generally are not obfuscated. 
+			- R files
+			- Android Component names that are in the Manifest
+			- Annotations
 
 # Vuln: Dynamic Analysis
 
