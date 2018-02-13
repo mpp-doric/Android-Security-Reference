@@ -10,7 +10,7 @@
 
 - [ajinabraham/Mobile-Security-Framework-MobSF](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
 
-## Static Analysis Tools
+## Automated Static Analysis Tools
 
 - [OWASP list](https://www.owasp.org/index.php/Static_Code_Analysis)
 - [QARK](https://github.com/linkedin/qark)
@@ -22,6 +22,8 @@
   - Commercial
 - CheckMarx
   - Commercial 
+- [jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck)
+  - OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies
 
 ### VMs
 
