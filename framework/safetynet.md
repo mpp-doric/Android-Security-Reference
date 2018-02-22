@@ -34,3 +34,4 @@ Undocumented at present but can:
 - [[Guide] Bypass Safetynet on MM with Custom ROM & Kernel](https://forum.xda-developers.com/galaxy-s6/general/guide-bypass-safetynet-mm-custom-rom-t3534709)
 - [API docs](https://developers.google.com/android/reference/com/google/android/gms/safetynet/SafetyNetApi)
 - [Inside Android’s SafetyNet Attestation](https://www.blackhat.com/docs/eu-17/materials/eu-17-Mulliner-Inside-Androids-SafetyNet-Attestation.pdf) _Black Hat Dev 17_
+- [SafetyNet uptime updates](https://groups.google.com/forum/#!forum/safetynet-api-clients)
