@@ -31,6 +31,8 @@
 
 ## Security Blog Posts
 
+- [android-developers.googleblog.com] [Protecting users with TLS by default in Android P
+](https://android-developers.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html)
 - [android-developers.googleblog.com] [Keystore Key Attestation](https://android-developers.googleblog.com/2017/09/keystore-key-attestation.html)
 - [android-developers.blogspot.co.uk] [Hardening the Kernel in Android Oreo](https://android-developers.googleblog.com/2017/08/hardening-kernel-in-android-oreo.html) _Aug 17_
 - [android-developers.blogspot.co.uk] [Shut the HAL Up](https://android-developers.googleblog.com/2017/07/shut-hal-up.html) _jul 17_
