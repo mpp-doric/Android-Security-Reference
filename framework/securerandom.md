@@ -3,7 +3,7 @@
 - [CDD](https://source.android.com/compatibility/7.0/android-7.0-cdd.html) doc contains no info on `SecureRandom`
 - Src can be found at `libcore/luni/src/main/java/java/security/SecureRandom.java`
 
-## What happens when calling `SecureRandom`?
+## Implmentations / Changes 
 
 ### Android 6
 
@@ -13,9 +13,14 @@
   
 ### Android 7
 
-SecureRandom has changed in 7 (the `Crypto` provider was removed, which removed one of two SHA1PRNG implementations from stock android) and the javadoc has been [updated](https://developer.android.com/reference/java/security/SecureRandom.html) with test info (copied below)
+- The `Crypto` provider was removed, which removed one of two SHA1PRNG implementations from stock android
+- The javadoc has been [updated](https://developer.android.com/reference/java/security/SecureRandom.html) with test info (copied below)
 
 > A cryptographically strong random number minimally complies with the statistical random number generator tests specified in FIPS 140-2, Security Requirements for Cryptographic Modules, section 4.9.1. Additionally, SecureRandom must produce non-deterministic output. Therefore any seed material passed to a SecureRandom object must be unpredictable, and all SecureRandom output sequences must be cryptographically strong, as described in RFC 1750: Randomness Recommendations for Security.
+
+### Android 8
+
+- [SecureRandom.getInstanceStrong](https://developer.android.com/reference/java/security/SecureRandom.html#getInstanceStrong())
 
 ## /urandom
 
