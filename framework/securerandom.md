@@ -21,6 +21,7 @@
 ### Android 8
 
 - [SecureRandom.getInstanceStrong](https://developer.android.com/reference/java/security/SecureRandom.html#getInstanceStrong())
+  - Blog post about [differences](https://tersesystems.com/blog/2015/12/17/the-right-way-to-use-securerandom/)
 
 ## /urandom
 
