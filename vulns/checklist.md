@@ -19,6 +19,7 @@ Follows format of:
 	- ~`Keystore` is encrypted with device lockscreen method (PIN|PATTERN|PW|FINGER?)~ [DEPRECATED](https://doridori.github.io/android-security-the-forgetful-keystore/)
 	- Data retreived with integrity checks
 	- Should be stored using a `PRIVATE` mode
+	- Backups should be disabled 
 
 # Vuln: Data In Use
 
