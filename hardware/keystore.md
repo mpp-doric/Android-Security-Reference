@@ -2,9 +2,9 @@ _See [/framework/keystore.md](/framework/keystore.md) for API and usage informat
 
 # Hardware backed
 
-Some devices have hardware backed keystore storage, which was introduced in 4.3 but not manditory (Nexus devices since Nexus 4 have had this afaik). 
+Some devices have hardware backed keystore storage, which was introduced in 4.3 but not mandatory (Nexus devices since Nexus 4 have had this afaik). 
 
-If a [CTS](http://static.googleusercontent.com/media/source.android.com/en//compatibility/android-cdd.pdf) compatable fingerprint functionality is available then
+If a [CTS](http://static.googleusercontent.com/media/source.android.com/en//compatibility/android-cdd.pdf) compatible fingerprint functionality is available then
 
 ## TEE
 
@@ -38,7 +38,7 @@ implement a TEE.
 
 ### CDD N-7.0-24
 
-Hardware based `KeyStore` is [now manditory in N](https://youtu.be/XZzLjllizYs?t=571); In the updated CDD [9.11. Keys and Credentials](https://source.android.com/compatibility/7.0/android-7.0-cdd#9_11_keys_and_credentials)  this changed the 6.0 **SHOULD** to: 
+Hardware based `KeyStore` is [now mandatory in N](https://youtu.be/XZzLjllizYs?t=571); In the updated CDD [9.11. Keys and Credentials](https://source.android.com/compatibility/7.0/android-7.0-cdd#9_11_keys_and_credentials)  this changed the 6.0 **SHOULD** to: 
 
 > Note that if a device implementation is already launched on an earlier Android version, such a device is exempted from the requirement to have a hardware-backed keystore, unless it declares the android.hardware.fingerprint feature which requires a hardware-backed keystore.
 
@@ -58,7 +58,7 @@ The presence of hardware backed key storage can be checked via the [`KeyChain.is
 
 This means on a hardware backed device even if rooted the private keys cannot be extracted! They can still be used locally however (by an attacker).
 
-> Key material may be bound to the secure hardware (e.g., Trusted Execution Environment (TEE), Secure Element (SE)) of the Android device. When this feature is enabled for a key, its key material is never exposed outside of secure hardware. If the Android OS is compromised or an attacker can read the device's internal storage, the attacker may be able to use any app's Android Keystore keys on the Android device, but not extract them from the device. This feature is enabled only if the device's secure hardware supports the particular combination of key algorithm, block modes, padding schemes, and digests with which the key is authorized to be used. To check whether the feature is enabled for a key, obtain a KeyInfo for the key and inspect the return value of KeyInfo.isInsideSecurityHardware().
+> Key material may be bound to the secure hardware (e.g., Trusted Execution Environment (TEE), Secure Element (SE)) of the Android device. When this feature is enabled for a key, its key material is never exposed outside of secure hardware. If the Android OS is compromised or an attacker can read the device's internal storage, the attacker may be able to use any app's Android Keystore keys on the Android device, but not extract them from the device. This feature is enabled only if the device's secure hardware supports the particular combination of key algorithm, block modes, padding schemes, and digests with which the key is authorized to be used. To check whether the feature is enabled for a key, obtain a KeyInfo for the key and inspect the return value of KeyInfo.isInsideSecureHardware().
 
 and 
 
@@ -68,4 +68,4 @@ The software blob can however be read on rooted devices. See [nelenkov/keystore-
 
 ## Links
 
-- [Nikolay Elenkov] [Keystore redesign in Android M](https://nelenkov.blogspot.co.uk/2015/06/keystore-redesign-in-android-m.html)
+- [Nikolay Elenkov - Keystore redesign in Android M](https://nelenkov.blogspot.co.uk/2015/06/keystore-redesign-in-android-m.html)
