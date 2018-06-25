@@ -15,6 +15,10 @@ From [source.android.com/security/apksigning/](https://source.android.com/securi
 - Seems not vert well supported anecdotally
 - [Android code signing](https://nelenkov.blogspot.co.uk/2013/04/android-code-signing.html)
   - Multiple signatures can be performed, resulting in multiple .SF and .RSA/DSA/EC files in the JAR file's META-INF/ directory.
+  
+# Security Metadata
+
+- [Google Play security metadata and offline app distribution](https://android-developers.googleblog.com/2018/06/google-play-security-metadata-and.html)
 
 # KeyTool
 
