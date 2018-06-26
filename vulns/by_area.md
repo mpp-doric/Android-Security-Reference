@@ -5,7 +5,7 @@ Its worth keeping in mind the nature of the below flaws, as they generally fall 
 - Needs access over digital cellular network
 - MITM of comms of existing app on device
 
-This doc is for tacking vulns found with the Android platform
+# Android platform
 
 - Ashmem
   - [BitUnmap: Attacking Android Ashmem](https://googleprojectzero.blogspot.co.uk/2016/12/bitunmap-attacking-android-ashmem.html) _1st Dec 16_
@@ -96,3 +96,7 @@ Alive? Data Residue Attacks on Android](http://www.cis.syr.edu/~wedu/Research/pa
 - Zygote
   - [Attack on Zygote: a new twist in the evolution of mobile threats](https://securelist.com/analysis/publications/74032/attack-on-zygote-a-new-twist-in-the-evolution-of-mobile-threats/) _3rd March 2016_
     - One of the best articles I have seen deconstructing malware 
+    
+# Hardware
+
+- [Power to peep-all: Inference Attacks by Malicious Batteries on Mobile Devices](https://sites.google.com/site/silbersteinmark/Home/popets18power.pdf)
