@@ -42,6 +42,10 @@ Guide to terms like JCE & JSSE can be found [here](http://www.oracle.com/technet
   - Seems to pull in upstream forks patches and align to newer interfaces (1.1)
 - Transition starting in 6.0
 
+### AndroidKeyStore
+
+Guessing this is for implementations provided/backed by the `KeyStore` API.
+
 ## Java JCE Providers
 
 #### Apache Harmonys Crypto Provider
