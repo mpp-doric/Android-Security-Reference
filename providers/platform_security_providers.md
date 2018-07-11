@@ -98,6 +98,10 @@ Guessing this is for implementations provided/backed by the `KeyStore` API.
 - Small (buggy) provider mostly offering SHA1 based operations (plus DSA on older platform versions). Reduced to SHA1PRNG and then removed completely in N.
 - [Security "Crypto" provider deprecated in Android N](http://android-developers.blogspot.co.uk/2016/06/security-crypto-provider-deprecated-in.html?utm_source=androiddevdigest)
 
+#### CertPathProvider
+
+[Src](https://android.googlesource.com/platform/libcore/+/bf04039/ojluni/src/main/java/sun/security/provider/CertPathProvider.java)
+
 ## Updating platform Provider from your app
 
 See [Updating Your Security Provider to Protect Against SSL Exploits](http://developer.android.com/training/articles/security-gms-provider.html). Not clear if updates `BoringSSL` or just the Java `AndroidOpenSSL` SPI (or both). 
