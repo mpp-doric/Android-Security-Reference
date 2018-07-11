@@ -84,6 +84,10 @@ Guessing this is for implementations provided/backed by the `KeyStore` API.
 - Offered full JCE functionality
 - Unsure how much (if any) functionality delegated to native (i.e. [Open|Boring]Ssl) implementation. Should look at the CSPRNG...
 
+#### AndroidKeyStoreBCWorkaroundProvider
+
+[Check out the code comments](https://android.googlesource.com/platform/frameworks/base/+/a8c837f/keystore/java/android/security/keystore/AndroidKeyStoreBCWorkaroundProvider.java)
+
 #### SpongyCastle
 
 - Many people import this so can use latest BC, pretty much a jarjarlinks rename so no namespace clashes with BC. 
