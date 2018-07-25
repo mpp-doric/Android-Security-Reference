@@ -22,3 +22,4 @@
   - "Note that if a device implementation is already launched on an earlier Android version, and does not have a fingerprint scanner, such a device is exempted from the requirement to have a hardware-backed keystore." also from keys and creds
 - **O-8-26**
   - All O+ devices have attestation API
+  - If shipped with 0 the attestation API MUST be hardware backed ([CDD](https://source.android.com/compatibility/8.0/android-8.0-cdd#9_11_keys_and_credentials))
