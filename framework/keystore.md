@@ -91,6 +91,9 @@ This is especially handy for any kind of challenge / response auth or other proc
     - "User authentication authorizes a specific cryptographic operation associated with one key. In this mode, each operation involving such a key must be individually authorized by the user". See `api/finger` for more.
 - **N-7-24**
   - [Key Attestation introduced](https://github.com/doridori/Android-Security-Reference/blob/master/framework/key_attestation.md)
+- **P-9-28**
+  - [StrongBox](https://developer.android.com/training/articles/keystore#HardwareSecurityModule)
+  - [Key importing](https://developer.android.com/training/articles/keystore#ImportingEncryptedKeys)
 
 
 ## User Authenticating Key Use
