@@ -25,6 +25,7 @@
   - All O+ devices have attestation API
   - If shipped with 0 the attestation API MUST be hardware backed ([CDD](https://source.android.com/compatibility/8.0/android-8.0-cdd#9_11_keys_and_credentials))
   - Keymaster 3 support
+  - [Includes ID attestation](https://source.android.com/security/keystore/attestation#id-attestation)
 
 # Attestation Signing
 
