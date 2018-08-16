@@ -24,6 +24,7 @@
 - **O-8-26**
   - All O+ devices have attestation API
   - If shipped with 0 the attestation API MUST be hardware backed ([CDD](https://source.android.com/compatibility/8.0/android-8.0-cdd#9_11_keys_and_credentials))
+  - Keymaster 3 support
 
 # Attestation Signing
 
@@ -50,3 +51,7 @@ From [here](https://source.android.com/security/reports/Android-Bootcamp-2016-An
 > ● Keys will be deployed to device batches: min 10K devices per key.
 > ● Initially, Google will create the keys as well as certify them.
 > ● The process will be very similar to the Widevine key distribution process (will likely use the same delivery method).
+
+## Official source
+
+[source.android.com/security/keystore/attestation](https://source.android.com/security/keystore/attestation)
