@@ -90,10 +90,16 @@ This is especially handy for any kind of challenge / response auth or other proc
   - `KeyStore` keys can require fingerprint auth before use 
     - "User authentication authorizes a specific cryptographic operation associated with one key. In this mode, each operation involving such a key must be individually authorized by the user". See `api/finger` for more.
 - **N-7-24**
+  - KeyMaster 2
   - [Key Attestation introduced](https://github.com/doridori/Android-Security-Reference/blob/master/framework/key_attestation.md)
+- **O-8-26**
+  - Keymaster 3
 - **P-9-28**
+  - Keymaster 4
   - [StrongBox](https://developer.android.com/training/articles/keystore#HardwareSecurityModule)
   - [Key importing](https://developer.android.com/training/articles/keystore#ImportingEncryptedKeys)
+  - Support for 3DES encryption
+  - Changes to version binding so that boot.img and system.img have separately set versions to allow for independent updates
 
 
 ## User Authenticating Key Use
