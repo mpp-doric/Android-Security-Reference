@@ -32,3 +32,9 @@ From [training/articles/security-key-attestation](https://developer.android.com/
 > Note: Before you verify the properties of a device's hardware-backed keys in a production-level environment, you should make sure that the device supports hardware-level key attestation. To do so, you should check that the attestation certificate chain contains a root certificate that is signed with the Google attestation root key and that the attestationSecurityLevel element within the key description data structure is set to the TrustedEnvironment security level.
 
 > In addition, it's important to verify the signatures in the certificate chain and to check that none of the keys in the chain have been revoked by checking the Certificate Revocation List endpoint listed in each certificate. Unless all are valid and the root is the Google root key mentioned above, you shouldn't fully trust the attestation. Note, however, that devices containing revoked certificates are still at least as trustworthy as devices that only support software attestation. Having a fully-valid attestation is a strong positive indicator. Not having one is a neutral—not negative—indicator.
+
+and
+
+> If the device supports hardware-level key attestation, the root certificate within this chain is signed using an attestation root key, which the device manufacturer injects into the device's hardware-backed keystore at the factory.
+
+> Note: On devices that ship with hardware-level key attestation, Android 7.0 (API level 24) or higher, and Google Play services, the root certificate is signed with the Google attestation root key. You should verify that this root certificate appears within Google's list of root certificates.
