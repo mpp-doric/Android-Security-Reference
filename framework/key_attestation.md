@@ -14,6 +14,7 @@
 # OS version changes
 
 - **N-7-24**
+  - Keymaster 2
   - [Key Attestation](https://developer.android.com/training/articles/security-key-attestation.html#certificate_schema)
     - Can prove to 3rd partys that a hardware keystore exists with certain keys by signing a representation using a factory supplied key 
     - KeyStore now returns a chain for a key alias which can be used to verify that the device has passed CTS testing
@@ -21,11 +22,18 @@
   - Hardware KeyStore manditory [IO link](https://youtu.be/XZzLjllizYs?t=571) 
   - "When the device implementation supports a secure lock screen it MUST back up the keystore implementation with secure hardware" [ACD](http://source.android.com/compatibility/7.0/android-7.0-cdd.html#9_11_keys_and_credentials)
   - "Note that if a device implementation is already launched on an earlier Android version, and does not have a fingerprint scanner, such a device is exempted from the requirement to have a hardware-backed keystore." also from keys and creds
+  - [Version Binding](https://source.android.com/security/keystore/version-binding)
 - **O-8-26**
+  - Keymaster 3 support
   - All O+ devices have attestation API
   - If shipped with 0 the attestation API MUST be hardware backed ([CDD](https://source.android.com/compatibility/8.0/android-8.0-cdd#9_11_keys_and_credentials))
-  - Keymaster 3 support
   - [Includes ID attestation](https://source.android.com/security/keystore/attestation#id-attestation)
+- **P-9-28**
+  - Keymaster 4
+  - Support for embedded Secure Elements
+  - Support for secure key import
+  - Support for 3DES encryption
+  - Changes to version binding so that boot.img and system.img have separately set versions to allow for independent updates
 
 # Attestation Signing
 
