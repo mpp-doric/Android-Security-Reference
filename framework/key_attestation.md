@@ -67,4 +67,4 @@ From [here](https://source.android.com/security/reports/Android-Bootcamp-2016-An
 
 ## Google root certs
 
-Guessing the root certs above, which would need to be validated, are found here https://pki.goog/
+Guessing the root certs above, which would need to be validated, are found here https://pki.goog/.
