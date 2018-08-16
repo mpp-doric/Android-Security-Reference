@@ -27,6 +27,8 @@
 
 # Attestation Signing
 
+## Official docs
+
 From [training/articles/security-key-attestation](https://developer.android.com/training/articles/security-key-attestation#attestation-v3)
 
 > Note: Before you verify the properties of a device's hardware-backed keys in a production-level environment, you should make sure that the device supports hardware-level key attestation. To do so, you should check that the attestation certificate chain contains a root certificate that is signed with the Google attestation root key and that the attestationSecurityLevel element within the key description data structure is set to the TrustedEnvironment security level.
@@ -38,3 +40,13 @@ and
 > If the device supports hardware-level key attestation, the root certificate within this chain is signed using an attestation root key, which the device manufacturer injects into the device's hardware-backed keystore at the factory.
 
 > Note: On devices that ship with hardware-level key attestation, Android 7.0 (API level 24) or higher, and Google Play services, the root certificate is signed with the Google attestation root key. You should verify that this root certificate appears within Google's list of root certificates.
+
+## Official bootcamp
+
+From [here](https://source.android.com/security/reports/Android-Bootcamp-2016-Android-Keystore-Attestation.pdf)
+
+> Key Provisioning 
+> ● Google will certify attestation keys for Google-approved devices.
+> ● Keys will be deployed to device batches: min 10K devices per key.
+> ● Initially, Google will create the keys as well as certify them.
+> ● The process will be very similar to the Widevine key distribution process (will likely use the same delivery method).
