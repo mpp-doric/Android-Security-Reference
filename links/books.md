@@ -4,5 +4,6 @@
 - [Android Hacker's Handbook](https://www.amazon.co.uk/Android-Hackers-Handbook-Joshua-Drake/dp/111860864X/)
 - [Android Internals::A Confectioner's Cookbook](http://newandroidbook.com/21-Security.pdf) (Security chapter)
 - [Hack-with-Github/Free-Security-eBooks](https://github.com/Hack-with-Github/Free-Security-eBooks)
-- [The Mobile Security Testing Guide (MSTG)](https://github.com/OWASP/owasp-mstg/)
-  - Excellent
+- [OWASP collection](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide)
+  - [The Mobile Security Testing Guide (MSTG)](https://github.com/OWASP/owasp-mstg/)
+    - Excellent
