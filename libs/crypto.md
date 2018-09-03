@@ -22,6 +22,10 @@
 - [jedisct1/libsodium](https://github.com/jedisct1/libsodium)
   - A modern and easy-to-use crypto library. https://libsodium.org
 
+## Hybrid
+
+- [Google Tink](https://security.googleblog.com/2018/08/introducing-tink-cryptographic-software.html)
+
 ## Pw
 
 - [jeremyh/jBCrypt](https://github.com/jeremyh/jBCrypt)
