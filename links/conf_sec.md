@@ -9,4 +9,4 @@
 - MOBILE SECURITY TECHNOLOGIES (MOST)
   - [2017](http://www.ieee-security.org/TC/SPW2017/MoST/)
 - MOSEC
-  - [http://en.mosec.org/]
+  - [http://en.mosec.org/](http://en.mosec.org/)
