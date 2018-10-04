@@ -7,3 +7,4 @@
 - [OWASP collection](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide)
   - [The Mobile Security Testing Guide (MSTG)](https://github.com/OWASP/owasp-mstg/)
     - Excellent
+- [The CERT ® Oracle ® Secure Coding Standard for Java](https://ptgmedia.pearsoncmg.com/images/9780321803955/samplepages/0321803957.pdf)
