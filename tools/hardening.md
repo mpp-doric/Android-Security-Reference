@@ -4,6 +4,7 @@
 - Dexguard
 - Arxan
 - InsideSecure
+- InterTrust
 
 # Device scanning / trust scoring
 
