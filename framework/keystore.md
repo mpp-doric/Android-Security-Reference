@@ -181,4 +181,4 @@ CAs are also stored in the `KeyStore`. When added a custom CA device should prom
   - 30/6/2016 [Extracting Qualcomm's KeyMaster Keys – Breaking Android Full Disk Encryption](https://news.ycombinator.com/item?id=12007923) 
     - Talks about FDE but as KEK is lifted likely to impact `KeyStore` keys also 
 - [Analysis of Secure Key Storage Solutions on Android](http://www.cs.kun.nl/~erikpoll/publications/AndroidSecureStorage.pdf)
-
+- [Android KeyStore: what is the difference between “StrongBox” and “hardware-backed” keys?](https://proandroiddev.com/android-keystore-what-is-the-difference-between-strongbox-and-hardware-backed-keys-4c276ea78fd0)
