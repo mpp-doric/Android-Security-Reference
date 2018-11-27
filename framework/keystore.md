@@ -76,7 +76,7 @@ This is especially handy for any kind of challenge / response auth or other proc
   - deamon retired and replaced with binder interface
 - **K-4.4-19**
   - Support for elliptic curve
-  - `Signiture` support for ECDSA varients
+  - `Signature` support for ECDSA varients
 - **M-6-23**
   - First time for AES `Cipher` support (See ['Supported Algorithms'](http://developer.android.com/training/articles/keystore.html#SupportedAlgorithms)) 
   - `KeyGenerator` support for AES & HMAC
