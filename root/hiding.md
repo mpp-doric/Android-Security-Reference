@@ -5,7 +5,7 @@
 - RootCloak (and +) 
 - [Magisk](https://forum.xda-developers.com/apps/magisk/mod-magisk-v1-universal-systemless-t3432382)
   - Magisk Is A Magic Mask to Alter System Systemless-ly
-  - [Offical docs](https://www.didgeridoohan.com/magisk/MagiskHide)
+  - [MagiskHide Offical docs](https://www.didgeridoohan.com/magisk/MagiskHide)
 - [Frida](https://www.frida.re/docs/android/)
   - Dynamic code instrumentation toolkit
  
