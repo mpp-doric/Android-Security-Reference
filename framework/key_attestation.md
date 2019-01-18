@@ -11,6 +11,8 @@
 - All 7 implementations are software backed
 - 8 is optional
 
+The [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor&hl=en_GB) project's Google play listed gives a hint at the devices which are supporting hardware key attestation. 
+
 # OS version changes
 
 - **N-7-24**
