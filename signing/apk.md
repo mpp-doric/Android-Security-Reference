@@ -4,6 +4,8 @@
 
 From [source.android.com/security/apksigning/](https://source.android.com/security/apksigning/)
 
+This is the same as standard Java's `jarsigner`. Explanation [here](https://web.pa.msu.edu/reference/jdk-1.2.2-docs/tooldocs/win32/jarsigner.html). 
+
 # Version 2 signing
 
 > During validation, v2 scheme treats the APK file as a blob and performs signature checking across the entire file. Any modification to the APK, including ZIP metadata modifications, invalidates the APK signature. This form of APK verification is substantially faster and enables detection of more classes of unauthorized modifications.
