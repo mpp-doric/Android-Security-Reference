@@ -24,6 +24,8 @@ From [source.android.com/security/apksigning/](https://source.android.com/securi
 
 # KeyTool
 
+[Oracle docs](https://docs.oracle.com/javase/6/docs/technotes/tools/windows/keytool.html)
+
 ## Signing key strength
 
 - [Guardian Project] [How to Migrate Your Android App’s Signing Key](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/)
