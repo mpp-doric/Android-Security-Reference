@@ -14,3 +14,5 @@
   - R2D2 Android uses Android Keystore to store passwords and other sensitive information for different API versions in an encrypted form.
 - [saantiaguilera/android-api-SecureKeys](https://github.com/saantiaguilera/android-api-SecureKeys/wiki)
   - A tiny lib (Less than 10 methods) to store constants where attackers will have a harder time to find.
+- [SafeRoom](https://github.com/commonsguy/cwac-saferoom)
+  - CWAC-SafeRoom: A Room<->SQLCipher for Android Bridge
