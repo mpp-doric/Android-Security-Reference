@@ -24,6 +24,9 @@
   - Commercial 
 - [jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck)
   - OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies
+- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+  - Note: [Ghidra opens up JDWP in debug mode listening on port 18001, you can use it to execute code remotely](https://twitter.com/hackerfantastic/status/1103087869063704576)
+  
 
 ### VMs
 
