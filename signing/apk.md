@@ -14,7 +14,7 @@ From [source.android.com/security/apksigning/](https://source.android.com/securi
 
 # Signing with multiple certs
 
-- Seems not vert well supported anecdotally
+- Seems not very well supported anecdotally
 - [Android code signing](https://nelenkov.blogspot.co.uk/2013/04/android-code-signing.html)
   - Multiple signatures can be performed, resulting in multiple .SF and .RSA/DSA/EC files in the JAR file's META-INF/ directory.
   
@@ -82,3 +82,8 @@ Certificate fingerprints:
 # Checking from in app
 
 - [Checking own signing cert](https://stackoverflow.com/questions/9293019/get-certificate-fingerprint-from-android-app/22506133#22506133)
+
+# Assorted Reading
+
+- [Android APK signature scheme v3: context and new opportunities](https://www.guardsquare.com/en/blog/android-apk-signature-scheme-v3-context-and-new-opportunities)
+  - Dexguard tooling supported v3 signing before Android tooling!
