@@ -93,8 +93,10 @@
   - Statistical Deobfuscation for Android
 - [APKtool](https://ibotpeaches.github.io/Apktool/) 
   - A tool for reverse engineering Android apk files
+  - jar based
 - [google/Enjarify](https://github.com/google/enjarify)
   - Ment to improve on Dex2Jar in terms of what it can handle
+  - Python3 based
   - **Currently my goto for `dex->jar`**
 - [Dex2Jar](https://github.com/pxb1988/dex2jar)
   - Pretty reliable
