@@ -36,3 +36,4 @@
 - [android-developers.blogspot.co.uk] [Some SecureRandom Thoughts](http://android-developers.blogspot.co.uk/2013/08/some-securerandom-thoughts.html)
 - [Ensure that SecureRandom is properly seeded](https://wiki.sei.cmu.edu/confluence/display/java/MSC63-J.+Ensure+that+SecureRandom+is+properly+seeded)
 - [The Right Way to Use SecureRandom](https://tersesystems.com/blog/2015/12/17/the-right-way-to-use-securerandom/)
+- [Difference between Random and SecureRandom](https://www.tutorialspoint.com/random-vs-secure-random-numbers-in-java)
