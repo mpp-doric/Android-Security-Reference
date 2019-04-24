@@ -89,6 +89,7 @@ Accessibility Framework](http://www.cs.uml.edu/~xinwenfu/paper/Accessibility.pdf
   - [Linux flaw that allows anyone to hijack Internet traffic also affects 80% of Android devices](https://blog.lookout.com/blog/2016/08/15/linux-vulnerability-android/) _15th Aug 16_
 - TEE
   - [Technical Advisory: Private Key Extraction from Qualcomm Hardware-backed Keystores](https://www.nccgroup.trust/us/our-research/private-key-extraction-qualcomm-keystore/?research=Technical+advisories)
+  - [34C3 - Microarchitectural Attacks on Trusted Execution Environments](https://www.youtube.com/watch?v=G8-3G_cep4M)
 - TLS
   - [Studying TLS Usage in Android Apps](https://people.cs.umass.edu/~phillipa/papers/conext2017_tls_paper.pdf)
 - TrustZone
