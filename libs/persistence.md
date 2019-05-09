@@ -1,5 +1,6 @@
 # Persistence
 
+- [Official] [Jetpack File Encryption](https://developer.android.com/topic/security/data)
 - [vijayrawatsan/ExpirableDiskLruCache](https://github.com/vijayrawatsan/ExpirableDiskLruCache)
   - Expirable Disk Lru Cache is a secure(with encryption) wrapper for [DiskLruCache](https://github.com/JakeWharton/DiskLruCache)
 - [scottyab/secure-preferences](https://github.com/scottyab/secure-preferences) 
