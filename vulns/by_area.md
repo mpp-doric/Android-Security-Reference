@@ -104,5 +104,9 @@ Alive? Data Residue Attacks on Android](http://www.cis.syr.edu/~wedu/Research/pa
     
 # Hardware
 
-- [Power to peep-all: Inference Attacks by Malicious Batteries on Mobile Devices](https://sites.google.com/site/silbersteinmark/Home/popets18power.pdf)
-- [Every Android device is susceptible to a hardware vulnerability called RAMpage](https://www.xda-developers.com/android-hardware-vulnerability-rampage/)
+- Mobile
+  - [Power to peep-all: Inference Attacks by Malicious Batteries on Mobile Devices](https://sites.google.com/site/silbersteinmark/Home/popets18power.pdf)
+- Android 
+  - [Every Android device is susceptible to a hardware vulnerability called RAMpage](https://www.xda-developers.com/android-hardware-vulnerability-rampage/)
+- CPU
+  - https://cpu.fail/
