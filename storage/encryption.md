@@ -1,0 +1,2 @@
+- [Introducing Adiantum: Encryption for the Next Billion Users](https://security.googleblog.com/2019/02/introducing-adiantum-encryption-for.html)
+  - New cipher for performant software based storage encryption
