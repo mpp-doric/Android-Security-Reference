@@ -1,5 +1,10 @@
 # Offical Android/Google Security Links
 
+## Security Overview
+
+- [The Android Platform Security Model](https://arxiv.org/abs/1904.05572) 
+  - 11th April 2019 
+
 ## Dev Docs
 
 - [developer.android.com] [Best Practices for Security & Privacy](http://developer.android.com/training/best-security.html)
