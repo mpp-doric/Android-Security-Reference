@@ -69,6 +69,7 @@ Its worth keeping in mind the nature of the below flaws, as they generally fall 
     - [‘SAW’-ing through the UI: Android overlay malware and the System Alert Window permission explained](https://www.nowsecure.com/blog/2017/05/25/android-overlay-malware-system-alert-window-permission/)
     - Restricted touch functionality in 4.0 [SO](https://stackoverflow.com/a/9462190/236743)
     - `FLAG_NOT_FOCUSABLE` will allow all touch to pass through, otherwise all consumed (needs confirmation)
+    - [Perm deprecated in Q](https://twitter.com/reyammer/status/1133785544209698816)
   - `BIND_ACCESSIBILITY_SERVICE`
     - [How Android Accessibility Services Can Be Used To Hack Your Phone](http://www.makeuseof.com/tag/android-accessibility-services-can-used-hack-phone/) _17th May 2016_
       - Up to M-6-23 only as takes advantage of gaps in system overlays
