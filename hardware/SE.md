@@ -7,6 +7,7 @@
   - The AOSP version of Android does not provide a standard API to use the SIM card as a SE, but many vendors do, and as long as the device baseband and RIL support APDU exchange, one can be added by using the SEEK for Android patches. This allows to improve the security of Android apps by using the SIM as a secure element and both store sensitive data and implement critical functionality inside it. Commercial SIM do not allow for installing arbitrary user applications, but applets can be automatically loaded by the carrier using the SIM OTA mechanism and apps that take advantage of those applets can be distributed through regular channels, such as the Play Store.
 - [Host-based Card Emulation](https://developer.android.com/guide/topics/connectivity/nfc/hce.html)
   - Alternative to SE based card-emulation
+- [Android KeyStore: what is the difference between “StrongBox” and “hardware-backed” keys?](https://proandroiddev.com/android-keystore-what-is-the-difference-between-strongbox-and-hardware-backed-keys-4c276ea78fd0)
 
 # Pixel 2
 
